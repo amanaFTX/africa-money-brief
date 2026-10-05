@@ -1,0 +1,32 @@
+{
+  "id": "2026-10-05-africa-fx-brief",
+  "vertical": "fx",
+  "type": "daily_brief",
+  "status": "mock",
+  "published_at": "2026-10-05T12:00:00+01:00",
+  "verified_as_of": "2026-10-05T15:20:00+01:00",
+  "headline": "Africa FX Update",
+  "market_data": [
+    {
+      "country": "Nigeria",
+      "instrument": "USD/NGN",
+      "market_type": "official",
+      "value": 1329.6,
+      "source_status": "mock"
+    },
+    {
+      "country": "Nigeria",
+      "instrument": "USD/NGN",
+      "market_type": "parallel_consensus",
+      "value": 1368.0,
+      "source_count": 2,
+      "source_status": "mock"
+    }
+  ],
+  "publication_gate": {
+    "fresh": false,
+    "verified": false,
+    "publishable": false
+  },
+  "disclaimer": "Mock schema for future automated publishing."
+}
