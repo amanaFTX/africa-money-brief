@@ -27,3 +27,4 @@ Rates and stories in this package are mock/demo content for design evaluation. T
 `robots.txt`, `sitemap.xml`, `_headers`, and canonical/OG metadata are included.
 
 Next practical step: repository creation, hosting deployment, DNS/domain connection, redirects, and automated publishing.
+<!-- redeploy -->
