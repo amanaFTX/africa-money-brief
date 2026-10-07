@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-07-africa-fx-early-look",
+  "vertical": "fx",
+  "type": "early_look",
+  "status": "published",
+  "published_at": "2026-10-07T11:05:00+01:00",
+  "verified_as_of": "2026-10-07T11:05:00+01:00",
+  "headline": "Africa FX — Early Look | 7 October 2026",
+  "market_data": [
+    {
+      "country": "Nigeria",
+      "pair": "USDNGN",
+      "value": 1361.5,
+      "unit": "NGN per USD",
+      "market_type": "parallel_market_consensus",
+      "effective_date": "2026-10-07",
+      "effective_time": null,
+      "source_status": "independent_multi_source",
+      "sources": [
+        "Vanguard",
+        "Lagos.cool"
+      ],
+      "source_observations": [
+        1362,
+        1361
+      ],
+      "verification_status": "verified_provisional_early_look",
+      "note": "AMB consensus from two reasonably current independent observations; location/dealer dispersion applies."
+    },
+    {
+      "country": "Nigeria",
+      "pair": "USDNGN",
+      "value": 1331.5,
+      "unit": "NGN per USD",
+      "market_type": "official_NFEM_close",
+      "effective_date": "2026-10-06",
+      "effective_time": "close",
+      "source_status": "latest_available_prior_close",
+      "sources": [
+        "NFEM/CBN data as reported by Nairametrics"
+      ],
+      "verification_status": "verified_prior_close",
+      "note": "Not a 7 Oct intraday quote."
+    },
+    {
+      "country": "Nigeria",
+      "metric": "official_parallel_spread",
+      "value": 30,
+      "percent": 2.25,
+      "unit": "NGN per USD",
+      "market_type": "derived",
+      "effective_date": "2026-10-07",
+      "source_status": "AMB_calculation",
+      "verification_status": "verified_derived",
+      "note": "Parallel consensus versus 6 Oct NFEM prior close."
+    },
+    {
+      "country": "Ghana",
+      "pair": "USDGHS",
+      "value": 11.8,
+      "unit": "GHS per USD",
+      "market_type": "official_weighted_median_close",
+      "effective_date": "2026-10-06",
+      "effective_time": "close",
+      "source_status": "primary_central_bank",
+      "sources": [
+        "Bank of Ghana"
+      ],
+      "verification_status": "verified_prior_close"
+    },
+    {
+      "country": "Kenya",
+      "pair": "USDKES",
+      "value": 129.89,
+      "unit": "KES per USD",
+      "market_type": "official_indicative",
+      "effective_date": "2026-10-07",
+      "effective_time": null,
+      "source_status": "primary_central_bank",
+      "sources": [
+        "Central Bank of Kenya"
+      ],
+      "verification_status": "verified_current_day"
+    },
+    {
+      "country": "South Africa",
+      "pair": "USDZAR",
+      "value": 16.585,
+      "unit": "ZAR per USD",
+      "market_type": "early_market",
+      "effective_date": "2026-10-07",
+      "effective_time": "07:35 WAT",
+      "source_status": "primary_market_reporting",
+      "sources": [
+        "Reuters"
+      ],
+      "verification_status": "verified_timestamped_early_trade",
+      "daily_move_percent": 0.3,
+      "direction": "ZAR weaker"
+    },
+    {
+      "country": "Egypt",
+      "pair": "USDEGP",
+      "buy": 52.2658,
+      "sell": 52.3658,
+      "unit": "EGP per USD",
+      "market_type": "official_average_market",
+      "effective_date": "2026-10-06",
+      "effective_time": null,
+      "source_status": "primary_central_bank",
+      "sources": [
+        "Central Bank of Egypt"
+      ],
+      "verification_status": "verified_latest_available"
+    }
+  ],
+  "publication_gate": {
+    "fresh": true,
+    "verified": true,
+    "publishable": true,
+    "scope": "early_look"
+  },
+  "disclaimer": "Rates vary by source, location and time. Informational only — not financial or FX advice."
+}
