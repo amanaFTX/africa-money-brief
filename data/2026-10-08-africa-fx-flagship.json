@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-08",
+  "edition": "flagship",
+  "verified_as_of": "2026-10-08T12:02:00+01:00",
+  "units": "local per USD, GBP, EUR",
+  "countries": {
+    "Nigeria": {
+      "USD": "1331.7679 NFEM 7 Oct",
+      "GBP": "1757.27 CBN central 7 Oct",
+      "EUR": "1488.49 CBN central 7 Oct"
+    },
+    "Ghana": {
+      "USD": "11.8300",
+      "GBP": "15.6268",
+      "EUR": "13.2375",
+      "date": "7 Oct",
+      "source": "BoG"
+    },
+    "Kenya": {
+      "USD": "129.89",
+      "GBP": "172.28",
+      "EUR": "146.11",
+      "date": "7 Oct",
+      "source": "CBK"
+    },
+    "SouthAfrica": {
+      "USD": "16.4968/16.8599",
+      "GBP": "21.6715/22.3859",
+      "EUR": "18.3555/18.9964",
+      "date": "8 Oct 09:28 SAST",
+      "source": "Standard Bank",
+      "format": "bank buy/sell TT"
+    },
+    "Egypt": {
+      "USD": "52.3204/52.4600",
+      "GBP": "69.1414/69.3469",
+      "EUR": "58.5465/58.7132",
+      "date": "7 Oct",
+      "source": "CBE attributed via egrates",
+      "format": "buy/sell"
+    }
+  },
+  "parallel": {
+    "source": "Aboki Forex",
+    "date": "8 Oct 11:06 WAT",
+    "buy": 1370,
+    "sell": 1375,
+    "midpoint": 1372.5,
+    "official_nfem_7oct": 1331.7679,
+    "premium_pct": 3.06,
+    "corroboration": "Osuwon 1370/1380; NairaFX member 1376/1382"
+  },
+  "disclaimer": "Indicative only; rates vary by source, location and time. Not FX advice."
+}
