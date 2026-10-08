@@ -25,5 +25,6 @@
       "note": "GBP E£69.1414 / 69.3469  |  EUR E£58.5465 / 58.7132"
     }
   ],
-  "footer": "Indicative reference data • Not live quotes • Not investment advice"
+  "footer": "Indicative reference data • Not live quotes • Not investment advice",
+  "production_note": "Generated from verified prior-session data; publish as a new rendering pending visual review."
 }
