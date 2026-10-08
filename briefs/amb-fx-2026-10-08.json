@@ -1,0 +1,29 @@
+{
+  "title": "AFRICA FX • EARLY LOOK",
+  "subtitle": "8 OCT 2026  |  Prior-session benchmarks: 7 OCT",
+  "markets": [
+    {
+      "country": "NIGERIA  |  CBN-derived",
+      "rates": "USD ₦1,331.27   GBP ₦1,757.27   EUR ₦1,488.49",
+      "note": "Parallel USD: buy ₦1,355–1,358.50; sell ₦1,365–1,368.27"
+    },
+    {
+      "country": "GHANA  |  Bank of Ghana",
+      "rates": "USD GH₵11.8300   GBP GH₵15.6268   EUR GH₵13.2375"
+    },
+    {
+      "country": "KENYA  |  Central Bank of Kenya",
+      "rates": "USD KSh129.89   GBP KSh172.28   EUR KSh146.11"
+    },
+    {
+      "country": "SOUTH AFRICA  |  SARB-derived",
+      "rates": "USD R16.6138   GBP R21.9949   EUR R18.5941"
+    },
+    {
+      "country": "EGYPT  |  CBE buy / sell",
+      "rates": "USD E£52.3204 / E£52.4600",
+      "note": "GBP E£69.1414 / 69.3469  |  EUR E£58.5465 / 58.7132"
+    }
+  ],
+  "footer": "Indicative reference data • Not live quotes • Not investment advice"
+}
