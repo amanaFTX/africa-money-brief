@@ -1,30 +1,82 @@
 {
-  "title": "AFRICA FX • EARLY LOOK",
+  "title": "AFRICA FX: EARLY LOOK",
   "subtitle": "8 OCT 2026  |  Prior-session benchmarks: 7 OCT",
   "markets": [
     {
       "country": "NIGERIA  |  CBN-derived",
       "rates": "USD ₦1,331.27   GBP ₦1,757.27   EUR ₦1,488.49",
-      "note": "Parallel USD: buy ₦1,355–1,358.50; sell ₦1,365–1,368.27"
+      "note": "Parallel USD: buy ₦1,355–1,358.50; sell ₦1,365–1,368.27",
+      "name": "NIGERIA",
+      "source": "CBN central reference",
+      "columns": [
+        "₦1,331.27",
+        "₦1,757.27",
+        "₦1,488.49"
+      ],
+      "status": "07 OCT • PRIOR SESSION"
     },
     {
       "country": "GHANA  |  Bank of Ghana",
-      "rates": "USD GH₵11.8300   GBP GH₵15.6268   EUR GH₵13.2375"
+      "rates": "USD GH₵11.8300   GBP GH₵15.6268   EUR GH₵13.2375",
+      "name": "GHANA",
+      "source": "BoG weighted median",
+      "columns": [
+        "GH₵11.8300",
+        "GH₵15.6268",
+        "GH₵13.2375"
+      ],
+      "status": "07 OCT • PRIOR SESSION"
     },
     {
       "country": "KENYA  |  Central Bank of Kenya",
-      "rates": "USD KSh129.89   GBP KSh172.28   EUR KSh146.11"
+      "rates": "USD KSh129.89   GBP KSh172.28   EUR KSh146.11",
+      "name": "KENYA",
+      "source": "CBK indicative",
+      "columns": [
+        "KSh129.89",
+        "KSh172.28",
+        "KSh146.11"
+      ],
+      "status": "07 OCT • PRIOR SESSION"
     },
     {
       "country": "SOUTH AFRICA  |  SARB-derived",
-      "rates": "USD R16.6138   GBP R21.9949   EUR R18.5941"
+      "rates": "USD R16.6138   GBP R21.9949   EUR R18.5941",
+      "name": "SOUTH AFRICA",
+      "source": "SARB-derived",
+      "columns": [
+        "R16.6138",
+        "R21.9949",
+        "R18.5941"
+      ],
+      "status": "07 OCT • PRIOR SESSION"
     },
     {
       "country": "EGYPT  |  CBE buy / sell",
       "rates": "USD E£52.3204 / E£52.4600",
-      "note": "GBP E£69.1414 / 69.3469  |  EUR E£58.5465 / 58.7132"
+      "note": "GBP E£69.1414 / 69.3469  |  EUR E£58.5465 / 58.7132",
+      "name": "EGYPT",
+      "source": "CBE buy / sell",
+      "columns": [
+        "E£52.3204 / 52.4600",
+        "E£69.1414 / 69.3469",
+        "E£58.5465 / 58.7132"
+      ],
+      "status": "07 OCT • PRIOR SESSION"
     }
   ],
   "footer": "Indicative reference data • Not live quotes • Not investment advice",
-  "production_note": "Generated from verified prior-session data; publish as a new rendering pending visual review."
+  "production_note": "Reference-style redesign; requires visual review before social publishing.",
+  "dateline": "THU 8 OCT 2026  |  RATES VERIFIED AS OF 06:30 AM WAT",
+  "benchmark_label": "07 OCT PRIOR CLOSE / BENCHMARK • NOT LIVE 08 OCT QUOTES",
+  "parallel": {
+    "title": "NIGERIA PARALLEL — 07 OCT OBSERVATIONS",
+    "usd_buy": "₦1,355–1,358.50",
+    "usd_sell": "₦1,365–1,368.27",
+    "gbp": "GBP: B ₦1,815–1,832.91  |  S ₦1,848–1,852.59",
+    "eur": "EUR: B ₦1,525.62–1,530  |  S ₦1,548.42–1,550",
+    "note": "Two independent 7 Oct sources • ranges, not consensus"
+  },
+  "overnight_title": "OVERNIGHT USD  |  DXY ~102.25 (EARLY 8 OCT)",
+  "overnight_note": "WATCH: STRONGER USD & OIL PRESSURE AS AFRICA OPENS"
 }
