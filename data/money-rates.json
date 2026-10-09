@@ -1,0 +1,59 @@
+{
+ "schema":"amb-money-rates/1","as_of":"2026-10-09",
+ "countries":{
+  "NG":{"name":"Nigeria","ccy":"₦","flag":"🇳🇬",
+   "policy":{"label":"MPR","rate":23.00,"date":"2026-09-22","note":"Cut from 26.50% at the 21–22 Sep MPC. Standing-facility corridor +50/−300 bp.","src":"CBN MPC (as reported)"},
+   "inflation":{"rate":15.39,"period":"Aug 2026","src":"NBS"},
+   "bills":{"basis":"discount","auction":"2026-10-07","src":"CBN/DMO primary auction","src_url":"https://nairametrics.com/2026/10/07/dmo-raises-n968-47-billion-as-364-day-stop-rate-falls-to-15-85-despite-strong-demand/","tenors":[
+     {"t":"91-day","days":91,"rate":15.50,"prev":15.50,"alloc":"₦38.55bn of ₦100bn offered"},
+     {"t":"182-day","days":182,"rate":15.80,"prev":15.80,"alloc":"₦44.92bn of ₦100bn offered"},
+     {"t":"364-day","days":364,"rate":15.85,"prev":15.89,"alloc":"₦885bn allotted; ₦1.68tn subscribed"}]},
+   "deposits":{"date":"2026-10-07","kind":"Published retail product rates","src":"Bank product pages","rows":[
+     {"p":"Access Bank HIDA","detail":"₦5m–₦49.9m 9.00% · ₦50m–₦99.9m 9.50% · ₦100m–₦249.9m 11.00% · ₦250m+ 13.00%","rate":13.00,"low":9.00,"terms":"Tiered; up to four withdrawals without forfeiting interest"},
+     {"p":"Fidelity HYSA","detail":"₦5m–₦49.9m 9.45% · ₦50m+ 10.45%","rate":10.45,"low":9.45,"terms":"Interest paid monthly; more than three withdrawals a month forfeits interest"},
+     {"p":"GTBank GTSave","detail":"8.25% p.a.","rate":8.25,"low":8.25,"terms":"Published product rate"},
+     {"p":"UBA regular savings","detail":"7.90% p.a.","rate":7.90,"low":7.90,"terms":"Monthly interest"}],
+     "note":"Fixed deposits: Stanbic IBTC and others quote on request. Interest is subject to 10% withholding tax."}},
+  "GH":{"name":"Ghana","ccy":"GH₵","flag":"🇬🇭",
+   "policy":{"label":"Policy rate","rate":14.00,"date":"2026-09-25","note":"Held for the third time this year; decision reported 25 Sep.","src":"Bank of Ghana (as reported)"},
+   "inflation":{"rate":5.0,"period":"Aug 2026","src":"Ghana Statistical Service (as reported)"},
+   "bills":{"basis":"interest","auction":"2026-10-05","src":"Bank of Ghana, issue date 5 Oct","src_url":"https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/","tenors":[
+     {"t":"91-day","days":91,"rate":4.6413,"prev":4.6785,"alloc":"Interest rate (discount rate 4.5881%)"},
+     {"t":"182-day","days":182,"rate":6.3192,"prev":6.3701,"alloc":"Interest rate (discount rate 6.1257%)"},
+     {"t":"364-day","days":364,"rate":9.8018,"prev":9.8339,"alloc":"Interest rate (discount rate 8.9268%)"}]},
+   "deposits":{"date":"2026-08-31","kind":"Banking-system averages","src":"Bank of Ghana, August 2026","rows":[
+     {"p":"Savings (average)","detail":"4.10%","rate":4.10,"low":4.10,"terms":"System average, not a single bank's offer"},
+     {"p":"3-month deposit (average)","detail":"8.68%","rate":8.68,"low":8.68,"terms":"System average"},
+     {"p":"6-month deposit (average)","detail":"9.72%","rate":9.72,"low":9.72,"terms":"System average"}],
+     "note":"The August 6-month deposit average (9.72%) is above today's 182-day bill (6.32%)."}},
+  "KE":{"name":"Kenya","ccy":"KSh","flag":"🇰🇪",
+   "policy":{"label":"Central Bank Rate","rate":8.75,"date":"2026-08-11","note":"Held for a third consecutive meeting.","src":"CBK"},
+   "inflation":{"rate":6.5,"period":"Jun 2026","src":"KNBS (older reading)"},
+   "bills":{"basis":"interest","auction":"2026-10-08","src":"CBK auction results (issues 2703/091, 2677/182, 2632/364)","src_url":"https://www.centralbank.go.ke/bills-bonds/treasury-bills/","tenors":[
+     {"t":"91-day","days":91,"rate":8.7615,"prev":8.7694,"alloc":"Weighted average, accepted bids; bids 6.3× the offer"},
+     {"t":"182-day","days":182,"rate":8.8744,"prev":8.8856,"alloc":"Weighted average, accepted bids; bids 1.55× the offer"},
+     {"t":"364-day","days":364,"rate":9.0352,"prev":9.0397,"alloc":"Weighted average, accepted bids; bids 0.96× the offer"}]},
+   "deposits":{"date":"2026-08-31","kind":"Banking-system averages","src":"CBK, August 2026","rows":[
+     {"p":"Savings (average)","detail":"3.54%","rate":3.54,"low":3.54,"terms":"System average"},
+     {"p":"Deposit (average)","detail":"6.91%","rate":6.91,"low":6.91,"terms":"System average"}],
+     "note":"Bills pay about 9% against an average savings rate near 3.5%."}},
+  "ZA":{"name":"South Africa","ccy":"R","flag":"🇿🇦",
+   "policy":{"label":"Repo rate","rate":7.25,"date":"2026-09-23","note":"Raised 25 bp; prime lending rate 10.75%.","src":"SARB (as reported)"},
+   "inflation":null,
+   "bills":{"basis":"yield","auction":"2026-10-08","src":"SARB tender results (relayed by a market-data site; primary check pending)","src_url":"https://www.resbank.co.za/","tenors":[
+     {"t":"91-day","days":91,"rate":7.05,"prev":null,"alloc":"Yield"},
+     {"t":"182-day","days":182,"rate":7.49,"prev":null,"alloc":"Yield"},
+     {"t":"273-day","days":273,"rate":7.55,"prev":null,"alloc":"Yield"},
+     {"t":"364-day","days":364,"rate":7.54,"prev":null,"alloc":"Yield"}]},
+   "deposits":{"date":"2026-01-31","kind":"Banking-system averages (older)","src":"SARB, January 2026","rows":[
+     {"p":"Call deposit (average)","detail":"6.52%","rate":6.52,"low":6.52,"terms":"System average; refresh pending"},
+     {"p":"1–32 day notice (average)","detail":"6.77%","rate":6.77,"low":6.77,"terms":"System average; refresh pending"},
+     {"p":"12-month fixed (average)","detail":"7.34%","rate":7.34,"low":7.34,"terms":"System average; refresh pending"}],
+     "note":"These are January figures from before the September repo hike; treat as indicative until refreshed."}},
+  "EG":{"name":"Egypt","ccy":"E£","flag":"🇪🇬",
+   "policy":{"label":"Key rate","rate":19.00,"date":"2026-09-24","note":"Held (reported); not yet confirmed from a CBE release.","src":"CBE (as reported)"},
+   "inflation":null,
+   "bills":null,
+   "deposits":null}
+ }
+}
