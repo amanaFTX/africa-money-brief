@@ -1,0 +1,87 @@
+{
+ "edition_id": "AMB-FX-2026-10-09",
+ "date": "2026-10-09",
+ "status": "Published; corrected edition replacing the first 9 Oct Nigeria figures",
+ "nigeria": {
+  "USD": {
+   "parallel_buy_low": 1367,
+   "parallel_buy_high": 1375,
+   "parallel_sell_low": 1380,
+   "parallel_sell_high": 1390,
+   "parallel_buy_mid": 1371.0,
+   "parallel_sell_mid": 1385.0,
+   "amb_mid_informational": 1378.0,
+   "official_selling_rate": 1331.19,
+   "official_rate_date": "2026-10-09",
+   "official_basis": "CBN NFEM selling rate",
+   "premium_pct": 2.99
+  },
+  "GBP": {
+   "parallel_buy_low": 1810,
+   "parallel_buy_high": 1830,
+   "parallel_sell_low": 1850,
+   "parallel_sell_high": 1850,
+   "parallel_buy_mid": 1820.0,
+   "parallel_sell_mid": 1850.0,
+   "amb_mid_informational": 1835.0,
+   "official_selling_rate": 1759.88,
+   "official_rate_date": "2026-10-09",
+   "official_basis": "Derived: CBN NFEM x ECB reference cross",
+   "premium_pct": 3.42
+  },
+  "EUR": {
+   "parallel_buy_low": 1520,
+   "parallel_buy_high": 1530,
+   "parallel_sell_low": 1550,
+   "parallel_sell_high": 1560,
+   "parallel_buy_mid": 1525.0,
+   "parallel_sell_mid": 1555.0,
+   "amb_mid_informational": 1540.0,
+   "official_selling_rate": 1491.73,
+   "official_rate_date": "2026-10-09",
+   "official_basis": "Derived: CBN NFEM x ECB reference cross",
+   "premium_pct": 2.23
+  }
+ },
+ "method": "premium_pct = (parallel buying midpoint / CBN selling rate - 1) x 100",
+ "parallel_source": "Aggregated from multiple independent market sources",
+ "official_sources": "Central Bank of Nigeria; European Central Bank reference rates",
+ "markets": {
+  "Ghana": {
+   "symbol": "GH₵",
+   "asof": "2026-10-08",
+   "rates": {
+    "USD": 11.78,
+    "GBP": 15.5585,
+    "EUR": 13.1824
+   }
+  },
+  "Kenya": {
+   "symbol": "KSh",
+   "asof": "2026-10-09",
+   "rates": {
+    "USD": 129.91,
+    "GBP": 172.04,
+    "EUR": 145.92
+   }
+  },
+  "South Africa": {
+   "symbol": "R",
+   "asof": "2026-10-08",
+   "rates": {
+    "USD": 16.6784,
+    "GBP": 22.0287,
+    "EUR": 18.676
+   }
+  },
+  "Egypt": {
+   "symbol": "E£",
+   "asof": "2026-10-07",
+   "rates": {
+    "USD": 52.3902,
+    "GBP": 69.2442,
+    "EUR": 58.6294
+   }
+  }
+ }
+}
