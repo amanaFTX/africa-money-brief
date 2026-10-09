@@ -29,3 +29,4 @@
 @media(max-width:900px){.mr .cgrid,.mr .stats,.mr .how{grid-template-columns:1fr 1fr}.mr .calc{grid-template-columns:1fr}}
 @media(max-width:560px){.mr .cgrid,.mr .stats,.mr .how{grid-template-columns:1fr}.mr .bar{grid-template-columns:1fr auto}.mr .bar .track{grid-column:1/-1;order:3}.mr .chead h2{font-size:28px}.mr .res strong{font-size:32px}}
 .mr .subhero{min-height:0;padding-bottom:30px}.mr .subhero h1{font-size:56px}
+.mr section[id]{scroll-margin-top:96px}
