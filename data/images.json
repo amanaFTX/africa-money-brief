@@ -1,0 +1,86 @@
+{
+ "schema": "amb-images/1",
+ "rule": "Every image needs file, kind, licence, credit, alt. Illustrations must be labelled and must not depict a specific property. Photos require a licence record or written permission; never copy portal photos.",
+ "images": {
+  "lagos": {
+   "file": "assets/re/lagos.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Lagos skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "abuja": {
+   "file": "assets/re/abuja.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Abuja skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "accra": {
+   "file": "assets/re/accra.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Accra skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "nairobi": {
+   "file": "assets/re/nairobi.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Nairobi skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "johannesburg": {
+   "file": "assets/re/johannesburg.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Johannesburg skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "cape-town": {
+   "file": "assets/re/cape-town.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Cape Town skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "cairo": {
+   "file": "assets/re/cairo.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Cairo skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  },
+  "kigali": {
+   "file": "assets/re/kigali.svg",
+   "kind": "illustration",
+   "label": "Illustration",
+   "licence": "AMB original artwork",
+   "credit": "Africa Money Brief",
+   "alt": "Stylised illustration of the Kigali skyline",
+   "depicts_real_property": false,
+   "created": "2026-10-10"
+  }
+ }
+}

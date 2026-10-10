@@ -1,0 +1,105 @@
+{
+ "schema": "amb-real-estate/1",
+ "as_of": "2026-10-10",
+ "release": "Week 1 foundation: no market figures published yet",
+ "grades": {
+  "A": "Official or transaction-based index",
+  "B": "Published research report",
+  "C": "Listing-portal asking-price sample",
+  "D": "Crowdsourced"
+ },
+ "gates": {
+  "min_listings": 20,
+  "max_cross_source_gap_pct": 25,
+  "gross_yield_pct": [
+   3,
+   15
+  ],
+  "stale_days": 90
+ },
+ "assumptions": {},
+ "countries": {
+  "NG": "Nigeria",
+  "GH": "Ghana",
+  "KE": "Kenya",
+  "ZA": "South Africa",
+  "EG": "Egypt",
+  "RW": "Rwanda (bonus)"
+ },
+ "cities": {
+  "lagos": {
+   "name": "Lagos",
+   "country": "NG",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "abuja": {
+   "name": "Abuja",
+   "country": "NG",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "accra": {
+   "name": "Accra",
+   "country": "GH",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "nairobi": {
+   "name": "Nairobi",
+   "country": "KE",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "johannesburg": {
+   "name": "Johannesburg",
+   "country": "ZA",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "cape-town": {
+   "name": "Cape Town",
+   "country": "ZA",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "cairo": {
+   "name": "Cairo",
+   "country": "EG",
+   "tier": "core",
+   "status": "collecting",
+   "districts": []
+  },
+  "kigali": {
+   "name": "Kigali",
+   "country": "RW",
+   "tier": "bonus",
+   "status": "collecting",
+   "districts": []
+  }
+ },
+ "district_example_schema": {
+  "name": "",
+  "type": "residential|commercial",
+  "price_per_m2_local": null,
+  "rent_per_m2_month_local": null,
+  "listings": null,
+  "grade": "C",
+  "sources": [
+   {
+    "name": "",
+    "date": "YYYY-MM-DD"
+   }
+  ],
+  "collected": "YYYY-MM-DD"
+ },
+ "shortlet": {
+  "status": "No short-let data yet; AirDNA access to be set up"
+ }
+}

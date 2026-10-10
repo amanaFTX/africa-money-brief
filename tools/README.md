@@ -13,3 +13,7 @@ It regenerates: `data/fx/latest.json`, `data/fx/series.csv`, `data/fx/index.json
 
 ## Money & Rates page
 Source of truth: `data/money-rates.json` (schema `amb-money-rates/1`): per country `policy`, `inflation`, `bills` (basis `discount`|`interest`|`yield`, auction date, `tenors` with `rate` and `prev`), `deposits` (dated rows). Set `as_of` to the refresh date. Run `python3 tools/render_money.py` to regenerate the board, bars, takeaway, country sections and freshness table in `money-rates.html`. The homepage and Money & Rates calculators read the same JSON in the browser. The renderer fails on: dates after `as_of`, a missing 91/182/364-day tenor, rates outside 0–60%, a bill move above 3 points without corroboration, or any provider name. A country whose official data cannot be confirmed is set to `"bills": null` and the page shows "Re-verifying" instead of numbers.
+
+## Real Estate (week 1 foundation)
+`python3 tools/render_realestate.py` renders the `<!--AMB:realestate-->` region of real-estate.html from `data/real-estate.json` and `data/images.json`.
+Gates (non-zero exit on violation): >=20 listings per district, evidence grade A-D, source + collected date, gross yield 3-15%, every city image registered with licence/credit/alt, illustrations labelled and never depicting a real property, no provider names. Districts are empty until the first verified release; no numbers are rendered without passing the gates.
