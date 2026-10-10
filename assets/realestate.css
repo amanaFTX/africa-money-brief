@@ -14,3 +14,9 @@
 .re .rbody .pill{margin-bottom:8px}
 .re .chip{font-size:11px;color:var(--gold);border:1px solid rgba(245,200,76,.4);padding:2px 8px;border-radius:999px;vertical-align:middle;margin-left:6px;font-weight:700}
 .re .rtable th.num{text-align:right}
+.re .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.re .fact{border:1px solid var(--line);border-radius:14px;padding:20px;background:linear-gradient(145deg,#0a2037,#081827)}.re .fact b{display:block;font-size:44px;color:var(--gold);line-height:1;margin-bottom:10px}.re .fact span{color:#aebed0}
+.re .big{font-size:34px;font-weight:800;color:var(--gold);margin:4px 0}.re .big small{display:block;font-size:12px;color:var(--muted);font-weight:600;margin-left:6px}
+.re .tw{overflow-x:auto}.re td small,.re th small{display:block;color:var(--muted);font-size:11px;margin-top:2px;letter-spacing:0;text-transform:none;font-weight:400}
+.re tr.dim td{color:#6f8499}.re .pill.ok{color:var(--green);border-color:rgba(100,226,166,.4);background:rgba(100,226,166,.08)}
+.re .rtable{min-width:640px}

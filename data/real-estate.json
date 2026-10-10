@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
  "as_of": "2026-10-10",
- "release": "Week 1 foundation: no market figures published yet",
+ "release": "Preview release: first verified yield data for Lagos, Nairobi, Johannesburg, Cape Town and Cairo",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -9,13 +9,18 @@
   "D": "Crowdsourced"
  },
  "gates": {
-  "min_listings": 20,
+  "min_listings_grade_c": 20,
   "max_cross_source_gap_pct": 25,
   "gross_yield_pct": [
    3,
    15
   ],
-  "stale_days": 90
+  "stale_days": 120,
+  "yield_arith_tolerance_pts": 0.15,
+  "net_haircut_pts": [
+   1.5,
+   2.0
+  ]
  },
  "assumptions": {},
  "countries": {
@@ -32,7 +37,98 @@
    "country": "NG",
    "tier": "core",
    "status": "collecting",
-   "districts": []
+   "districts": [
+    {
+     "area": "Chevron axis",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 5.85,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Ikota Elegushi",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 5.02,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Oniru",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 4.88,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Victoria Island",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 4.59,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "rent_ngn_year_2bed": 15000000,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Osapa London",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 4.28,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Lekki Phase 1",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 3.95,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "rent_ngn_year_2bed": 10000000,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Ikoyi",
+     "segment": "Residential, area average",
+     "gross_yield_pct": 3.09,
+     "grade": "B",
+     "publisher": "Stears",
+     "period": "2026 (period not stated)",
+     "published": "16 Jul 2026",
+     "cross_check": "single",
+     "note": "Yield as published; basis (gross) not stated. Rents from Lagos Realty report.",
+     "rent_ngn_year_2bed": 17250000,
+     "collected": "2026-10-10"
+    }
+   ],
+   "sources": [
+    "Stears yields and Lagos Realty rents, as reported by BusinessDay, 16 Jul 2026"
+   ]
   },
   "abuja": {
    "name": "Abuja",
@@ -53,28 +149,212 @@
    "country": "KE",
    "tier": "core",
    "status": "collecting",
-   "districts": []
+   "districts": [
+    {
+     "area": "Suburbs (houses)",
+     "segment": "Residential, suburban average",
+     "gross_yield_pct": 7.4,
+     "grade": "B",
+     "publisher": "HassConsult",
+     "period": "Q1 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Average suburban house rent KSh201,832 a month.",
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Satellite towns",
+     "segment": "Residential, satellite-town average",
+     "gross_yield_pct": 5.3,
+     "grade": "B",
+     "publisher": "HassConsult",
+     "period": "Q1 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Average rent KSh64,765 a month.",
+     "collected": "2026-10-10"
+    }
+   ]
   },
   "johannesburg": {
    "name": "Johannesburg",
    "country": "ZA",
    "tier": "core",
    "status": "collecting",
-   "districts": []
+   "districts": [
+    {
+     "area": "City-wide",
+     "segment": "Studio / 1-bed",
+     "gross_yield_pct": 13.91,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 37100,
+     "rent_usd_month": 430,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "City-wide",
+     "segment": "3-bed",
+     "gross_yield_pct": 13.57,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 97300,
+     "rent_usd_month": 1100,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "City-wide",
+     "segment": "4+ bed",
+     "gross_yield_pct": 11.24,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 195400,
+     "rent_usd_month": 1830,
+     "collected": "2026-10-10"
+    }
+   ],
+   "cross_note": "City average 13.47% (GPG) is consistent with Gauteng sectional-title returns of just over 12% (PayProp/TPN, 2025)."
   },
   "cape-town": {
    "name": "Cape Town",
    "country": "ZA",
    "tier": "core",
    "status": "collecting",
-   "districts": []
+   "districts": [
+    {
+     "area": "City-wide",
+     "segment": "Studio / 1-bed",
+     "gross_yield_pct": 12.35,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 65100,
+     "rent_usd_month": 670,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "City-wide",
+     "segment": "2-bed",
+     "gross_yield_pct": 10.68,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 121400,
+     "rent_usd_month": 1080,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "City-wide",
+     "segment": "3-bed",
+     "gross_yield_pct": 5.45,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "May 2026",
+     "cross_check": "two",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 334600,
+     "rent_usd_month": 1520,
+     "collected": "2026-10-10"
+    }
+   ],
+   "cross_note": "City average 9.49% (GPG) is consistent with Western Cape sectional-title yields below 10% (PayProp/TPN, 2025)."
   },
   "cairo": {
    "name": "Cairo",
    "country": "EG",
    "tier": "core",
    "status": "collecting",
-   "districts": []
+   "districts": [
+    {
+     "area": "New Cairo",
+     "segment": "2-bed",
+     "gross_yield_pct": 8.09,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 151300,
+     "rent_usd_month": 1020,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Mohandessin",
+     "segment": "3-bed",
+     "gross_yield_pct": 10.11,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 119900,
+     "rent_usd_month": 1010,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Sheikh Zayed",
+     "segment": "2-bed",
+     "gross_yield_pct": 7.62,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 113400,
+     "rent_usd_month": 720,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "6th of October",
+     "segment": "2-bed",
+     "gross_yield_pct": 5.57,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 178900,
+     "rent_usd_month": 830,
+     "collected": "2026-10-10"
+    },
+    {
+     "area": "Heliopolis",
+     "segment": "2-bed",
+     "gross_yield_pct": 5.33,
+     "grade": "B",
+     "publisher": "Global Property Guide",
+     "period": "Q2 2026",
+     "published": "Apr 2026",
+     "cross_check": "single",
+     "note": "Gross; asking prices; before taxes, repairs and fees.",
+     "price_usd": 92300,
+     "rent_usd_month": 410,
+     "collected": "2026-10-10"
+    }
+   ]
   },
   "kigali": {
    "name": "Kigali",
@@ -101,5 +381,28 @@
  },
  "shortlet": {
   "status": "No short-let data yet; AirDNA access to be set up"
- }
+ },
+ "net_note": "Indicative net yield = gross yield minus 1.5 to 2.0 points, the publisher's own rule of thumb for costs, taxes and fees. Payback = 100 / net yield.",
+ "rejected": [
+  {
+   "item": "Nigeria, Kenya and Ghana pages from a yield publisher",
+   "reason": "Last updated 2005, 2016 and 2020 respectively; stale."
+  },
+  {
+   "item": "Cairo Mohandessin 2-bed (12.03%)",
+   "reason": "Price identical to the New Cairo studio and below its own 3-bed; likely a data error."
+  },
+  {
+   "item": "Johannesburg 2-bed (15.16%)",
+   "reason": "Above the 15% yield gate; held for verification."
+  },
+  {
+   "item": "Accra",
+   "reason": "Only sponsored-content estimates and appreciation rates; no verified yield."
+  },
+  {
+   "item": "Abuja, Kigali",
+   "reason": "No current published yield found."
+  }
+ ]
 }
