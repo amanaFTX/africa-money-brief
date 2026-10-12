@@ -26,6 +26,12 @@
    "date": "2026-10-07",
    "type": "FX Flagship",
    "url": "archive/2026-10-07-fx-flagship.html"
+  },
+  {
+   "date": "2026-10-12",
+   "type": "FX Flagship",
+   "url": "fx.html#flagship-2026-10-12",
+   "json": "data/fx/2026-10-12.json"
   }
  ]
 }

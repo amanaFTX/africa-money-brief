@@ -3,7 +3,7 @@
 Pages are rendered from data; nothing is hand-edited per edition.
 
 **Flagship:** write `data/fx/<YYYY-MM-DD>.json` (schema `amb-fx-site/1`; copy the latest file as the template), then run `python3 tools/render.py`.
-Required per Nigeria currency (USD, GBP, EUR): `parallel_buy_low/high`, `parallel_sell_low/high`, `official_selling_rate`, `official_rate_date`, `official_basis` (`CBN selling rate (NFEM)` or `Derived: CBN NFEM x ECB reference cross`), `premium_pct`; for derived rates also `official_inputs` (text) and `cbn_check` `{rate,date,pct}`. Also `markets` (name -> `symbol`, `asof`, `rates` USD/GBP/EUR), `edition_type`, optional `label_suffix`, `correction_note`, `markets_note`.
+Required per Nigeria currency (USD, GBP, EUR): `parallel_buy_low/high`, `parallel_sell_low/high`, `official_selling_rate`, `official_rate_date`, `official_basis` (`CBN selling rate (NFEM)`, `CBN published selling rate`, or `Derived: CBN NFEM x ECB reference cross`), `premium_pct`; for derived rates also `official_inputs` (text) and `cbn_check` `{rate,date,pct}`. Also `markets` (name -> `symbol`, `asof`, `rates` USD/GBP/EUR), `edition_type`, optional `label_suffix`, `correction_note`, `markets_note`.
 
 **Early Look:** write `data/fx/early-<YYYY-MM-DD>.json` (schema `amb-fx-early/1`): same Nigeria fields (parallel fields may be omitted per currency if not sourced) and `markets`. It is shown above the Flagship until that day's Flagship is published.
 
