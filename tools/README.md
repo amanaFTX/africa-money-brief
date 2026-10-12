@@ -13,6 +13,8 @@ It regenerates: `data/fx/latest.json`, `data/fx/series.csv`, `data/fx/index.json
 
 **Canonical social image:** after the Flagship renderer passes, run `python3 tools/render_fx_social.py`. It reads `data/fx/latest.json` and creates `assets/social/AMB_FX_Flagship_<YYYY-MM-DD>.png` in the approved 1080×1350 AMB format. Use this renderer for future FX Flagship images so the website, dataset and social graphic remain synchronized. Requires Pillow.
 
+**Canonical social text:** run `python3 tools/render_fx_social_text.py`. It creates the long-form Flagship caption with the standing sequence: headline and date; USD, GBP and EUR country blocks; market insight; sources and methodology; link and hashtags. The figures, effective dates, premium ranking and eligible cross-market comparisons are generated from the same verified dataset. Editorial review remains required before posting.
+
 ## Money & Rates page
 Source of truth: `data/money-rates.json` (schema `amb-money-rates/1`): per country `policy`, `inflation`, `bills` (basis `discount`|`interest`|`yield`, auction date, `tenors` with `rate` and `prev`), `deposits` (dated rows). Set `as_of` to the refresh date. Run `python3 tools/render_money.py` to regenerate the board, bars, takeaway, country sections and freshness table in `money-rates.html`. The homepage and Money & Rates calculators read the same JSON in the browser. The renderer fails on: dates after `as_of`, a missing 91/182/364-day tenor, rates outside 0–60%, a bill move above 3 points without corroboration, or any provider name. A country whose official data cannot be confirmed is set to `"bills": null` and the page shows "Re-verifying" instead of numbers.
 
