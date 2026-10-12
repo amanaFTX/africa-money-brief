@@ -20,3 +20,24 @@ date,pair,market,rate_type,low,high,mid,official,premium_pct,asof
 2026-10-09,USD/EGY,Egypt,official,,,52.3902,52.3902,,2026-10-07
 2026-10-09,GBP/EGY,Egypt,official,,,69.2442,69.2442,,2026-10-07
 2026-10-09,EUR/EGY,Egypt,official,,,58.6294,58.6294,,2026-10-07
+2026-10-12,USD/NGN,Nigeria,parallel_buy,1370,1370,1370.0,,,2026-10-12
+2026-10-12,USD/NGN,Nigeria,parallel_sell,1380,1380,1380.0,,,2026-10-12
+2026-10-12,USD/NGN,Nigeria,amb_mid,,,1375.0,1331.186,2.92,2026-10-09
+2026-10-12,GBP/NGN,Nigeria,parallel_buy,1810,1825,1817.5,,,2026-10-12
+2026-10-12,GBP/NGN,Nigeria,parallel_sell,1845,1850,1847.5,,,2026-10-12
+2026-10-12,GBP/NGN,Nigeria,amb_mid,,,1832.5,1759.1623,3.32,2026-10-09
+2026-10-12,EUR/NGN,Nigeria,parallel_buy,1520,1520,1520.0,,,2026-10-12
+2026-10-12,EUR/NGN,Nigeria,parallel_sell,1540,1560,1550.0,,,2026-10-12
+2026-10-12,EUR/NGN,Nigeria,amb_mid,,,1535.0,1490.7952,1.96,2026-10-09
+2026-10-12,USD/GHA,Ghana,official,,,11.79,11.79,,2026-10-09
+2026-10-12,GBP/GHA,Ghana,official,,,15.597,15.597,,2026-10-09
+2026-10-12,EUR/GHA,Ghana,official,,,13.1977,13.1977,,2026-10-09
+2026-10-12,USD/KEN,Kenya,official,,,129.75,129.75,,2026-10-09
+2026-10-12,GBP/KEN,Kenya,official,,,171.67,171.67,,2026-10-09
+2026-10-12,EUR/KEN,Kenya,official,,,145.32,145.32,,2026-10-09
+2026-10-12,USD/SOU,South Africa,official,,,16.5423,16.5423,,2026-10-12
+2026-10-12,GBP/SOU,South Africa,official,,,21.902,21.902,,2026-10-12
+2026-10-12,EUR/SOU,South Africa,official,,,18.5141,18.5141,,2026-10-12
+2026-10-12,USD/EGY,Egypt,official,,,52.3902,52.3902,,2026-10-07
+2026-10-12,GBP/EGY,Egypt,official,,,69.2442,69.2442,,2026-10-07
+2026-10-12,EUR/EGY,Egypt,official,,,58.6299,58.6299,,2026-10-07
