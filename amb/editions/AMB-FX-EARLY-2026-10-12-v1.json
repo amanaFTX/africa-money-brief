@@ -1,0 +1,82 @@
+{
+ "edition_id": "AMB-FX-EARLY-2026-10-12-v1",
+ "date": "2026-10-12",
+ "edition_type": "FX Early Look",
+ "label": "Early Look: previous close / overnight movement only. Not final current-day data.",
+ "exception_state": "BLOCKED_SOURCE",
+ "exception_detail": "Primary sources unreachable from the run environment: egress policy returned 403 to CONNECT for www.cbn.gov.ng and www.ecb.europa.eu, and the fetch tool could not resolve www.cbn.gov.ng, www.ecb.europa.eu or the internal parallel-market sources. No official or parallel figures could be sourced; all values left null. Press-reported rates were not substituted (v1.2 procedure a).",
+ "nigeria": {
+  "USD": {
+   "parallel_buy_low": null,
+   "parallel_buy_high": null,
+   "parallel_sell_low": null,
+   "parallel_sell_high": null,
+   "official_selling_rate": null,
+   "official_rate_date": null,
+   "official_basis": null,
+   "premium_pct": null
+  },
+  "GBP": {
+   "parallel_buy_low": null,
+   "parallel_buy_high": null,
+   "parallel_sell_low": null,
+   "parallel_sell_high": null,
+   "official_selling_rate": null,
+   "official_rate_date": null,
+   "official_basis": null,
+   "premium_pct": null
+  },
+  "EUR": {
+   "parallel_buy_low": null,
+   "parallel_buy_high": null,
+   "parallel_sell_low": null,
+   "parallel_sell_high": null,
+   "official_selling_rate": null,
+   "official_rate_date": null,
+   "official_basis": null,
+   "premium_pct": null
+  }
+ },
+ "markets": {
+  "Ghana": {
+   "asof": null,
+   "rates": {
+    "USD": null,
+    "GBP": null,
+    "EUR": null
+   },
+   "source": "Bank of Ghana"
+  },
+  "Kenya": {
+   "asof": null,
+   "rates": {
+    "USD": null,
+    "GBP": null,
+    "EUR": null
+   },
+   "source": "Central Bank of Kenya"
+  },
+  "South Africa": {
+   "asof": null,
+   "rates": {
+    "USD": null,
+    "GBP": null,
+    "EUR": null
+   },
+   "source": "South African Reserve Bank"
+  },
+  "Egypt": {
+   "asof": null,
+   "rates": {
+    "USD": null,
+    "GBP": null,
+    "EUR": null
+   },
+   "source": "Central Bank of Egypt"
+  }
+ },
+ "units": "local currency per 1 foreign unit",
+ "parallel_source": "Aggregated from multiple independent market sources",
+ "website_status": "Not prepared (gates failed)",
+ "social_status": "Draft only; not posted"
+}
