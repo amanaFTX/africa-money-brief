@@ -35,7 +35,7 @@ Commit subject:
 - `PREPARED Early Look YYYY-MM-DD`
 - `PREPARED Flagship YYYY-MM-DD`
 
-The handoff note must record the commit SHA, verification timestamp in WAT, source URLs/effective dates, calculations, carried-forward values and reasons, unresolved issues, render/test results, and a clear `PREPARED — NOT PUBLISHED` status.
+The handoff note must record the commit SHA, verification timestamp in WAT, official-source URLs/effective dates, calculations, carried-forward values and reasons, unresolved issues, render/test results, and a clear `PREPARED — NOT PUBLISHED` status. Because this repository is public, record Nigeria parallel observations as anonymized Source A/Source B quotes and timestamps; do not place parallel-provider names or URLs anywhere in the repository.
 
 ## Data and editorial controls
 
@@ -43,6 +43,7 @@ The handoff note must record the commit SHA, verification timestamp in WAT, sour
 - Use official/primary sources for benchmark rates where available.
 - Corroborate Nigeria parallel buy/sell observations with multiple reasonably current independent sources.
 - Recompute and document the parallel midpoint and official-versus-parallel USD premium.
+- When a parallel range exceeds the renderer threshold, include at least two corroborating observations plus a written `range_flag_reason`; never use the acknowledgement flag as an unexplained bypass.
 - Public attribution for aggregated Nigeria parallel observations remains: “Aggregated from multiple independent market sources.”
 - Label effective dates and whether a value is early trade, current observation, prior close, or latest available benchmark.
 - Never fabricate, silently carry forward, or describe a prior-session figure as live.

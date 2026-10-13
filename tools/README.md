@@ -7,7 +7,7 @@ Required per Nigeria currency (USD, GBP, EUR): `parallel_buy_low/high`, `paralle
 
 **Early Look:** write `data/fx/early-<YYYY-MM-DD>.json` (schema `amb-fx-early/1`): same Nigeria fields (parallel fields may be omitted per currency if not sourced) and `markets`. It is shown above the Flagship until that day's Flagship is published.
 
-The renderer FAILS (nothing is written for the failing step; do not publish) if: premium does not recompute from the ranges and the CBN selling rate, a range is wider than max(N20, 1.5% of midpoint), buy midpoint exceeds sell midpoint, a derived rate is >0.3% from the CBN's own row, a market is incomplete, or any parallel-provider name appears in a data file or rendered output.
+The renderer FAILS (nothing is written for the failing step; do not publish) if: premium does not recompute from the ranges and the CBN selling rate, a range is wider than max(N20, 1.5% of midpoint), buy midpoint exceeds sell midpoint, a derived rate is >0.3% from the CBN's own row, a market is incomplete, or any parallel-provider name appears in a data file or rendered output. A deliberately preserved wide range may pass only when `range_flag_acknowledged` is true, `parallel_observation_count` is at least 2, and `range_flag_reason` documents the corroborating evidence without naming providers publicly.
 
 It regenerates: `data/fx/latest.json`, `data/fx/series.csv`, `data/fx/index.json`, and the `<!--AMB:...-->` regions of `index.html`, `fx.html`, `archive.html`, `data.html`.
 

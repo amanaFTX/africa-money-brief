@@ -30,7 +30,10 @@ def validate(j,p):
         bm=(v['parallel_buy_low']+v['parallel_buy_high'])/2; sm=(v['parallel_sell_low']+v['parallel_sell_high'])/2
         if bm>sm: die(f'{p}: {c} buy mid above sell mid')
         w=max(v['parallel_buy_high']-v['parallel_buy_low'],v['parallel_sell_high']-v['parallel_sell_low'])
-        if w>max(20,0.015*(bm+sm)/2) and not v.get('range_flag_acknowledged'): die(f'{p}: {c} range width gate ({w})')
+        if w>max(20,0.015*(bm+sm)/2):
+            if not v.get('range_flag_acknowledged'): die(f'{p}: {c} range width gate ({w})')
+            if v.get('parallel_observation_count',0)<2: die(f'{p}: {c} acknowledged wide range lacks two observations')
+            if len(str(v.get('range_flag_reason','')).strip())<20: die(f'{p}: {c} acknowledged wide range lacks a documented reason')
         calc=round((bm/v['official_selling_rate']-1)*100,2)
         if abs(calc-v['premium_pct'])>0.005: die(f'{p}: {c} premium_pct {v["premium_pct"]} != recomputed {calc}')
         v['_bm']=bm; v['_sm']=sm; v['_mid']=(bm+sm)/2
