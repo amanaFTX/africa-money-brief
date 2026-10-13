@@ -132,7 +132,7 @@ def render(data, output):
         draw.text((887, y + 8), age, font=font(13, True), fill=GREEN if age == "TODAY" else GOLD)
 
     draw.text((58, 1241), "Premium = parallel buying midpoint ÷ CBN selling rate − 1.", font=font(14), fill=MUTED)
-    draw.text((58, 1265), "Parallel observations aggregated from multiple independent market sources.", font=font(14), fill=MUTED)
+    draw.text((58, 1265), data.get("nigeria_market_note_short", "Parallel observations aggregated from multiple independent market sources."), font=font(14), fill=MUTED)
     draw.text((58, 1298), "Indicative only · Not FX advice", font=font(13), fill="#7F95A8")
     draw.text((762, 1279), "africamoneybrief.com/fx.html", font=font(14, True), fill=GOLD)
 

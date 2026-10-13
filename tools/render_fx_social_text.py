@@ -97,6 +97,9 @@ def render(data):
             lines.append(f"{FLAGS[market]} {m['symbol']}{m['rates'][code]:,.4f} ({date_label(m['asof'])})")
         lines.append("")
 
+    if data.get("nigeria_market_note"):
+        lines += ["NIGERIA MARKET NOTE", "", data["nigeria_market_note"], ""]
+
     ranked = sorted(((data["nigeria"][c]["premium_pct"], c) for c in ("USD", "GBP", "EUR")), reverse=True)
     lines += [
         "📊 MARKET INSIGHT",
