@@ -50,6 +50,14 @@ The handoff note must record the commit SHA, verification timestamp in WAT, offi
 - Use one final dataset for the website, image, and social text.
 - Preserve the approved 13 October Flagship image format and the substantive country-by-country social text structure.
 
+## Recurring source handling
+
+- At the 06:30 WAT Early Look, a parallel observation timestamped the previous afternoon is acceptable only as `previous close / early`; show its timestamp and never call it a current-day live quote.
+- Ghana uses the latest dated Bank of Ghana Daily Interbank FX table.
+- Kenya's Daily KES figures are CBK commercial-banks' average closing rates, not a standalone buy or sell quote.
+- Read SARB through its HomePageRates endpoint when the public page does not expose the table.
+- If CBE cannot be retrieved, carry forward only the latest verified CBE figure and display its actual effective date.
+
 ## Validator release rule
 
 Codex independently checks the staged package. If it passes, Codex approves and publishes. If it fails, Codex corrects the data and all affected outputs, reruns QA, and then publishes. Website publication and live-page verification come before social publication. A release is not reported as **Published** until the live website and social post are both verified.
