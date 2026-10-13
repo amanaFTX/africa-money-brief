@@ -23,6 +23,8 @@ Before each preparation, synchronize the staging branch with current `main`. Com
 Required files:
 
 - Early Look source: `data/fx/early-YYYY-MM-DD.json`
+- Early Look image: `assets/social/AMB_FX_Early_Look_YYYY-MM-DD.png`
+- Early Look text: `assets/social/AMB_FX_Early_Look_YYYY-MM-DD.txt`
 - Flagship source: `data/fx/YYYY-MM-DD.json`
 - Flagship image: `assets/social/AMB_FX_Flagship_YYYY-MM-DD.png`
 - Flagship text: `assets/social/AMB_FX_Flagship_YYYY-MM-DD.txt`
