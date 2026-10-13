@@ -15,7 +15,9 @@
    "official_rate_date": "2026-10-12",
    "official_basis": "CBN selling rate (NFEM)",
    "premium_pct": 2.85,
-   "range_flag_acknowledged": true
+   "range_flag_acknowledged": true,
+   "parallel_observation_count": 2,
+   "range_flag_reason": "Two independent 13 Oct observations were retained to disclose same-day cross-source dispersion."
   },
   "GBP": {
    "parallel_buy_low": 1820,
@@ -29,7 +31,9 @@
    "official_rate_date": "2026-10-12",
    "official_basis": "CBN published selling rate",
    "premium_pct": 4.11,
-   "range_flag_acknowledged": true
+   "range_flag_acknowledged": true,
+   "parallel_observation_count": 2,
+   "range_flag_reason": "Two independent 13 Oct observations were retained to disclose same-day cross-source dispersion."
   },
   "EUR": {
    "parallel_buy_low": 1525,
@@ -43,7 +47,9 @@
    "official_rate_date": "2026-10-12",
    "official_basis": "CBN published selling rate",
    "premium_pct": 3.25,
-   "range_flag_acknowledged": true
+   "range_flag_acknowledged": true,
+   "parallel_observation_count": 2,
+   "range_flag_reason": "Two independent 13 Oct observations were retained to disclose same-day cross-source dispersion."
   }
  },
  "method": "premium_pct = (parallel buying midpoint / CBN selling rate - 1) x 100",
@@ -91,5 +97,5 @@
  },
  "schema": "amb-fx-site/1",
  "edition_type": "FX Flagship",
- "markets_note": "Latest verified official/reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (12 Oct); Kenya CBK indicative rates (13 Oct); South Africa SARB weighted-average bank rates at approximately 10:30 (13 Oct); Egypt mid of the latest retrievable CBE buy/sell table (12 Oct)."
+ "markets_note": "Latest verified official/reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (12 Oct); Kenya CBK commercial-banks’ average closing rates (13 Oct); South Africa SARB weighted-average bank rates at approximately 10:30 (13 Oct); Egypt mid of the latest retrievable CBE buy/sell table (12 Oct)."
 }
