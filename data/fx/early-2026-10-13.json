@@ -1,0 +1,89 @@
+{
+ "schema": "amb-fx-early/1",
+ "edition_id": "AMB-FX-EARLY-2026-10-13-v1",
+ "date": "2026-10-13",
+ "edition_type": "Early Look",
+ "status": "Prepared",
+ "headline": "Previous-close and overnight reference only; not live opening quotes. Each figure carries its own effective date.",
+ "nigeria": {
+  "USD": {
+   "parallel_buy_low": 1365,
+   "parallel_buy_high": 1365,
+   "parallel_sell_low": 1373,
+   "parallel_sell_high": 1375,
+   "parallel_buy_mid": 1365.0,
+   "parallel_sell_mid": 1374.0,
+   "amb_mid_informational": 1369.5,
+   "official_selling_rate": 1332.096,
+   "official_rate_date": "2026-10-12",
+   "official_basis": "CBN selling rate (NFEM)",
+   "premium_pct": 2.47
+  },
+  "GBP": {
+   "parallel_buy_low": 1810,
+   "parallel_buy_high": 1820,
+   "parallel_sell_low": 1840,
+   "parallel_sell_high": 1850,
+   "parallel_buy_mid": 1815.0,
+   "parallel_sell_mid": 1845.0,
+   "amb_mid_informational": 1830.0,
+   "official_selling_rate": 1762.6294,
+   "official_rate_date": "2026-10-12",
+   "official_basis": "CBN published selling rate",
+   "premium_pct": 2.97
+  },
+  "EUR": {
+   "parallel_buy_low": 1520,
+   "parallel_buy_high": 1525,
+   "parallel_sell_low": 1545,
+   "parallel_sell_high": 1560,
+   "parallel_buy_mid": 1522.5,
+   "parallel_sell_mid": 1552.5,
+   "amb_mid_informational": 1537.5,
+   "official_selling_rate": 1489.1501,
+   "official_rate_date": "2026-10-12",
+   "official_basis": "CBN published selling rate",
+   "premium_pct": 2.24
+  }
+ },
+ "nigeria_note": "Premium = parallel buying midpoint ÷ CBN selling rate − 1. CBN rates are the 12 Oct published selling rates; parallel observations (13 Oct early morning): aggregated from multiple independent market sources; indicative only.",
+ "markets": {
+  "Ghana": {
+   "symbol": "GH₵",
+   "asof": "2026-10-12",
+   "rates": {
+    "USD": 11.77,
+    "GBP": 15.5417,
+    "EUR": 13.1325
+   }
+  },
+  "Kenya": {
+   "symbol": "KSh",
+   "asof": "2026-10-12",
+   "rates": {
+    "USD": 129.75,
+    "GBP": 171.67,
+    "EUR": 145.32
+   }
+  },
+  "South Africa": {
+   "symbol": "R",
+   "asof": "2026-10-12",
+   "rates": {
+    "USD": 16.5423,
+    "GBP": 21.902,
+    "EUR": 18.5141
+   }
+  },
+  "Egypt": {
+   "symbol": "E£",
+   "asof": "2026-10-07",
+   "rates": {
+    "USD": 52.3902,
+    "GBP": 69.2442,
+    "EUR": 58.6299
+   }
+  }
+ },
+ "markets_note": "Latest published official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (12 Oct); Kenya CBK daily rate (12 Oct); South Africa SARB and Egypt CBE carried from the last verified publication (SARB 12 Oct; CBE 7 Oct) because the central-bank pages could not be re-read this morning."
+}
