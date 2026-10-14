@@ -163,12 +163,31 @@ def render_early(data):
             f"• {code}: ₦{v['official_selling_rate']:,.2f} ({date_label(v['official_rate_date'])}; {official_label(v)}) "
             f"{pct(v['official_selling_rate'], p['official_selling_rate']):+.2f}% vs {date_label(p['official_rate_date'])}"
         )
-    lines += [
-        "",
-        "The CBN’s official rates edged weaker for the naira against all three currencies versus the prior published rate. "
-        "Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.",
-        "",
-    ]
+    has_parallel = all(n[c].get("parallel_buy_low") is not None for c in ("USD", "GBP", "EUR"))
+    if has_parallel:
+        lines += ["", "Nigeria parallel-market observations (previous close / early; not live opening quotes):"]
+        for code in ("USD", "GBP", "EUR"):
+            v = n[code]
+            buy_mid = (v["parallel_buy_low"] + v["parallel_buy_high"]) / 2
+            sell_mid = (v["parallel_sell_low"] + v["parallel_sell_high"]) / 2
+            amb_mid = (buy_mid + sell_mid) / 2
+            lines.append(
+                f"• {code}: Buy {quote(v['parallel_buy_low'], v['parallel_buy_high'])} | "
+                f"Sell {quote(v['parallel_sell_low'], v['parallel_sell_high'])} | "
+                f"AMB midpoint ₦{amb_mid:,.2f} | Parallel-buy premium {v['premium_pct']:+.2f}%"
+            )
+        lines += [
+            "",
+            "Aggregated from multiple independent market sources observed from 13 Oct 16:13–22:06 WAT and 14 Oct 03:00–pre-07:00 WAT. "
+            "GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.",
+            "",
+        ]
+    else:
+        lines += [
+            "",
+            "Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.",
+            "",
+        ]
     def row(name, flag, sym, note):
         v = m[name]
         r = v["rates"]
@@ -203,14 +222,14 @@ def render_early(data):
     gh_move = pct(m["Ghana"]["rates"]["USD"], gh["rates"]["USD"]) if gh else 0
     lines += row("Ghana", "🇬🇭", "GH₵", f"Bank of Ghana interbank mid-rates; the cedi {'firmed' if gh_move < 0 else 'softened'} {abs(gh_move):.2f}% against the US dollar versus the {date_label(gh['asof'])} reference.")
     lines += row("Kenya", "🇰🇪", "KSh", "CBK commercial-banks’ average closing rates (not a standalone buy or sell quote)." + move("Kenya", "KES"))
-    lines += row("South Africa", "🇿🇦", "R", "SARB weighted-average bank rates at about 10:30; latest available benchmark, carried forward because the SARB rates endpoint could not be reached this morning." + move("South Africa", "ZAR"))
+    lines += row("South Africa", "🇿🇦", "R", "SARB weighted-average bank rates at about 10:30; 13 Oct benchmark reverified directly through the SARB endpoint this morning." + move("South Africa", "ZAR"))
     lines += row("Egypt", "🇪🇬", "E£", "CBE buy/sell mid-rates." + move("Egypt", "EGP"))
     lines += [
         "SOURCES & METHODOLOGY",
         "",
         "Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.",
         "",
-        "Nigeria parallel-market rates: Aggregated from multiple independent market sources; withheld in this Early Look because the two-source minimum was not met.",
+        "Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.",
         "",
         "Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.",
         "",

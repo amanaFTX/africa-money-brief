@@ -8,7 +8,12 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,766.06 (13 Oct; CBN published selling) +0.19% vs 12 Oct
 • EUR: ₦1,492.00 (13 Oct; CBN published selling) +0.19% vs 12 Oct
 
-The CBN’s official rates edged weaker for the naira against all three currencies versus the prior published rate. Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,365–1,375 | Sell ₦1,375–1,390 | AMB midpoint ₦1,376.25 | Parallel-buy premium +2.78%
+• GBP: Buy ₦1,810–1,850 | Sell ₦1,835–1,880 | AMB midpoint ₦1,843.75 | Parallel-buy premium +3.62%
+• EUR: Buy ₦1,500–1,550 | Sell ₦1,530–1,590 | AMB midpoint ₦1,542.50 | Parallel-buy premium +2.21%
+
+Aggregated from multiple independent market sources observed from 13 Oct 16:13–22:06 WAT and 14 Oct 03:00–pre-07:00 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (13 Oct)
 US$1 = GH₵11.7059 | £1 = GH₵15.5074 | €1 = GH₵13.1024
@@ -20,7 +25,7 @@ CBK commercial-banks’ average closing rates (not a standalone buy or sell quot
 
 🇿🇦 SOUTH AFRICA (13 Oct)
 US$1 = R16.4601 | £1 = R21.7850 | €1 = R18.4090
-SARB weighted-average bank rates at about 10:30; latest available benchmark, carried forward because the SARB rates endpoint could not be reached this morning. USD/ZAR -0.50% versus the 12 Oct reference.
+SARB weighted-average bank rates at about 10:30; 13 Oct benchmark reverified directly through the SARB endpoint this morning. USD/ZAR -0.50% versus the 12 Oct reference.
 
 🇪🇬 EGYPT (13 Oct)
 US$1 = E£52.8362 | £1 = E£69.9736 | €1 = E£59.1078
@@ -30,7 +35,7 @@ SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-Nigeria parallel-market rates: Aggregated from multiple independent market sources; withheld in this Early Look because the two-source minimum was not met.
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 

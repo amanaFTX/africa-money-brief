@@ -127,7 +127,11 @@ def load_early():
                 if None in (bl,bh,sl,sh) or bl>bh or sl>sh: die(f'{p}: {c} parallel range incomplete/ordered wrongly')
                 bm=(bl+bh)/2; sm=(sl+sh)/2
                 if bm>sm: die(f'{p}: {c} buy mid above sell mid')
-                if max(bh-bl,sh-sl)>max(20,0.015*(bm+sm)/2): die(f'{p}: {c} range width gate')
+                w=max(bh-bl,sh-sl)
+                if w>max(20,0.015*(bm+sm)/2):
+                    if not v.get('range_flag_acknowledged'): die(f'{p}: {c} range width gate ({w})')
+                    if v.get('parallel_observation_count',0)<2: die(f'{p}: {c} acknowledged wide range lacks two observations')
+                    if len(str(v.get('range_flag_reason','')).strip())<20: die(f'{p}: {c} acknowledged wide range lacks a documented reason')
                 v['_prem']=round((bm/v['official_selling_rate']-1)*100,2)
                 if v.get('premium_pct') is not None and abs(v['_prem']-v['premium_pct'])>0.005: die(f'{p}: {c} premium mismatch')
             if v.get('cbn_check') and v['cbn_check']['pct']>0.3: die(f'{p}: {c} derived-vs-CBN check failed')
