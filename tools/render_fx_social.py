@@ -67,7 +67,8 @@ def render(data, output):
     draw.text((182, 83), "MONEY BRIEF", font=font(28, True), fill=GOLD)
     draw.text((182, 116), "AFRICA’S MARKETS, DECODED.", font=font(13), fill=MUTED)
     draw.rounded_rectangle((766, 54, 1022, 126), radius=20, fill="#102E4D", outline="#31506C", width=2)
-    draw.text((794, 68), "FX FLAGSHIP", font=font(18, True), fill=GOLD)
+    early = data.get("edition_type") == "Early Look"
+    draw.text((794, 68), "FX EARLY LOOK" if early else "FX FLAGSHIP", font=font(18, True), fill=GOLD)
     draw.text((794, 94), edition.strftime("%a · %-d %b %Y").upper(), font=font(15, True), fill=WHITE)
 
     draw.text((58, 178), "NIGERIA", font=font(16, True), fill=GOLD)
@@ -78,13 +79,19 @@ def render(data, output):
     cards = []
     for code in ("USD", "GBP", "EUR"):
         v = data["nigeria"][code]
+        official = (
+            f"₦{v['official_selling_rate']:,.2f}",
+            f"{dt.date.fromisoformat(v['official_rate_date']).strftime('%-d %b')} · {official_label(v)}",
+        )
+        if v.get("parallel_buy_low") is None:
+            cards.append((code, units[code], *official, "Not sourced", "Not sourced", "—", "—"))
+            continue
         buy_mid = (v["parallel_buy_low"] + v["parallel_buy_high"]) / 2
         sell_mid = (v["parallel_sell_low"] + v["parallel_sell_high"]) / 2
         cards.append((
             code,
             units[code],
-            f"₦{v['official_selling_rate']:,.2f}",
-            f"{dt.date.fromisoformat(v['official_rate_date']).strftime('%-d %b')} · {official_label(v)}",
+            *official,
             quote(v["parallel_buy_low"], v["parallel_buy_high"]),
             quote(v["parallel_sell_low"], v["parallel_sell_high"]),
             f"₦{(buy_mid + sell_mid) / 2:,.2f}",
@@ -97,7 +104,7 @@ def render(data, output):
         draw.text((x + 22, y0 + 20), c[0], font=font(28, True), fill=WHITE)
         draw.text((x + 22, y0 + 56), c[1], font=font(14), fill=MUTED)
         draw.rounded_rectangle((x + 177, y0 + 20, x + 264, y0 + 57), radius=12, fill="#123D35")
-        draw.text((x + 188, y0 + 28), c[7], font=font(15, True), fill=GREEN)
+        draw.text((x + 188, y0 + 28), c[7], font=font(15, True), fill=GREEN if c[7] != "—" else MUTED)
         draw.line((x + 22, y0 + 87, x + 264, y0 + 87), fill=LINE, width=2)
         draw.text((x + 22, y0 + 108), "OFFICIAL", font=font(12, True), fill=MUTED)
         draw.text((x + 22, y0 + 130), c[2], font=font(25, True), fill=WHITE)
@@ -131,7 +138,7 @@ def render(data, output):
             draw.text((x, y + 8), f"{market['symbol']}{market['rates'][code]:,.4f}", font=font(16, True), fill=WHITE)
         draw.text((887, y + 8), age, font=font(13, True), fill=GREEN if age == "TODAY" else GOLD)
 
-    draw.text((58, 1241), "Premium = parallel buying midpoint ÷ CBN selling rate − 1.", font=font(14), fill=MUTED)
+    draw.text((58, 1241), "Premium = parallel buying midpoint ÷ CBN selling rate − 1." if not early else "Previous-close / latest-benchmark reference · not live quotes · Kenya = CBK avg closing rates.", font=font(14), fill=MUTED)
     draw.text((58, 1265), data.get("nigeria_market_note_short", "Parallel observations aggregated from multiple independent market sources."), font=font(14), fill=MUTED)
     draw.text((58, 1298), "Indicative only · Not FX advice", font=font(13), fill="#7F95A8")
     draw.text((762, 1279), "africamoneybrief.com/fx.html", font=font(14, True), fill=GOLD)
@@ -144,5 +151,6 @@ def render(data, output):
 if __name__ == "__main__":
     args = parse_args()
     data = json.loads(Path(args.input).read_text(encoding="utf-8"))
-    output = Path(args.output) if args.output else ROOT / "assets/social" / f"AMB_FX_Flagship_{data['date']}.png"
+    kind = "Early_Look" if data.get("edition_type") == "Early Look" else "Flagship"
+    output = Path(args.output) if args.output else ROOT / "assets/social" / f"AMB_FX_{kind}_{data['date']}.png"
     render(data, output)

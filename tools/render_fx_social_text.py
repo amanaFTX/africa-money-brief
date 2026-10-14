@@ -139,11 +139,94 @@ def render(data):
     return "\n".join(lines) + "\n"
 
 
+def pct(new, old):
+    return (new / old - 1) * 100
+
+
+def render_early(data):
+    edition = dt.date.fromisoformat(data["date"])
+    prior = json.loads((ROOT / "data/fx/latest.json").read_text(encoding="utf-8"))
+    n = data["nigeria"]
+    m = data["markets"]
+    lines = [
+        "🌍 AFRICA MONEY BRIEF | FX EARLY LOOK",
+        f"📅 {edition.strftime('%A, %-d %B %Y')} · pre-market",
+        "",
+        "Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.",
+        "",
+        "🇳🇬 NIGERIA",
+    ]
+    for code in ("USD", "GBP", "EUR"):
+        v = n[code]
+        p = prior["nigeria"][code]
+        lines.append(
+            f"• {code}: ₦{v['official_selling_rate']:,.2f} ({date_label(v['official_rate_date'])}; {official_label(v)}) "
+            f"{pct(v['official_selling_rate'], p['official_selling_rate']):+.2f}% vs {date_label(p['official_rate_date'])}"
+        )
+    lines += [
+        "",
+        "The CBN’s official rates edged weaker for the naira against all three currencies versus the prior published rate. "
+        "Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.",
+        "",
+    ]
+    def row(name, flag, sym, note):
+        v = m[name]
+        r = v["rates"]
+        asof = date_label(v["asof"])
+        return [
+            f"{flag} {name.upper()} ({asof})",
+            f"US$1 = {sym}{r['USD']:,.4f} | £1 = {sym}{r['GBP']:,.4f} | €1 = {sym}{r['EUR']:,.4f}",
+            note,
+            "",
+        ]
+    editions = sorted(
+        (json.loads(Path(f).read_text(encoding="utf-8")) for f in glob.glob(str(ROOT / "data/fx/2???-??-??.json"))),
+        key=lambda e: e["date"],
+        reverse=True,
+    )
+    editions = [e for e in editions if e.get("schema") == "amb-fx-site/1" and e["date"] < data["date"]]
+
+    def baseline(name):
+        for e in editions:
+            if e["markets"][name]["asof"] < m[name]["asof"]:
+                return e["markets"][name]
+        return None
+
+    def move(name, label):
+        ref = baseline(name)
+        if not ref:
+            return ""
+        change = pct(m[name]["rates"]["USD"], ref["rates"]["USD"])
+        return f" USD/{label} {change:+.2f}% versus the {date_label(ref['asof'])} reference."
+
+    gh = baseline("Ghana")
+    gh_move = pct(m["Ghana"]["rates"]["USD"], gh["rates"]["USD"]) if gh else 0
+    lines += row("Ghana", "🇬🇭", "GH₵", f"Bank of Ghana interbank mid-rates; the cedi {'firmed' if gh_move < 0 else 'softened'} {abs(gh_move):.2f}% against the US dollar versus the {date_label(gh['asof'])} reference.")
+    lines += row("Kenya", "🇰🇪", "KSh", "CBK commercial-banks’ average closing rates (not a standalone buy or sell quote)." + move("Kenya", "KES"))
+    lines += row("South Africa", "🇿🇦", "R", "SARB weighted-average bank rates at about 10:30; latest available benchmark, carried forward because the SARB rates endpoint could not be reached this morning." + move("South Africa", "ZAR"))
+    lines += row("Egypt", "🇪🇬", "E£", "CBE buy/sell mid-rates." + move("Egypt", "EGP"))
+    lines += [
+        "SOURCES & METHODOLOGY",
+        "",
+        "Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.",
+        "",
+        "Nigeria parallel-market rates: Aggregated from multiple independent market sources; withheld in this Early Look because the two-source minimum was not met.",
+        "",
+        "Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.",
+        "",
+        "🔗 https://africamoneybrief.com/fx.html",
+        "",
+        "#AfricaMoneyBrief #FX #AfricanMarkets",
+    ]
+    return "\n".join(lines) + "\n"
+
+
 if __name__ == "__main__":
     opts = args()
     data = json.loads(Path(opts.input).read_text(encoding="utf-8"))
-    text = render(data)
-    output = Path(opts.output) if opts.output else ROOT / "assets/social" / f"AMB_FX_Flagship_{data['date']}.txt"
+    early = data.get("edition_type") == "Early Look"
+    text = render_early(data) if early else render(data)
+    output = Path(opts.output) if opts.output else ROOT / "assets/social" / f"AMB_FX_{'Early_Look' if early else 'Flagship'}_{data['date']}.txt"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(text, encoding="utf-8")
     print(output)
