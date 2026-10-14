@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-10-10",
- "release": "Preview release: first verified yield data for Lagos, Nairobi, Johannesburg, Cape Town and Cairo",
+ "as_of": "2026-10-14",
+ "release": "Nigeria review (14 Oct): Lagos unchanged and still single-source; Abuja held out, no source meets the evidence gates. Also in this release: first verified yield data for Lagos, Nairobi, Johannesburg, Cape Town and Cairo",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -401,8 +401,16 @@
    "reason": "Only sponsored-content estimates and appreciation rates; no verified yield."
   },
   {
-   "item": "Abuja, Kigali",
+   "item": "Kigali",
    "reason": "No current published yield found."
+  },
+  {
+   "item": "Abuja (14 Oct review)",
+   "reason": "Only developer marketing and unsourced editorial ranges (5-12% gross) with no disclosed sample, method or listing counts; no research report, official index or lawfully readable listing sample met the grade and listing gates."
+  },
+  {
+   "item": "Lagos growth-corridor range of 8-18% (Jan 2026)",
+   "reason": "Projection from an unnamed analyst, mixes yield with appreciation, no dataset; not used."
   }
  ]
 }
