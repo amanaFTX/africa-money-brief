@@ -153,6 +153,16 @@ def early_block(j):
 <h3 style="margin:22px 0 10px">Africa cross-markets</h3>{mtable(j)}
 <p class="fine">{j.get('markets_note','Latest published reference values with their effective dates.')} Informational only; not financial or FX advice. The Flagship edition follows after verification.</p></section></details>"""
 
+def early_home(j):
+    rows=''
+    for c in ['USD','GBP','EUR']:
+        v=j['nigeria'][c]
+        bm=(v['parallel_buy_low']+v['parallel_buy_high'])/2 if v.get('parallel_buy_low') is not None else None
+        par=(f"Buy ₦{v['parallel_buy_low']:,}–₦{v['parallel_buy_high']:,} · Sell ₦{v['parallel_sell_low']:,}–₦{v['parallel_sell_high']:,}" if bm is not None else 'Parallel range withheld')
+        prem=f"+{v['premium_pct']:.2f}%" if bm is not None else '—'
+        rows+=f'<div class="metric"><small>{c} / NGN · {dlabel(v["official_rate_date"])}</small><strong>{prem}</strong><span>CBN ₦{f(v["official_selling_rate"])} · {par}</span></div>'
+    return f'''<div class="v2"><section class="section"><div class="heading"><div><p class="eyebrow">TODAY'S FX EARLY LOOK · {dlabel(j['date']).upper()} {D(j['date']).year}</p><h2>Previous close and latest benchmarks</h2></div><p>Pre-market reference; not live opening quotes. <a href="fx.html#early-look-{j['date']}" style="color:var(--gold)">Full Early Look →</a></p></div><div class="dashgrid">{rows}<div class="metric"><small>AFRICA CROSS-MARKETS</small><strong>4 markets</strong><span>GH {dlabel(j['markets']['Ghana']['asof'])} · KE {dlabel(j['markets']['Kenya']['asof'])} · ZA {dlabel(j['markets']['South Africa']['asof'])} · EG {dlabel(j['markets']['Egypt']['asof'])}</span></div></div><p class="fine">Nigeria parallel ranges: previous close / early; aggregated from multiple independent market sources. Effective dates are shown in the full edition. Indicative only; not FX advice.</p></section></div>'''
+
 def main():
     eds=load(); latest=max(eds); j=eds[latest]
     early=load_early()
@@ -172,6 +182,7 @@ def main():
     region('fx.html','flagship',flagship(j)); region('fx.html','earlier',earlier(eds,latest)+''.join(early_block(early[d]).replace(' open>','>',1) for d in sorted(early,reverse=True) if d!=max(early)  or max(early)<latest))
     el=max(early) if early else None
     region('fx.html','early-latest',early_block(early[el]).replace('<details','<div class="v2"><details',1).replace('</details>','</details></div>') if el and el>=latest else '')
+    region('index.html','early-home',early_home(early[el]) if el and el>=latest else '')
     region('archive.html','archive-list',archive(idx)); region('data.html','data-latest',datalatest(j))
     print('rendered edition',latest,'| editions with data:',len(eds))
 main()
