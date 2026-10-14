@@ -23,6 +23,10 @@ def load():
 def validate(j,p):
     for c in ['USD','GBP','EUR']:
         v=j['nigeria'].get(c) or die(f'{p}: missing Nigeria {c}')
+        if v.get('parallel_buy_low') is None:
+            for k in ['official_selling_rate','official_rate_date','official_basis']:
+                if v.get(k) is None: die(f'{p}: {c} missing {k}')
+            v['_np']=True; continue
         for k in ['parallel_buy_low','parallel_buy_high','parallel_sell_low','parallel_sell_high','official_selling_rate','official_rate_date','official_basis','premium_pct']:
             if v.get(k) is None: die(f'{p}: {c} missing {k}')
         if v['official_basis'] not in {'CBN selling rate (NFEM)','CBN published selling rate','Derived: CBN NFEM x ECB reference cross'}: die(f'{p}: {c} unsupported official_basis')
@@ -49,6 +53,9 @@ def basis(c,v):
     chk=v.get('cbn_check'); ck=f" Check: the CBN’s own {dlabel(chk['date'])} selling rate was ₦{f(chk['rate'])} ({chk['pct']:.2f}% away)." if chk else ''
     return f"<p class='basis'>Derived official rate, {dlabel(v['official_rate_date'])}: {v.get('official_inputs','')} = ₦{f(v['official_selling_rate'])}.{ck} Sources: {CBNL} · <a href='https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html'>ECB ↗</a></p>"
 def panel(c,v):
+    if v.get('_np'):
+        lab='NFEM rate' if v['official_basis']=='CBN selling rate (NFEM)' else 'published rate'
+        return f'''<div class="panel"><div class="ph"><h3>{c} → NGN <small>per {SYM[c]}1</small></h3><span class="prem big">—</span></div><div class="grid4"><div><small>CBN {lab} · {dlabel(v['official_rate_date'])}</small><b>₦{f(v['official_selling_rate'])}</b></div><div><small>Parallel buy</small><b>Not sourced</b></div><div><small>Parallel sell</small><b>Not sourced</b></div><div><small>AMB midpoint</small><b class="gold">Not sourced</b></div></div>{basis(c,v)}</div>'''
     buy=f"₦{v['parallel_buy_low']:,}" if v['parallel_buy_low']==v['parallel_buy_high'] else f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,}"
     sell=f"₦{v['parallel_sell_low']:,}" if v['parallel_sell_low']==v['parallel_sell_high'] else f"₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"
     lab='NFEM rate' if v['official_basis']=='CBN selling rate (NFEM)' else ('published rate' if v['official_basis'].startswith('CBN') else 'derived')
@@ -76,12 +83,15 @@ def earlier(eds,latest):
         if d==latest: continue
         j=eds[d]; out+=f'<details id="flagship-{d}"><summary>{dlabel(d)} · FX Flagship</summary><div class="v2"><section class="section">{flagship(j,False).split(">",1)[1].rsplit("</section>",1)[0]}</section></div></details>'
     return out
+def bcell(v):
+    if v.get('_np'): return 'Not sourced'
+    return '₦'+f(v['_bm'])+' <span class="prem" style="color:#64e2a6;font-size:14px">+'+format(v['premium_pct'],'.2f')+'%</span>'
 def board(j):
-    rows=''.join(f"<div class=\"r\"><div>{c}/NGN<small>{'CBN NFEM' if v['official_basis']=='CBN selling rate (NFEM)' else ('CBN published' if v['official_basis'].startswith('CBN') else 'Derived')} ₦{f(v['official_selling_rate'])} · {dlabel(v['official_rate_date'])}</small></div><strong>₦{f(v['_bm'])} <span class=\"prem\" style=\"color:#64e2a6;font-size:14px\">+{v['premium_pct']:.2f}%</span></strong></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
+    rows=''.join(f"<div class=\"r\"><div>{c}/NGN<small>{'CBN NFEM' if v['official_basis']=='CBN selling rate (NFEM)' else ('CBN published' if v['official_basis'].startswith('CBN') else 'Derived')} ₦{f(v['official_selling_rate'])} · {dlabel(v['official_rate_date'])}</small></div><strong>{bcell(v)}</strong></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
     sfx=' (corrected)' if j.get('label_suffix') else ''
     return f'<div class="board"><div class="boardtop"><span>NIGERIA · PARALLEL BUY MIDPOINT</span><span class="live">EDITION {dlabel(j["date"]).upper()}</span></div><div id="mini">{rows}</div><p id="verified">Premium = parallel buying midpoint ÷ CBN selling rate − 1. Edition {dlabel(j["date"])}{sfx}. Indicative only.</p></div>'
 def glance(j):
-    m=''.join(f"<div class=\"metric\"><small>{c} / NGN</small><strong>+{v['premium_pct']:.2f}%</strong><span>Parallel buy mid ₦{f(v['_bm'])} vs CBN ₦{f(v['official_selling_rate'])}</span></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
+    m=''.join(f"<div class=\"metric\"><small>{c} / NGN</small><strong>{'—' if v.get('_np') else '+'+format(v['premium_pct'],'.2f')+'%'}</strong><span>{'Parallel not sourced; CBN ₦'+f(v['official_selling_rate']) if v.get('_np') else 'Parallel buy mid ₦'+f(v['_bm'])+' vs CBN ₦'+f(v['official_selling_rate'])}</span></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
     sfx=' (corrected)' if j.get('label_suffix') else ''
     return f'<div class="v2"><section class="section"><div class="heading"><div><p class="eyebrow">TODAY AT A GLANCE</p><h2>Premium: parallel buy vs CBN selling rate</h2></div><p>Edition {dlabel(j["date"])} {D(j["date"]).year}{sfx}. CBN NFEM rate for USD; GBP and EUR as dated. <a href="fx.html" style="color:var(--gold)">Full FX brief →</a></p></div><div class="dashgrid">{m}<div class="metric"><small>Coverage</small><strong>5 markets</strong><span>NG · GH · KE · ZA · EG</span></div></div></section></div>'
 def archive(idx):
@@ -99,6 +109,8 @@ def series(eds):
         j=eds[d]
         for c in ['USD','GBP','EUR']:
             v=j['nigeria'][c]
+            if v.get('_np'):
+                out+=f"{d},{c}/NGN,Nigeria,official_cbn_selling,,,{v['official_selling_rate']},{v['official_selling_rate']},,{v['official_rate_date']}\n"; continue
             out+=f"{d},{c}/NGN,Nigeria,parallel_buy,{v['parallel_buy_low']},{v['parallel_buy_high']},{v['_bm']},,,{d}\n{d},{c}/NGN,Nigeria,parallel_sell,{v['parallel_sell_low']},{v['parallel_sell_high']},{v['_sm']},,,{d}\n{d},{c}/NGN,Nigeria,amb_mid,,,{v['_mid']},{v['official_selling_rate']},{v['premium_pct']},{v['official_rate_date']}\n"
         for n,m in j['markets'].items():
             for c,x in m['rates'].items(): out+=f"{d},{c}/{n[:3].upper()},{n},official,,,{x},{x},,{m['asof']}\n"

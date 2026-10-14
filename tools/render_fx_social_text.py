@@ -82,6 +82,19 @@ def render(data):
     ]
     for code in ("USD", "GBP", "EUR"):
         v = data["nigeria"][code]
+        if v.get("parallel_buy_low") is None:
+            lines += [
+                f"{code} — Local currency per {UNITS[code]}",
+                "",
+                f"🇳🇬 Official: ₦{v['official_selling_rate']:,.2f} ({date_label(v['official_rate_date'])}; {official_label(v)})",
+                "🇳🇬 Parallel: Not sourced this edition",
+                "📊 AMB midpoint and parallel-buy premium: not computed",
+                "",
+            ]
+            for market, m in data["markets"].items():
+                lines.append(f"{FLAGS[market]} {m['symbol']}{m['rates'][code]:,.4f} ({date_label(m['asof'])})")
+            lines.append("")
+            continue
         buy_mid = (v["parallel_buy_low"] + v["parallel_buy_high"]) / 2
         sell_mid = (v["parallel_sell_low"] + v["parallel_sell_high"]) / 2
         amb_mid = (buy_mid + sell_mid) / 2
@@ -100,16 +113,23 @@ def render(data):
     if data.get("nigeria_market_note"):
         lines += ["NIGERIA MARKET NOTE", "", data["nigeria_market_note"], ""]
 
-    ranked = sorted(((data["nigeria"][c]["premium_pct"], c) for c in ("USD", "GBP", "EUR")), reverse=True)
-    lines += [
-        "📊 MARKET INSIGHT",
-        "",
-        "Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:",
-        "",
-        *[f"• {code}: +{premium:.2f}%" for premium, code in ranked],
-        "",
-        f"{ranked[0][1]} carries the widest premium; {ranked[-1][1]} carries the narrowest.",
-    ]
+    if any(data["nigeria"][c].get("premium_pct") is None for c in ("USD", "GBP", "EUR")):
+        lines += [
+            "📊 MARKET INSIGHT",
+            "",
+            "Nigeria: parallel-market premiums are not published in this edition because verified current independent observations were unavailable. CBN benchmarks shown are the latest available (13 Oct).",
+        ]
+    else:
+        ranked = sorted(((data["nigeria"][c]["premium_pct"], c) for c in ("USD", "GBP", "EUR")), reverse=True)
+        lines += [
+            "📊 MARKET INSIGHT",
+            "",
+            "Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:",
+            "",
+            *[f"• {code}: +{premium:.2f}%" for premium, code in ranked],
+            "",
+            f"{ranked[0][1]} carries the widest premium; {ranked[-1][1]} carries the narrowest.",
+        ]
     moves = movement_insights(data, previous_edition(data["date"]))
     if moves:
         lines += ["", "Cross-market change since the previous Flagship:", "", *moves]
