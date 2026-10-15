@@ -117,7 +117,7 @@ def render(data):
         lines += [
             "📊 MARKET INSIGHT",
             "",
-            "Nigeria: parallel-market premiums are not published in this edition because verified current independent observations were unavailable. CBN benchmarks shown are the latest available (13 Oct).",
+            f"Nigeria: parallel-market premiums are not published in this edition because verified current independent observations were unavailable. CBN benchmarks shown are the latest available ({date_label(data['nigeria']['USD']['official_rate_date'])}).",
         ]
     else:
         ranked = sorted(((data["nigeria"][c]["premium_pct"], c) for c in ("USD", "GBP", "EUR")), reverse=True)
