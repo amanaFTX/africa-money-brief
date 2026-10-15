@@ -8,7 +8,12 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,765.55 (14 Oct; CBN published selling) -0.03% vs 13 Oct
 • EUR: ₦1,491.57 (14 Oct; CBN published selling) -0.03% vs 13 Oct
 
-Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,365–1,370 | Sell ₦1,375 | AMB midpoint ₦1,371.25 | Parallel-buy premium +2.62%
+• GBP: Buy ₦1,800–1,820 | Sell ₦1,820–1,850 | AMB midpoint ₦1,822.50 | Parallel-buy premium +2.52%
+• EUR: Buy ₦1,500–1,525 | Sell ₦1,520–1,560 | AMB midpoint ₦1,526.25 | Parallel-buy premium +1.40%
+
+Aggregated from multiple independent market sources. Previous close / early; observations from 14 Oct 16:05 WAT and 15 Oct 06:08 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (14 Oct)
 US$1 = GH₵11.6750 | £1 = GH₵15.3556 | €1 = GH₵12.9868
@@ -16,11 +21,11 @@ Bank of Ghana interbank mid-rates; the cedi firmed 0.26% against the US dollar v
 
 🇰🇪 KENYA (13 Oct)
 US$1 = KSh129.7900 | £1 = KSh171.9200 | €1 = KSh145.2900
-CBK commercial-banks’ average closing rates (not a standalone buy or sell quote). USD/KES +0.03% versus the 9 Oct reference.
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
 
 🇿🇦 SOUTH AFRICA (14 Oct)
 US$1 = R16.4706 | £1 = R21.8458 | €1 = R18.4545
-SARB weighted-average bank rates at about 10:30 on 14 Oct (latest available benchmark; SARB endpoint could not be re-read this morning). USD/ZAR +0.06% versus the 13 Oct reference.
+SARB weighted-average bank rates at about 10:30 on 14 Oct; reverified through HomePageRates.
 
 🇪🇬 EGYPT (14 Oct)
 US$1 = E£53.1117 | £1 = E£70.4447 | €1 = E£59.4294
@@ -30,7 +35,7 @@ SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-Nigeria parallel-market rates: not published in this edition; the Flagship will include them once independently corroborated.
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 

@@ -198,7 +198,7 @@ def render_early(data):
             )
         lines += [
             "",
-            "Aggregated from multiple independent market sources observed from 13 Oct 16:13–22:06 WAT and 14 Oct 03:00–pre-07:00 WAT. "
+            f"Aggregated from multiple independent market sources. {n['USD']['parallel_observation_label']}. "
             "GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.",
             "",
         ]
@@ -232,8 +232,8 @@ def render_early(data):
         return None
 
     def move(name, label):
-        ref = baseline(name)
-        if not ref:
+        ref = prior.get("markets", {}).get(name)
+        if not ref or m[name]["asof"] <= ref["asof"]:
             return ""
         change = pct(m[name]["rates"]["USD"], ref["rates"]["USD"])
         return f" USD/{label} {change:+.2f}% versus the {date_label(ref['asof'])} reference."
@@ -242,7 +242,7 @@ def render_early(data):
     gh_move = pct(m["Ghana"]["rates"]["USD"], gh["rates"]["USD"]) if gh else 0
     lines += row("Ghana", "🇬🇭", "GH₵", f"Bank of Ghana interbank mid-rates; the cedi {'firmed' if gh_move < 0 else 'softened'} {abs(gh_move):.2f}% against the US dollar versus the {date_label(gh['asof'])} reference.")
     lines += row("Kenya", "🇰🇪", "KSh", "CBK commercial-banks’ average closing rates (not a standalone buy or sell quote)." + move("Kenya", "KES"))
-    lines += row("South Africa", "🇿🇦", "R", f"SARB weighted-average bank rates at about 10:30 on {date_label(m['South Africa']['asof'])} (latest available benchmark; SARB endpoint could not be re-read this morning)." + move("South Africa", "ZAR"))
+    lines += row("South Africa", "🇿🇦", "R", f"SARB weighted-average bank rates at about 10:30 on {date_label(m['South Africa']['asof'])}; reverified through HomePageRates." + move("South Africa", "ZAR"))
     lines += row("Egypt", "🇪🇬", "E£", "CBE buy/sell mid-rates." + move("Egypt", "EGP"))
     lines += [
         "SOURCES & METHODOLOGY",
