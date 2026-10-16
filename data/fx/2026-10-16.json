@@ -3,7 +3,7 @@
  "edition_id": "AMB-FX-2026-10-16",
  "date": "2026-10-16",
  "edition_type": "FX Flagship",
- "status": "Prepared — awaiting validation",
+    "status": "Validated — approved for publication",
  "nigeria": {
   "USD": {
    "parallel_buy_low": 1365,
@@ -19,7 +19,7 @@
    "value_label": "latest available benchmark",
    "premium_pct": 2.69,
    "parallel_observation_count": 2,
-   "parallel_observation_label": "Current observations 16 Oct: Source A 11:07 WAT; Source B 16 Oct market report"
+            "parallel_observation_label": "Current observations 16 Oct: Source A 12:07 WAT; Source B 16 Oct market report"
   },
   "GBP": {
    "parallel_buy_low": 1800,
@@ -36,8 +36,8 @@
    "premium_pct": 2.31,
    "range_flag_acknowledged": true,
    "parallel_observation_count": 2,
-   "range_flag_reason": "Two independent 16 Oct observations (Source A 11:07 WAT and Source B) differ on the sell side; both retained to disclose cross-source dispersion.",
-   "parallel_observation_label": "Current observations 16 Oct: Source A 11:07 WAT; Source B 16 Oct market report"
+            "range_flag_reason": "Two independent 16 Oct observations (Source A 12:07 WAT and Source B) differ on the sell side; both retained to disclose cross-source dispersion.",
+            "parallel_observation_label": "Current observations 16 Oct: Source A 12:07 WAT; Source B 16 Oct market report"
   },
   "EUR": {
    "parallel_buy_low": 1510,
@@ -54,8 +54,8 @@
    "premium_pct": 1.65,
    "range_flag_acknowledged": true,
    "parallel_observation_count": 2,
-   "range_flag_reason": "Two independent 16 Oct observations (Source A 11:07 WAT and Source B) differ on the sell side; both retained to disclose cross-source dispersion.",
-   "parallel_observation_label": "Current observations 16 Oct: Source A 11:07 WAT; Source B 16 Oct market report"
+            "range_flag_reason": "Two independent 16 Oct observations (Source A 12:07 WAT and Source B) differ on the sell side; both retained to disclose cross-source dispersion.",
+            "parallel_observation_label": "Current observations 16 Oct: Source A 12:07 WAT; Source B 16 Oct market report"
   }
  },
  "method": "premium_pct = (parallel buying midpoint / CBN selling rate - 1) x 100",
@@ -84,11 +84,11 @@
   },
   "South Africa": {
    "symbol": "R",
-   "asof": "2026-10-15",
+            "asof": "2026-10-16",
    "rates": {
-    "USD": 16.531,
-    "GBP": 21.9308,
-    "EUR": 18.5618
+                "USD": 16.4262,
+                "GBP": 21.8855,
+                "EUR": 18.4721
    }
   },
   "Egypt": {
@@ -101,6 +101,6 @@
    }
   }
  },
- "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (15 Oct); Kenya CBK commercial-banks’ average closing rates (market close 14 Oct; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (15 Oct, carried forward; 16 Oct fixing unavailable); Egypt mid of CBE buy/sell (15 Oct).",
- "verified_at_wat": "2026-10-16T11:45:00+01:00"
+    "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (15 Oct); Kenya CBK commercial-banks’ average closing rates (market close 14 Oct; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (16 Oct); Egypt mid of CBE buy/sell (15 Oct).",
+    "verified_at_wat": "2026-10-16T12:40:00+01:00"
 }

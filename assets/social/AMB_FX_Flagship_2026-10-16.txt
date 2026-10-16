@@ -11,7 +11,7 @@ USD — Local currency per US$1
 
 🇬🇭 GH₵11.6500 (15 Oct)
 🇰🇪 KSh129.8100 (14 Oct)
-🇿🇦 R16.5310 (15 Oct)
+🇿🇦 R16.4262 (16 Oct)
 🇪🇬 E£53.4614 (15 Oct)
 
 GBP — Local currency per £1
@@ -22,7 +22,7 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.4403 (15 Oct)
 🇰🇪 KSh171.3000 (14 Oct)
-🇿🇦 R21.9308 (15 Oct)
+🇿🇦 R21.8855 (16 Oct)
 🇪🇬 E£70.8605 (15 Oct)
 
 EUR — Local currency per €1
@@ -33,7 +33,7 @@ EUR — Local currency per €1
 
 🇬🇭 GH₵13.0530 (15 Oct)
 🇰🇪 KSh144.4300 (14 Oct)
-🇿🇦 R18.5618 (15 Oct)
+🇿🇦 R18.4721 (16 Oct)
 🇪🇬 E£59.9543 (15 Oct)
 
 NIGERIA MARKET NOTE
@@ -53,9 +53,10 @@ USD carries the widest premium; EUR carries the narrowest.
 Cross-market change since the previous Flagship:
 
 • Ghana: moves were mixed; the largest was GBP (+0.55%).
+• South Africa: the rand strengthened across USD, GBP and EUR versus the 15 Oct reference; the largest move was against USD (0.63%).
 • Egypt: the pound weakened across USD, GBP and EUR versus the 14 Oct reference; the largest move was against EUR (0.88%).
 
-Official reference dates: Ghana 15 Oct; Kenya 14 Oct; South Africa 15 Oct; Egypt 15 Oct.
+Official reference dates: Ghana 15 Oct; Kenya 14 Oct; South Africa 16 Oct; Egypt 15 Oct.
 
 SOURCES & METHODOLOGY
 
