@@ -1,6 +1,6 @@
 {
   "schema": "amb-money-rates/1",
-  "as_of": "2026-10-09",
+  "as_of": "2026-10-16",
   "countries": {
     "NG": {
       "name": "Nigeria",
@@ -11,39 +11,39 @@
         "rate": 23,
         "date": "2026-09-22",
         "note": "Cut from 26.50% at the 21–22 Sep MPC. Standing-facility corridor +50/−300 bp.",
-        "src": "CBN MPC (as reported)"
+        "src": "CBN MPC decisions page, 21–22 Sep 2026"
       },
       "inflation": {
-        "rate": 15.39,
-        "period": "Aug 2026",
-        "src": "NBS"
+        "rate": 14.63,
+        "period": "Sep 2026",
+        "src": "NBS (released 15 Oct)"
       },
       "bills": {
         "basis": "discount",
-        "auction": "2026-10-07",
-        "src": "CBN/DMO primary auction",
-        "src_url": "https://nairametrics.com/2026/10/07/dmo-raises-n968-47-billion-as-364-day-stop-rate-falls-to-15-85-despite-strong-demand/",
+        "auction": "2026-10-14",
+        "src": "CBN/DMO primary auction, 14 Oct (stop rates as reported; official release not retrievable)",
+        "src_url": "https://www.dmo.gov.ng/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
             "rate": 15.5,
             "prev": 15.5,
-            "alloc": "₦38.55bn of ₦100bn offered"
+            "alloc": "₦19.52bn allotted of ₦50bn offered"
           },
           {
             "t": "182-day",
             "days": 182,
             "rate": 15.8,
             "prev": 15.8,
-            "alloc": "₦44.92bn of ₦100bn offered"
+            "alloc": "₦29.54bn allotted of ₦50bn offered"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 15.85,
-            "prev": 15.89,
-            "alloc": "₦885bn allotted; ₦1.68tn subscribed"
+            "rate": 15.9,
+            "prev": 15.85,
+            "alloc": "₦220bn allotted of ₦350bn offered; ₦982.21bn subscribed"
           }
         ]
       },
@@ -124,36 +124,36 @@
         "src": "Bank of Ghana (as reported)"
       },
       "inflation": {
-        "rate": 5,
-        "period": "Aug 2026",
+        "rate": 5.2,
+        "period": "Sep 2026",
         "src": "Ghana Statistical Service (as reported)"
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-05",
-        "src": "Bank of Ghana, issue date 5 Oct",
+        "auction": "2026-10-12",
+        "src": "Bank of Ghana, issue date 12 Oct",
         "src_url": "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 4.6413,
-            "prev": 4.6785,
-            "alloc": "Interest rate (discount rate 4.5881%)"
+            "rate": 4.6042,
+            "prev": 4.6413,
+            "alloc": "Interest rate (discount rate 4.5518%)"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 6.3192,
-            "prev": 6.3701,
-            "alloc": "Interest rate (discount rate 6.1257%)"
+            "rate": 6.2791,
+            "prev": 6.3192,
+            "alloc": "Interest rate (discount rate 6.0880%)"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.8018,
-            "prev": 9.8339,
-            "alloc": "Interest rate (discount rate 8.9268%)"
+            "rate": 9.7523,
+            "prev": 9.8018,
+            "alloc": "Interest rate (discount rate 8.8857%)"
           }
         ]
       },
@@ -184,7 +184,7 @@
             "terms": "System average"
           }
         ],
-        "note": "The August 6-month deposit average (9.72%) is above today's 182-day bill (6.32%)."
+        "note": "The August 6-month deposit average (9.72%) is above today's 182-day bill (6.28%)."
       }
     },
     "KE": {
@@ -194,14 +194,14 @@
       "policy": {
         "label": "Central Bank Rate",
         "rate": 8.75,
-        "date": "2026-08-11",
-        "note": "Held for a third consecutive meeting.",
-        "src": "CBK"
+        "date": "2026-10-07",
+        "note": "Held again at the 7 Oct MPC meeting.",
+        "src": "CBK MPC press release, 7 Oct 2026"
       },
       "inflation": {
-        "rate": 6.5,
-        "period": "Jun 2026",
-        "src": "KNBS (older reading)"
+        "rate": 6.8,
+        "period": "Sep 2026",
+        "src": "KNBS, as cited in CBK MPC release"
       },
       "bills": {
         "basis": "interest",
@@ -266,43 +266,12 @@
         "note": "Raised 25 bp; prime lending rate 10.75%.",
         "src": "SARB (as reported)"
       },
-      "inflation": null,
-      "bills": {
-        "basis": "yield",
-        "auction": "2026-10-08",
-        "src": "SARB tender results (relayed by a market-data site; primary check pending)",
-        "src_url": "https://www.resbank.co.za/",
-        "tenors": [
-          {
-            "t": "91-day",
-            "days": 91,
-            "rate": 7.05,
-            "prev": null,
-            "alloc": "Yield"
-          },
-          {
-            "t": "182-day",
-            "days": 182,
-            "rate": 7.49,
-            "prev": null,
-            "alloc": "Yield"
-          },
-          {
-            "t": "273-day",
-            "days": 273,
-            "rate": 7.55,
-            "prev": null,
-            "alloc": "Yield"
-          },
-          {
-            "t": "364-day",
-            "days": 364,
-            "rate": 7.54,
-            "prev": null,
-            "alloc": "Yield"
-          }
-        ]
+      "inflation": {
+        "rate": 4.4,
+        "period": "Aug 2026",
+        "src": "Stats SA"
       },
+      "bills": null,
       "deposits": {
         "date": "2026-01-31",
         "kind": "Banking-system averages (older)",
@@ -344,7 +313,11 @@
         "note": "Held (reported); not yet confirmed from a CBE release.",
         "src": "CBE (as reported)"
       },
-      "inflation": null,
+      "inflation": {
+        "rate": 13.9,
+        "period": "Sep 2026 (urban)",
+        "src": "CAPMAS (as reported)"
+      },
       "bills": null,
       "deposits": null
     }
