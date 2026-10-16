@@ -8,7 +8,12 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,764.26 (15 Oct; CBN published selling) -0.07% vs 14 Oct
 • EUR: ₦1,490.48 (15 Oct; CBN published selling) -0.07% vs 14 Oct
 
-Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,360–1,370 | Sell ₦1,370–1,375 | AMB midpoint ₦1,368.75 | Parallel-buy premium +2.51%
+• GBP: Buy ₦1,800–1,820 | Sell ₦1,820–1,850 | AMB midpoint ₦1,822.50 | Parallel-buy premium +2.59%
+• EUR: Buy ₦1,510–1,525 | Sell ₦1,530–1,560 | AMB midpoint ₦1,531.25 | Parallel-buy premium +1.81%
+
+Aggregated from multiple independent market sources. Previous close / early; observations from 15 Oct 16:09 WAT and 16 Oct 06:07 WAT, plus a separate 16 Oct market report. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (15 Oct)
 US$1 = GH₵11.6500 | £1 = GH₵15.4403 | €1 = GH₵13.0530
@@ -20,7 +25,7 @@ CBK commercial-banks’ average closing rates (not a standalone buy or sell quot
 
 🇿🇦 SOUTH AFRICA (15 Oct)
 US$1 = R16.5310 | £1 = R21.9308 | €1 = R18.5618
-SARB weighted-average bank rates at about 10:30 on 15 Oct; carried forward from the latest verified SARB table.
+SARB weighted-average bank rates at about 10:30 on 15 Oct; reverified through HomePageRates.
 
 🇪🇬 EGYPT (15 Oct)
 US$1 = E£53.4614 | £1 = E£70.8605 | €1 = E£59.9543
@@ -30,7 +35,7 @@ SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-Nigeria parallel-market rates: not published in this edition; the Flagship will include them once independently corroborated.
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
