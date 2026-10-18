@@ -55,7 +55,7 @@
   }
   function showBanner() {
     var banner = document.getElementById('amb-consent-banner');
-    if (banner) { banner.hidden = false; banner.querySelector('button').focus(); }
+    if (banner) { banner.hidden = false; banner.querySelector('.amb-accept').focus(); }
   }
   function renderBanner() {
     var banner = document.createElement('section');
@@ -63,7 +63,13 @@
     banner.className = 'amb-consent-banner';
     banner.setAttribute('role', 'region');
     banner.setAttribute('aria-label', 'Cookie and analytics preferences');
-    banner.innerHTML = '<div class="amb-consent-copy"><strong>Your privacy matters.</strong><p>With your permission, Africa Money Brief uses Google Analytics to understand visits and improve the website. Analytics is off unless you accept. <a href="' + (location.pathname.indexOf('/archive/') !== -1 ? '../' : '') + 'privacy.html">Read our Privacy &amp; Cookies Notice</a>.</p></div><div class="amb-consent-actions"><button type="button" data-amb-choice="rejected">Reject analytics</button><button type="button" class="amb-accept" data-amb-choice="accepted">Accept analytics</button></div>';
+    var base = location.pathname.indexOf('/archive/') !== -1 ? '../' : '';
+    banner.innerHTML = '<div class="amb-consent-main"><div class="amb-consent-copy"><strong>This website uses cookies</strong><p>We use Google Analytics, only if you allow it, to understand visits and improve the website. See our <a href="' + base + 'privacy.html">Privacy &amp; Cookies Notice</a>.</p></div><div class="amb-consent-actions"><button type="button" data-amb-choice="rejected">Reject</button><button type="button" class="amb-accept" data-amb-choice="accepted">Accept</button></div></div><button type="button" class="amb-consent-more" aria-expanded="false" aria-controls="amb-consent-details">Show details <span aria-hidden="true">&rsaquo;</span></button><div class="amb-consent-details" id="amb-consent-details" hidden><ul><li><b>Necessary:</b> the site works without any cookies from us.</li><li><b>Analytics (optional, off by default):</b> Google Analytics counts visits and pages viewed. Ads and ad personalisation stay off.</li><li>You can change your choice at any time with <b>Cookie settings</b> in the footer.</li></ul></div>';
+    var more = banner.querySelector('.amb-consent-more'), det = banner.querySelector('.amb-consent-details');
+    more.addEventListener('click', function () {
+      var open = det.hidden; det.hidden = !open; more.setAttribute('aria-expanded', String(open));
+      more.firstChild.nodeValue = open ? 'Hide details ' : 'Show details ';
+    });
     banner.addEventListener('click', function (e) {
       var button = e.target.closest('[data-amb-choice]');
       if (button) setChoice(button.getAttribute('data-amb-choice'));
