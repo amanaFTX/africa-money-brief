@@ -8,7 +8,12 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,765.11 (16 Oct; CBN published selling) +0.05% vs 15 Oct
 • EUR: ₦1,491.20 (16 Oct; CBN published selling) +0.05% vs 15 Oct
 
-Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,365–1,375 | Sell ₦1,380–1,390 | AMB midpoint ₦1,377.50 | Parallel-buy premium +2.83%
+• GBP: Buy ₦1,810–1,850 | Sell ₦1,845–1,880 | AMB midpoint ₦1,846.25 | Parallel-buy premium +3.68%
+• EUR: Buy ₦1,520–1,550 | Sell ₦1,560–1,590 | AMB midpoint ₦1,555.00 | Parallel-buy premium +2.94%
+
+Aggregated from multiple independent market sources. Early observations from two independent current-day sources, retrieved 19 Oct at 07:20 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (16 Oct)
 US$1 = GH₵11.6650 | £1 = GH₵15.5454 | €1 = GH₵13.0964
@@ -20,7 +25,7 @@ CBK commercial-banks’ average closing rates (not a standalone buy or sell quot
 
 🇿🇦 SOUTH AFRICA (16 Oct)
 US$1 = R16.4262 | £1 = R21.8855 | €1 = R18.4721
-SARB weighted-average bank rates of 16 Oct, carried forward from the verified 16 Oct dataset; the SARB endpoint could not be retrieved this morning.
+SARB weighted-average bank rates at about 10:30 on 16 Oct; reverified through HomePageRates.
 
 🇪🇬 EGYPT (18 Oct)
 US$1 = E£53.5383 | £1 = E£71.3612 | €1 = E£60.1744
@@ -30,7 +35,7 @@ SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-Nigeria parallel-market rates: not published in this edition; the Flagship will include them once independently corroborated.
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
