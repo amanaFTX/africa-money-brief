@@ -11,7 +11,7 @@ USD — Local currency per US$1
 
 🇬🇭 GH₵11.6650 (16 Oct)
 🇰🇪 KSh129.9200 (16 Oct)
-🇿🇦 R16.4262 (16 Oct)
+🇿🇦 R16.4626 (19 Oct)
 🇪🇬 E£53.5383 (18 Oct)
 
 GBP — Local currency per £1
@@ -22,7 +22,7 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.5454 (16 Oct)
 🇰🇪 KSh173.1400 (16 Oct)
-🇿🇦 R21.8855 (16 Oct)
+🇿🇦 R21.9216 (19 Oct)
 🇪🇬 E£71.3612 (18 Oct)
 
 EUR — Local currency per €1
@@ -33,12 +33,12 @@ EUR — Local currency per €1
 
 🇬🇭 GH₵13.0964 (16 Oct)
 🇰🇪 KSh145.7900 (16 Oct)
-🇿🇦 R18.4721 (16 Oct)
+🇿🇦 R18.4505 (19 Oct)
 🇪🇬 E£60.1744 (18 Oct)
 
 NIGERIA MARKET NOTE
 
-Nigeria’s parallel ranges combine two independent 19 Oct early observations (07:20 WAT) and were not refreshed with midday buy/sell quotes; an 11:07 WAT USD check of ₦1,370 sits inside the early range. CBN benchmark rates are those of 16 Oct (19 Oct not yet posted). Aggregated from multiple independent market sources.
+Nigeria’s parallel ranges combine two independent 19 Oct buy/sell observations rechecked at 12:30 WAT; a separate 12:00 WAT market check remained inside the disclosed ranges. CBN benchmark rates are those of 16 Oct (19 Oct not yet posted). Aggregated from multiple independent market sources.
 
 📊 MARKET INSIGHT
 
@@ -54,9 +54,10 @@ Cross-market change since the previous Flagship:
 
 • Ghana: the cedi weakened across USD, GBP and EUR versus the 15 Oct reference; the largest move was against GBP (0.68%).
 • Kenya: the shilling weakened across USD, GBP and EUR versus the 14 Oct reference; the largest move was against GBP (1.07%).
+• South Africa: moves were mixed; the largest was USD (+0.22%).
 • Egypt: the pound weakened across USD, GBP and EUR versus the 15 Oct reference; the largest move was against GBP (0.71%).
 
-Official reference dates: Ghana 16 Oct; Kenya 16 Oct; South Africa 16 Oct; Egypt 18 Oct.
+Official reference dates: Ghana 16 Oct; Kenya 16 Oct; South Africa 19 Oct; Egypt 18 Oct.
 
 SOURCES & METHODOLOGY
 
