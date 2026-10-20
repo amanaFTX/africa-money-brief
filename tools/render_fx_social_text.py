@@ -55,6 +55,22 @@ def movement_insights(data, prior):
         moves = {c: (current["rates"][c] / old["rates"][c] - 1) * 100 for c in ("USD", "GBP", "EUR")}
         signs = {1 if v > 0 else -1 if v < 0 else 0 for v in moves.values()}
         largest = max(moves, key=lambda c: abs(moves[c]))
+        if 0 in signs and len(signs) > 1 and signs <= {0, 1}:
+            flat = " and ".join(c for c, v in moves.items() if v == 0)
+            changed = " and ".join(c for c, v in moves.items() if v > 0)
+            out.append(
+                f"• {market}: the {CURRENCY_NAMES[market]} was unchanged against {flat} and weakened against {changed} "
+                f"versus the {date_label(old['asof'])} reference; the largest move was against {largest} ({abs(moves[largest]):.2f}%)."
+            )
+            continue
+        if 0 in signs and len(signs) > 1 and signs <= {0, -1}:
+            flat = " and ".join(c for c, v in moves.items() if v == 0)
+            changed = " and ".join(c for c, v in moves.items() if v < 0)
+            out.append(
+                f"• {market}: the {CURRENCY_NAMES[market]} was unchanged against {flat} and strengthened against {changed} "
+                f"versus the {date_label(old['asof'])} reference; the largest move was against {largest} ({abs(moves[largest]):.2f}%)."
+            )
+            continue
         if signs <= {0, 1}:
             direction = "weakened"
         elif signs <= {0, -1}:
