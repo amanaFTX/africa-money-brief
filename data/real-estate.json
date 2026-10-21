@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-10-14",
- "release": "Nigeria review (14 Oct): Lagos unchanged and still single-source; Abuja held out, no source meets the evidence gates. Also in this release: first verified yield data for Lagos, Nairobi, Johannesburg, Cape Town and Cairo",
+ "as_of": "2026-10-21",
+ "release": "Kenya review (21 Oct): Nairobi residential yields updated to HassConsult Q2 2026 (suburbs 7.4%, satellite towns 5.4%) and first commercial point added (Knight Frank prime office 8.5%). Both single-source, so Nairobi stays 'collecting'. Other cities unchanged from the 14 Oct release",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -156,24 +156,41 @@
      "gross_yield_pct": 7.4,
      "grade": "B",
      "publisher": "HassConsult",
-     "period": "Q1 2026",
-     "published": "Apr 2026",
+     "period": "Q2 2026",
+     "published": "4 Aug 2026",
      "cross_check": "single",
-     "note": "Average suburban house rent KSh201,832 a month.",
-     "collected": "2026-10-10"
+     "note": "Gross; average suburban sale price KSh33.1m (+0.9% in quarter); rents +1.4% in quarter. Implied yield from Q1 rent and Q2 price: 7.4%.",
+     "collected": "2026-10-21"
     },
     {
      "area": "Satellite towns",
      "segment": "Residential, satellite-town average",
-     "gross_yield_pct": 5.3,
+     "gross_yield_pct": 5.4,
      "grade": "B",
      "publisher": "HassConsult",
-     "period": "Q1 2026",
-     "published": "Apr 2026",
+     "period": "Q2 2026",
+     "published": "4 Aug 2026",
      "cross_check": "single",
-     "note": "Average rent KSh64,765 a month.",
-     "collected": "2026-10-10"
+     "note": "Gross; average sale price KSh14.52m (-0.6% in quarter, eight of ten towns fell); rents +1.1% in quarter. Implied yield from Q1 rent and Q2 price: 5.4%.",
+     "collected": "2026-10-21"
+    },
+    {
+     "area": "Nairobi prime offices",
+     "segment": "Commercial, Grade A office (developer yield)",
+     "gross_yield_pct": 8.5,
+     "grade": "B",
+     "publisher": "Knight Frank",
+     "period": "H1 2026",
+     "published": "9 Sep 2026",
+     "cross_check": "single",
+     "note": "Developer yield, unchanged for three years; Grade A rent US$13 per m2 a month in June 2026 (published as Sh1,684), flat since June 2022. Prime area names not stated in the source, so shown as Nairobi prime offices.",
+     "rent_usd_m2_month": 13,
+     "collected": "2026-10-21"
     }
+   ],
+   "sources": [
+    "HassConsult Property Index Q2 2026, as reported by Biashara Leo (5 Aug 2026) and Kenyans.co.ke (4 Aug 2026)",
+    "Knight Frank Africa Office Market Review H1 2026, as reported by Business Daily (9 Sep 2026)"
    ]
   },
   "johannesburg": {
@@ -411,6 +428,14 @@
   {
    "item": "Lagos growth-corridor range of 8-18% (Jan 2026)",
    "reason": "Projection from an unnamed analyst, mixes yield with appreciation, no dataset; not used."
+  },
+  {
+   "item": "Nairobi neighbourhood yield guides from agents and property blogs (2026)",
+   "reason": "Seller or agency marketing with no disclosed sample, method or dates; not research reports."
+  },
+  {
+   "item": "Nairobi apartment-specific and area-level yields",
+   "reason": "Latest published research gives yields only for suburban houses and satellite towns; no apartment or district yield found from a named report or readable listing sample."
   }
  ]
 }
