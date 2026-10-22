@@ -101,6 +101,6 @@
   }
  },
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (20 Oct); Kenya CBK commercial-banks’ average closing rates (market close 20 Oct, posted 21 Oct; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (21 Oct, verified through HomePageRates); Egypt mid of CBE buy/sell (20 Oct). Ghana, South Africa and Egypt are carried forward from the 21 Oct verification because the sources were unreachable at the 22 Oct early check.",
- "verified_at_wat": "2026-10-22T06:25:00+01:00",
+ "verified_at_wat": "2026-10-22T06:19:00+01:00",
  "nigeria_market_note_short": "Previous close / early · not live opening quotes."
 }
