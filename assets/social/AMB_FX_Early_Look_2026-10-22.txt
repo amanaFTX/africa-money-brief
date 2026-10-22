@@ -1,0 +1,44 @@
+🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
+📅 Thursday, 22 October 2026 · pre-market
+
+Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
+
+🇳🇬 NIGERIA
+• USD: ₦1,334.72 (21 Oct; CBN NFEM) +0.08% vs 20 Oct
+• GBP: ₦1,787.73 (21 Oct; CBN published selling) +0.17% vs 20 Oct
+• EUR: ₦1,499.29 (21 Oct; CBN published selling) +0.13% vs 20 Oct
+
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,365–1,375 | Sell ₦1,373–1,390 | AMB midpoint ₦1,375.75 | Parallel-buy premium +2.64%
+• GBP: Buy ₦1,800–1,850 | Sell ₦1,820–1,880 | AMB midpoint ₦1,837.50 | Parallel-buy premium +2.08%
+• EUR: Buy ₦1,500–1,550 | Sell ₦1,520–1,590 | AMB midpoint ₦1,540.00 | Parallel-buy premium +1.71%
+
+Aggregated from multiple independent market sources. Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:25 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
+
+🇬🇭 GHANA (20 Oct)
+US$1 = GH₵11.6058 | £1 = GH₵15.5187 | €1 = GH₵13.0311
+Bank of Ghana interbank mid-rates.
+
+🇰🇪 KENYA (20 Oct)
+US$1 = KSh129.9200 | £1 = KSh173.7600 | €1 = KSh145.8200
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
+
+🇿🇦 SOUTH AFRICA (21 Oct)
+US$1 = R16.4092 | £1 = R21.9753 | €1 = R18.4128
+SARB weighted-average bank rates at about 10:30 on 21 Oct; reverified through HomePageRates.
+
+🇪🇬 EGYPT (20 Oct)
+US$1 = E£54.5163 | £1 = E£72.7275 | €1 = E£61.1046
+CBE buy/sell mid-rates.
+
+SOURCES & METHODOLOGY
+
+Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
+
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets
