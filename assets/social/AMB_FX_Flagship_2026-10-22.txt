@@ -1,0 +1,77 @@
+🌍 AFRICA MONEY BRIEF | FX FLAGSHIP
+📅 Thursday, 22 October 2026
+
+Africa’s latest official and parallel-market currency references across Nigeria, Ghana, Kenya, South Africa and Egypt. Each rate carries its effective date.
+
+USD — Local currency per US$1
+
+🇳🇬 Official: ₦1,334.72 (21 Oct; CBN NFEM)
+🇳🇬 Parallel: Buy ₦1,373–1,375 | Sell ₦1,378–1,390
+📊 AMB midpoint: ₦1,379.00 | Parallel-buy premium: +2.94%
+
+🇬🇭 GH₵11.6550 (21 Oct)
+🇰🇪 KSh129.9100 (21 Oct)
+🇿🇦 R16.4092 (21 Oct)
+🇪🇬 E£54.3986 (21 Oct)
+
+GBP — Local currency per £1
+
+🇳🇬 Official: ₦1,787.73 (21 Oct; CBN published selling)
+🇳🇬 Parallel: Buy ₦1,800–1,850 | Sell ₦1,820–1,880
+📊 AMB midpoint: ₦1,837.50 | Parallel-buy premium: +2.08%
+
+🇬🇭 GH₵15.6031 (21 Oct)
+🇰🇪 KSh173.9200 (21 Oct)
+🇿🇦 R21.9753 (21 Oct)
+🇪🇬 E£72.8588 (21 Oct)
+
+EUR — Local currency per €1
+
+🇳🇬 Official: ₦1,499.29 (21 Oct; CBN published selling)
+🇳🇬 Parallel: Buy ₦1,490–1,550 | Sell ₦1,515–1,590
+📊 AMB midpoint: ₦1,536.25 | Parallel-buy premium: +1.38%
+
+🇬🇭 GH₵13.0751 (21 Oct)
+🇰🇪 KSh145.8300 (21 Oct)
+🇿🇦 R18.4128 (21 Oct)
+🇪🇬 E£61.0978 (21 Oct)
+
+NIGERIA MARKET NOTE
+
+Nigeria’s parallel ranges combine two independent 22 Oct buy/sell observations retrieved at 07:11 WAT (not a midday quote). The ranges preserve cross-source and location dispersion rather than force a single quote. CBN benchmark rates are those of 21 Oct (22 Oct not yet posted). Aggregated from multiple independent market sources.
+
+📊 MARKET INSIGHT
+
+Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:
+
+• USD: +2.94%
+• GBP: +2.08%
+• EUR: +1.38%
+
+USD carries the widest premium; EUR carries the narrowest.
+
+Cross-market change since the previous Flagship:
+
+• Ghana: the cedi weakened across USD, GBP and EUR versus the 20 Oct reference; the largest move was against GBP (0.54%).
+• Kenya: moves were mixed; the largest was GBP (+0.09%).
+• Egypt: moves were mixed; the largest was USD (-0.22%).
+
+Official reference dates: Ghana 21 Oct; Kenya 21 Oct; South Africa 21 Oct; Egypt 21 Oct.
+
+SOURCES & METHODOLOGY
+
+Official rates: Latest available central-bank reference rates, with effective dates indicated.
+
+Nigeria parallel-market rates: Aggregated from multiple independent market sources.
+
+AMB midpoint: Average of the parallel buy-range and sell-range midpoints.
+
+Parallel-buy premium (%) = (parallel buying midpoint ÷ CBN selling rate − 1) × 100.
+
+Nigeria’s USD benchmark is the CBN NFEM rate; GBP and EUR use the CBN’s published selling rows for the same effective date.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets
