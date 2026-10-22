@@ -22,7 +22,7 @@
    "range_flag_acknowledged": true,
    "parallel_observation_count": 3,
    "range_flag_reason": "Three independent observations of 21 Oct 12:40 WAT were retained to disclose cross-source and location dispersion; carried forward as previous close / early.",
-   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:25 WAT"
+   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:19 WAT"
   },
   "GBP": {
    "parallel_buy_low": 1800,
@@ -40,7 +40,7 @@
    "range_flag_acknowledged": true,
    "parallel_observation_count": 3,
    "range_flag_reason": "Three independent observations of 21 Oct 12:40 WAT were retained to disclose cross-source and location dispersion; carried forward as previous close / early.",
-   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:25 WAT"
+   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:19 WAT"
   },
   "EUR": {
    "parallel_buy_low": 1500,
@@ -58,7 +58,7 @@
    "range_flag_acknowledged": true,
    "parallel_observation_count": 3,
    "range_flag_reason": "Three independent observations of 21 Oct 12:40 WAT were retained to disclose cross-source and location dispersion; carried forward as previous close / early.",
-   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:25 WAT"
+   "parallel_observation_label": "Previous close / early; independent observations of 21 Oct 12:40 WAT, carried forward; not current-day or live quotes; verified 22 Oct 06:19 WAT"
   }
  },
  "nigeria_note": "CBN benchmark rates are those of 21 Oct (22 Oct not yet posted; the NFEM average reflects interbank deals only). Nigeria parallel ranges are previous-close / early observations of 21 Oct 12:40 WAT; no later observation could be verified, so they are not live opening quotes. Aggregated from multiple independent market sources.",
