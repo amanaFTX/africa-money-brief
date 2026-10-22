@@ -203,9 +203,9 @@ date,pair,market,rate_type,low,high,mid,official,premium_pct,asof
 2026-10-22,USD/KEN,Kenya,official,,,129.91,129.91,,2026-10-21
 2026-10-22,GBP/KEN,Kenya,official,,,173.92,173.92,,2026-10-21
 2026-10-22,EUR/KEN,Kenya,official,,,145.83,145.83,,2026-10-21
-2026-10-22,USD/SOU,South Africa,official,,,16.4092,16.4092,,2026-10-21
-2026-10-22,GBP/SOU,South Africa,official,,,21.9753,21.9753,,2026-10-21
-2026-10-22,EUR/SOU,South Africa,official,,,18.4128,18.4128,,2026-10-21
+2026-10-22,USD/SOU,South Africa,official,,,16.4688,16.4688,,2026-10-22
+2026-10-22,GBP/SOU,South Africa,official,,,22.0905,22.0905,,2026-10-22
+2026-10-22,EUR/SOU,South Africa,official,,,18.511,18.511,,2026-10-22
 2026-10-22,USD/EGY,Egypt,official,,,54.3986,54.3986,,2026-10-21
 2026-10-22,GBP/EGY,Egypt,official,,,72.8588,72.8588,,2026-10-21
 2026-10-22,EUR/EGY,Egypt,official,,,61.0978,61.0978,,2026-10-21
