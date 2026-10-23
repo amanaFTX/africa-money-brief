@@ -1,6 +1,6 @@
 {
   "schema": "amb-money-rates/1",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-23",
   "countries": {
     "NG": {
       "name": "Nigeria",
@@ -130,30 +130,30 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-12",
-        "src": "Bank of Ghana, issue date 12 Oct",
+        "auction": "2026-10-19",
+        "src": "Bank of Ghana, issue date 19 Oct",
         "src_url": "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 4.6042,
-            "prev": 4.6413,
-            "alloc": "Interest rate (discount rate 4.5518%)"
+            "rate": 4.6235,
+            "prev": 4.6042,
+            "alloc": "Interest rate (discount rate 4.5707%)"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 6.2791,
-            "prev": 6.3192,
-            "alloc": "Interest rate (discount rate 6.0880%)"
+            "rate": 6.3154,
+            "prev": 6.2791,
+            "alloc": "Interest rate (discount rate 6.1221%)"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.7523,
-            "prev": 9.8018,
-            "alloc": "Interest rate (discount rate 8.8857%)"
+            "rate": 9.7135,
+            "prev": 9.7523,
+            "alloc": "Interest rate (discount rate 8.8535%)"
           }
         ]
       },
@@ -184,7 +184,7 @@
             "terms": "System average"
           }
         ],
-        "note": "The August 6-month deposit average (9.72%) is above today's 182-day bill (6.28%)."
+        "note": "The August 6-month deposit average (9.72%) is above today's 182-day bill (6.32%)."
       }
     },
     "KE": {
@@ -205,30 +205,30 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-08",
-        "src": "CBK auction results (issues 2703/091, 2677/182, 2632/364)",
+        "auction": "2026-10-15",
+        "src": "CBK auction results (issues 2704/091, 2678/182, 2633/364; value date 19 Oct)",
         "src_url": "https://www.centralbank.go.ke/bills-bonds/treasury-bills/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 8.7615,
-            "prev": 8.7694,
-            "alloc": "Weighted average, accepted bids; bids 6.3× the offer"
+            "rate": 8.75,
+            "prev": 8.7615,
+            "alloc": "Weighted average, accepted bids; bids 6.2× the offer"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 8.8744,
-            "prev": 8.8856,
-            "alloc": "Weighted average, accepted bids; bids 1.55× the offer"
+            "rate": 8.86,
+            "prev": 8.8744,
+            "alloc": "Weighted average, accepted bids; bids 1.21× the offer"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.0352,
-            "prev": 9.0397,
-            "alloc": "Weighted average, accepted bids; bids 0.96× the offer"
+            "rate": 9.0383,
+            "prev": 9.0352,
+            "alloc": "Weighted average, accepted bids; bids 0.66× the offer"
           }
         ]
       },
@@ -267,9 +267,9 @@
         "src": "SARB (as reported)"
       },
       "inflation": {
-        "rate": 4.4,
-        "period": "Aug 2026",
-        "src": "Stats SA"
+        "rate": 4.5,
+        "period": "Sep 2026",
+        "src": "Stats SA (released 21 Oct)"
       },
       "bills": null,
       "deposits": {
