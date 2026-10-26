@@ -156,7 +156,7 @@ def early_block(j):
     for c in ['USD','GBP','EUR']:
         v=j['nigeria'][c]
         if v.get('parallel_buy_low') is not None:
-            par=f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,} / ₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"; pr=f"+{v['_prem']:.2f}%"
+            par=f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,} / ₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"; pr=f"{v['_prem']:+.2f}%"
         else: par='Not sourced'; pr='—'
         rows+=f"<tr><td>{c}</td><td>₦{f(v['official_selling_rate'])} <small>({dlabel(v['official_rate_date'])}, {'CBN selling' if v['official_basis'].startswith('CBN') else 'derived'})</small></td><td>{par}</td><td class=\"prem\">{pr}</td></tr>"
     return f"""<details id="early-look-{j['date']}" open><summary>{dlabel(j['date'])} · Early Look (pre-market)</summary><section class="section"><p class="eyebrow">FX EARLY LOOK · {dlabel(j['date']).upper()} {D(j['date']).year} · PRE-MARKET</p><p class="lead">{j.get('headline','Previous-close and overnight reference only; not live opening quotes. Each figure carries its own effective date.')}</p>
@@ -171,7 +171,7 @@ def early_home(j):
         v=j['nigeria'][c]
         bm=(v['parallel_buy_low']+v['parallel_buy_high'])/2 if v.get('parallel_buy_low') is not None else None
         par=(f"Buy ₦{v['parallel_buy_low']:,}–₦{v['parallel_buy_high']:,} · Sell ₦{v['parallel_sell_low']:,}–₦{v['parallel_sell_high']:,}" if bm is not None else 'Parallel range withheld')
-        prem=f"+{v['premium_pct']:.2f}%" if bm is not None else '—'
+        prem=f"{v['premium_pct']:+.2f}%" if bm is not None else '—'
         rows+=f'<div class="metric"><small>{c} / NGN · {dlabel(v["official_rate_date"])}</small><strong>{prem}</strong><span>CBN ₦{f(v["official_selling_rate"])} · {par}</span></div>'
     return f'''<div class="v2"><section class="section"><div class="heading"><div><p class="eyebrow">TODAY'S FX EARLY LOOK · {dlabel(j['date']).upper()} {D(j['date']).year}</p><h2>Previous close and latest benchmarks</h2></div><p>Pre-market reference; not live opening quotes. <a href="fx.html#early-look-{j['date']}" style="color:var(--gold)">Full Early Look →</a></p></div><div class="dashgrid">{rows}<div class="metric"><small>AFRICA CROSS-MARKETS</small><strong>4 markets</strong><span>GH {dlabel(j['markets']['Ghana']['asof'])} · KE {dlabel(j['markets']['Kenya']['asof'])} · ZA {dlabel(j['markets']['South Africa']['asof'])} · EG {dlabel(j['markets']['Egypt']['asof'])}</span></div></div><p class="fine">Nigeria parallel ranges: previous close / early; aggregated from multiple independent market sources. Effective dates are shown in the full edition. Indicative only; not FX advice.</p></section></div>'''
 
