@@ -95,7 +95,7 @@ def render(data, output):
             quote(v["parallel_buy_low"], v["parallel_buy_high"]),
             quote(v["parallel_sell_low"], v["parallel_sell_high"]),
             f"₦{(buy_mid + sell_mid) / 2:,.2f}",
-            f"+{v['premium_pct']:.2f}%",
+            f"{v['premium_pct']:+.2f}%",
         ))
 
     for x, c in zip((58, 397, 736), cards):

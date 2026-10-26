@@ -1,0 +1,44 @@
+🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
+📅 Monday, 26 October 2026 · pre-market
+
+Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
+
+🇳🇬 NIGERIA
+• USD: ₦1,361.84 (23 Oct; CBN NFEM) +1.30% vs 22 Oct
+• GBP: ₦1,821.46 (23 Oct; CBN published selling) +1.29% vs 22 Oct
+• EUR: ₦1,525.12 (23 Oct; CBN published selling) +1.24% vs 22 Oct
+
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,372–1,375 | Sell ₦1,377–1,390 | AMB midpoint ₦1,378.50 | Parallel-buy premium +0.86%
+• GBP: Buy ₦1,795–1,850 | Sell ₦1,815–1,880 | AMB midpoint ₦1,835.00 | Parallel-buy premium +0.06%
+• EUR: Buy ₦1,500–1,550 | Sell ₦1,520–1,590 | AMB midpoint ₦1,540.00 | Parallel-buy premium -0.01%
+
+Aggregated from multiple independent market sources. Two current-day early observations; Source A updated 26 Oct 06:06 WAT and Source B dated 26 Oct (time not shown); reverified 26 Oct 07:04 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
+
+🇬🇭 GHANA (23 Oct)
+US$1 = GH₵11.6500 | £1 = GH₵15.5720 | €1 = GH₵13.0408
+Bank of Ghana interbank mid-rates; the cedi softened 0.39% against the US dollar versus the 22 Oct reference.
+
+🇰🇪 KENYA (22 Oct)
+US$1 = KSh129.8900 | £1 = KSh173.5800 | €1 = KSh145.3400
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
+
+🇿🇦 SOUTH AFRICA (23 Oct)
+US$1 = R16.5630 | £1 = R22.1712 | €1 = R18.5488
+SARB weighted-average bank rates at about 10:30 on 23 Oct; reverified through HomePageRates.
+
+🇪🇬 EGYPT (25 Oct)
+US$1 = E£55.8273 | £1 = E£74.6606 | €1 = E£62.5433
+CBE buy/sell mid-rates. USD/EGP +0.94% versus the 22 Oct reference.
+
+SOURCES & METHODOLOGY
+
+Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
+
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets

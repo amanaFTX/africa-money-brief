@@ -171,7 +171,7 @@ def early_home(j):
         v=j['nigeria'][c]
         bm=(v['parallel_buy_low']+v['parallel_buy_high'])/2 if v.get('parallel_buy_low') is not None else None
         par=(f"Buy ₦{v['parallel_buy_low']:,}–₦{v['parallel_buy_high']:,} · Sell ₦{v['parallel_sell_low']:,}–₦{v['parallel_sell_high']:,}" if bm is not None else 'Parallel range withheld')
-        prem=f"+{v['premium_pct']:.2f}%" if bm is not None else '—'
+        prem=f"{v['premium_pct']:+.2f}%" if bm is not None else '—'
         rows+=f'<div class="metric"><small>{c} / NGN · {dlabel(v["official_rate_date"])}</small><strong>{prem}</strong><span>CBN ₦{f(v["official_selling_rate"])} · {par}</span></div>'
     return f'''<div class="v2"><section class="section"><div class="heading"><div><p class="eyebrow">TODAY'S FX EARLY LOOK · {dlabel(j['date']).upper()} {D(j['date']).year}</p><h2>Previous close and latest benchmarks</h2></div><p>Pre-market reference; not live opening quotes. <a href="fx.html#early-look-{j['date']}" style="color:var(--gold)">Full Early Look →</a></p></div><div class="dashgrid">{rows}<div class="metric"><small>AFRICA CROSS-MARKETS</small><strong>4 markets</strong><span>GH {dlabel(j['markets']['Ghana']['asof'])} · KE {dlabel(j['markets']['Kenya']['asof'])} · ZA {dlabel(j['markets']['South Africa']['asof'])} · EG {dlabel(j['markets']['Egypt']['asof'])}</span></div></div><p class="fine">Nigeria parallel ranges: previous close / early; aggregated from multiple independent market sources. Effective dates are shown in the full edition. Indicative only; not FX advice.</p></section></div>'''
 
