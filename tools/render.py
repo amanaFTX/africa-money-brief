@@ -156,7 +156,7 @@ def early_block(j):
     for c in ['USD','GBP','EUR']:
         v=j['nigeria'][c]
         if v.get('parallel_buy_low') is not None:
-            par=f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,} / ₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"; pr=f"+{v['_prem']:.2f}%"
+            par=f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,} / ₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"; pr=f"{v['_prem']:+.2f}%"
         else: par='Not sourced'; pr='—'
         rows+=f"<tr><td>{c}</td><td>₦{f(v['official_selling_rate'])} <small>({dlabel(v['official_rate_date'])}, {'CBN selling' if v['official_basis'].startswith('CBN') else 'derived'})</small></td><td>{par}</td><td class=\"prem\">{pr}</td></tr>"
     return f"""<details id="early-look-{j['date']}" open><summary>{dlabel(j['date'])} · Early Look (pre-market)</summary><section class="section"><p class="eyebrow">FX EARLY LOOK · {dlabel(j['date']).upper()} {D(j['date']).year} · PRE-MARKET</p><p class="lead">{j.get('headline','Previous-close and overnight reference only; not live opening quotes. Each figure carries its own effective date.')}</p>
