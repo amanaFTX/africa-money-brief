@@ -119,7 +119,7 @@ def render(data):
             "",
             f"🇳🇬 Official: ₦{v['official_selling_rate']:,.2f} ({date_label(v['official_rate_date'])}; {official_label(v)})",
             f"🇳🇬 Parallel: Buy {quote(v['parallel_buy_low'], v['parallel_buy_high'])} | Sell {quote(v['parallel_sell_low'], v['parallel_sell_high'])}",
-            f"📊 AMB midpoint: ₦{amb_mid:,.2f} | Parallel-buy premium: +{v['premium_pct']:.2f}%",
+            f"📊 AMB midpoint: ₦{amb_mid:,.2f} | Parallel-buy premium: {v['premium_pct']:+.2f}%",
             "",
         ]
         for market, m in data["markets"].items():
@@ -142,7 +142,7 @@ def render(data):
             "",
             "Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:",
             "",
-            *[f"• {code}: +{premium:.2f}%" for premium, code in ranked],
+            *[f"• {code}: {premium:+.2f}%" for premium, code in ranked],
             "",
             f"{ranked[0][1]} carries the widest premium; {ranked[-1][1]} carries the narrowest.",
         ]
