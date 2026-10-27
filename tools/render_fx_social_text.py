@@ -201,6 +201,12 @@ def render_early(data):
         )
     has_parallel = all(n[c].get("parallel_buy_low") is not None for c in ("USD", "GBP", "EUR"))
     if has_parallel:
+        wide = [c for c in ("USD", "GBP", "EUR") if n[c].get("range_flag_acknowledged")]
+        dispersion = (
+            f"{' and '.join(wide)} {'show' if len(wide) > 1 else 'shows'} material cross-source dispersion; "
+            "the ranges preserve it rather than force a single quote."
+            if wide else "The ranges preserve cross-source and location differences rather than force a single quote."
+        )
         lines += ["", "Nigeria parallel-market observations (previous close / early; not live opening quotes):"]
         for code in ("USD", "GBP", "EUR"):
             v = n[code]
@@ -215,7 +221,7 @@ def render_early(data):
         lines += [
             "",
             f"Aggregated from multiple independent market sources. {n['USD']['parallel_observation_label']}. "
-            "GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.",
+            + dispersion,
             "",
         ]
     else:
@@ -256,10 +262,10 @@ def render_early(data):
 
     gh = baseline("Ghana")
     gh_move = pct(m["Ghana"]["rates"]["USD"], gh["rates"]["USD"]) if gh else 0
-    lines += row("Ghana", "🇬🇭", "GH₵", f"Bank of Ghana interbank mid-rates; the cedi {'firmed' if gh_move < 0 else 'softened'} {abs(gh_move):.2f}% against the US dollar versus the {date_label(gh['asof'])} reference.")
+    lines += row("Ghana", "🇬🇭", "GH₵", f"Bank of Ghana interbank mid-rates; the cedi was {'unchanged' if round(gh_move, 2) == 0 else ('firmer' if gh_move < 0 else 'softer') + f' by {abs(gh_move):.2f}%'} against the US dollar versus the {date_label(gh['asof'])} reference.")
     lines += row("Kenya", "🇰🇪", "KSh", "CBK commercial-banks’ average closing rates (not a standalone buy or sell quote)." + move("Kenya", "KES"))
     lines += row("South Africa", "🇿🇦", "R", m["South Africa"].get("note") or f"SARB weighted-average bank rates at about 10:30 on {date_label(m['South Africa']['asof'])}; reverified through HomePageRates." + move("South Africa", "ZAR"))
-    lines += row("Egypt", "🇪🇬", "E£", "CBE buy/sell mid-rates." + move("Egypt", "EGP"))
+    lines += row("Egypt", "🇪🇬", "E£", m["Egypt"].get("note") or "CBE buy/sell mid-rates." + move("Egypt", "EGP"))
     lines += [
         "SOURCES & METHODOLOGY",
         "",
