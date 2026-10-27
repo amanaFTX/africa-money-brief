@@ -20,7 +20,7 @@
    "value_label": "early trade / previous close; official: latest available benchmark",
    "premium_pct": 0.61,
    "parallel_observation_count": 2,
-   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:16 WAT"
   },
   "GBP": {
    "parallel_buy_low": 1810,
@@ -38,7 +38,7 @@
    "range_flag_acknowledged": true,
    "parallel_observation_count": 2,
    "range_flag_reason": "Two independent observations (one current early, one previous close) were retained to disclose material cross-source and location dispersion; the wider sell side reflects the previous-close observation.",
-   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:16 WAT"
   },
   "EUR": {
    "parallel_buy_low": 1510,
@@ -56,7 +56,7 @@
    "range_flag_acknowledged": true,
    "parallel_observation_count": 2,
    "range_flag_reason": "Two independent observations (one current early, one previous close) were retained to disclose material cross-source and location dispersion; the wider sell side reflects the previous-close observation.",
-   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:16 WAT"
   }
  },
  "nigeria_note": "CBN benchmark rates are those of 26 Oct, the latest posted (27 Oct not yet posted; the NFEM average reflects interbank deals only). Nigeria parallel ranges combine Source A (27 Oct, 06:06 WAT, early observation) with Source B (26 Oct, time not shown, previous close); they are not live opening quotes. Aggregated from multiple independent market sources.",
@@ -101,6 +101,6 @@
   }
  },
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (26 Oct); Kenya CBK commercial-banks’ average closing rates (market close 23 Oct, posted 26 Oct; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (23 Oct, carried forward — SARB endpoint unreachable 27 Oct); Egypt mid of CBE buy/sell (25 Oct, carried forward — CBE unreachable 27 Oct).",
- "verified_at_wat": "2026-10-27T06:25:00+01:00",
+ "verified_at_wat": "2026-10-27T06:16:00+01:00",
  "nigeria_market_note_short": "Early observations · not live opening quotes."
 }
