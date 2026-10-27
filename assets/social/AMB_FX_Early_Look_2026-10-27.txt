@@ -9,11 +9,11 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • EUR: ₦1,530.35 (26 Oct; CBN published selling) +0.34% vs 23 Oct
 
 Nigeria parallel-market observations (previous close / early; not live opening quotes):
-• USD: Buy ₦1,370–1,382 | Sell ₦1,385–1,390 | AMB midpoint ₦1,381.75 | Parallel-buy premium +0.61%
-• GBP: Buy ₦1,810–1,820 | Sell ₦1,830–1,860 | AMB midpoint ₦1,830.00 | Parallel-buy premium -0.59%
-• EUR: Buy ₦1,510–1,530 | Sell ₦1,530–1,580 | AMB midpoint ₦1,537.50 | Parallel-buy premium -0.68%
+• USD: Buy ₦1,370–1,375 | Sell ₦1,385–1,390 | AMB midpoint ₦1,380.00 | Parallel-buy premium +0.36%
+• GBP: Buy ₦1,820–1,850 | Sell ₦1,860–1,880 | AMB midpoint ₦1,852.50 | Parallel-buy premium +0.51%
+• EUR: Buy ₦1,530–1,550 | Sell ₦1,580–1,590 | AMB midpoint ₦1,562.50 | Parallel-buy premium +0.63%
 
-Aggregated from multiple independent market sources. Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:16 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
+Aggregated from multiple independent market sources. Two independent current-day observations, both dated 27 Oct (times not shown); independently verified 27 Oct 07:04 WAT. GBP shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (26 Oct)
 US$1 = GH₵11.6500 | £1 = GH₵15.5487 | €1 = GH₵13.0223
@@ -23,13 +23,13 @@ Bank of Ghana interbank mid-rates; the cedi was unchanged against the US dollar 
 US$1 = KSh129.8900 | £1 = KSh173.7300 | €1 = KSh145.5300
 CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
 
-🇿🇦 SOUTH AFRICA (23 Oct)
-US$1 = R16.5630 | £1 = R22.1712 | €1 = R18.5488
-SARB weighted-average bank rates, 23 Oct (latest verified; carried forward because the SARB endpoint could not be retrieved on 27 Oct).
+🇿🇦 SOUTH AFRICA (26 Oct)
+US$1 = R16.6181 | £1 = R22.1935 | €1 = R18.6231
+SARB weighted-average bank rates at about 10:30 on 26 Oct; independently reverified through HomePageRates on 27 Oct.
 
-🇪🇬 EGYPT (25 Oct)
-US$1 = E£55.8273 | £1 = E£74.6606 | €1 = E£62.5433
-CBE buy/sell mid-rates, 25 Oct (latest verified; carried forward because the CBE site could not be retrieved on 27 Oct).
+🇪🇬 EGYPT (26 Oct)
+US$1 = E£56.2819 | £1 = E£75.1419 | €1 = E£63.0272
+CBE buy/sell mid-rates, 26 Oct; independently reverified on 27 Oct.
 
 SOURCES & METHODOLOGY
 

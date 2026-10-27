@@ -201,6 +201,12 @@ def render_early(data):
         )
     has_parallel = all(n[c].get("parallel_buy_low") is not None for c in ("USD", "GBP", "EUR"))
     if has_parallel:
+        wide = [c for c in ("USD", "GBP", "EUR") if n[c].get("range_flag_acknowledged")]
+        dispersion = (
+            f"{' and '.join(wide)} {'show' if len(wide) > 1 else 'shows'} material cross-source dispersion; "
+            "the ranges preserve it rather than force a single quote."
+            if wide else "The ranges preserve cross-source and location differences rather than force a single quote."
+        )
         lines += ["", "Nigeria parallel-market observations (previous close / early; not live opening quotes):"]
         for code in ("USD", "GBP", "EUR"):
             v = n[code]
@@ -215,7 +221,7 @@ def render_early(data):
         lines += [
             "",
             f"Aggregated from multiple independent market sources. {n['USD']['parallel_observation_label']}. "
-            "GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.",
+            + dispersion,
             "",
         ]
     else:
