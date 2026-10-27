@@ -1,0 +1,106 @@
+{
+ "schema": "amb-fx-early/1",
+ "edition_id": "AMB-FX-EARLY-2026-10-27-v1",
+ "date": "2026-10-27",
+ "edition_type": "Early Look",
+ "status": "Prepared — not published",
+ "headline": "Early observations and latest-benchmark reference only; not live opening quotes. Each figure carries its own effective date.",
+ "nigeria": {
+  "USD": {
+   "parallel_buy_low": 1370,
+   "parallel_buy_high": 1382,
+   "parallel_sell_low": 1385,
+   "parallel_sell_high": 1390,
+   "parallel_buy_mid": 1376.0,
+   "parallel_sell_mid": 1387.5,
+   "amb_mid_informational": 1381.75,
+   "official_selling_rate": 1367.6057,
+   "official_rate_date": "2026-10-26",
+   "official_basis": "CBN selling rate (NFEM)",
+   "value_label": "early trade / previous close; official: latest available benchmark",
+   "premium_pct": 0.61,
+   "parallel_observation_count": 2,
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+  },
+  "GBP": {
+   "parallel_buy_low": 1810,
+   "parallel_buy_high": 1820,
+   "parallel_sell_low": 1830,
+   "parallel_sell_high": 1860,
+   "parallel_buy_mid": 1815.0,
+   "parallel_sell_mid": 1845.0,
+   "amb_mid_informational": 1830.0,
+   "official_selling_rate": 1825.7536,
+   "official_rate_date": "2026-10-26",
+   "official_basis": "CBN published selling rate",
+   "value_label": "early trade / previous close; official: latest available benchmark",
+   "premium_pct": -0.59,
+   "range_flag_acknowledged": true,
+   "parallel_observation_count": 2,
+   "range_flag_reason": "Two independent observations (one current early, one previous close) were retained to disclose material cross-source and location dispersion; the wider sell side reflects the previous-close observation.",
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+  },
+  "EUR": {
+   "parallel_buy_low": 1510,
+   "parallel_buy_high": 1530,
+   "parallel_sell_low": 1530,
+   "parallel_sell_high": 1580,
+   "parallel_buy_mid": 1520.0,
+   "parallel_sell_mid": 1555.0,
+   "amb_mid_informational": 1537.5,
+   "official_selling_rate": 1530.3508,
+   "official_rate_date": "2026-10-26",
+   "official_basis": "CBN published selling rate",
+   "value_label": "early trade / previous close; official: latest available benchmark",
+   "premium_pct": -0.68,
+   "range_flag_acknowledged": true,
+   "parallel_observation_count": 2,
+   "range_flag_reason": "Two independent observations (one current early, one previous close) were retained to disclose material cross-source and location dispersion; the wider sell side reflects the previous-close observation.",
+   "parallel_observation_label": "Two early observations: Source A updated 27 Oct 06:06 WAT (current early); Source B dated 26 Oct, time not shown (previous close); verified 27 Oct 06:25 WAT"
+  }
+ },
+ "nigeria_note": "CBN benchmark rates are those of 26 Oct, the latest posted (27 Oct not yet posted; the NFEM average reflects interbank deals only). Nigeria parallel ranges combine Source A (27 Oct, 06:06 WAT, early observation) with Source B (26 Oct, time not shown, previous close); they are not live opening quotes. Aggregated from multiple independent market sources.",
+ "markets": {
+  "Ghana": {
+   "symbol": "GH₵",
+   "asof": "2026-10-26",
+   "rates": {
+    "USD": 11.65,
+    "GBP": 15.5487,
+    "EUR": 13.0223
+   }
+  },
+  "Kenya": {
+   "symbol": "KSh",
+   "asof": "2026-10-23",
+   "rates": {
+    "USD": 129.89,
+    "GBP": 173.73,
+    "EUR": 145.53
+   }
+  },
+  "South Africa": {
+   "symbol": "R",
+   "asof": "2026-10-23",
+   "rates": {
+    "USD": 16.563,
+    "GBP": 22.1712,
+    "EUR": 18.5488
+   },
+   "note": "SARB weighted-average bank rates, 23 Oct (latest verified; carried forward because the SARB endpoint could not be retrieved on 27 Oct)."
+  },
+  "Egypt": {
+   "symbol": "E£",
+   "asof": "2026-10-25",
+   "rates": {
+    "USD": 55.8273,
+    "GBP": 74.6606,
+    "EUR": 62.5433
+   },
+   "note": "CBE buy/sell mid-rates, 25 Oct (latest verified; carried forward because the CBE site could not be retrieved on 27 Oct)."
+  }
+ },
+ "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (26 Oct); Kenya CBK commercial-banks’ average closing rates (market close 23 Oct, posted 26 Oct; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (23 Oct, carried forward — SARB endpoint unreachable 27 Oct); Egypt mid of CBE buy/sell (25 Oct, carried forward — CBE unreachable 27 Oct).",
+ "verified_at_wat": "2026-10-27T06:25:00+01:00",
+ "nigeria_market_note_short": "Early observations · not live opening quotes."
+}
