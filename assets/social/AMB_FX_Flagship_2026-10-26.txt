@@ -11,7 +11,7 @@ USD — Local currency per US$1
 
 🇬🇭 GH₵11.6500 (23 Oct)
 🇰🇪 KSh129.8900 (23 Oct)
-🇿🇦 R16.5630 (23 Oct)
+🇿🇦 R16.6181 (26 Oct)
 🇪🇬 E£55.8273 (25 Oct)
 
 GBP — Local currency per £1
@@ -22,7 +22,7 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.5720 (23 Oct)
 🇰🇪 KSh173.7300 (23 Oct)
-🇿🇦 R22.1712 (23 Oct)
+🇿🇦 R22.1935 (26 Oct)
 🇪🇬 E£74.6606 (25 Oct)
 
 EUR — Local currency per €1
@@ -33,12 +33,12 @@ EUR — Local currency per €1
 
 🇬🇭 GH₵13.0408 (23 Oct)
 🇰🇪 KSh145.5300 (23 Oct)
-🇿🇦 R18.5488 (23 Oct)
+🇿🇦 R18.6231 (26 Oct)
 🇪🇬 E£62.5433 (25 Oct)
 
 NIGERIA MARKET NOTE
 
-Nigeria’s parallel ranges are the two independent 26 Oct early buy/sell observations (Source A updated 06:06 WAT; Source B dated 26 Oct, time not shown), carried forward because fresh parallel quotes could not be retrieved at Flagship time; they are not live midday quotes. CBN benchmark rates are those of 23 Oct, the latest posted. Aggregated from multiple independent market sources.
+Nigeria’s parallel ranges combine two independent current-day buy/sell observations reverified at 12:27 WAT (Source A updated 12:06 WAT; Source B dated 26 Oct, time not shown). The ranges preserve cross-source and location dispersion rather than force a single quote. CBN benchmark rates are those of 23 Oct, the latest posted. Aggregated from multiple independent market sources.
 
 📊 MARKET INSIGHT
 
@@ -54,9 +54,10 @@ Cross-market change since the previous Flagship:
 
 • Ghana: the cedi weakened across USD, GBP and EUR versus the 22 Oct reference; the largest move was against USD (0.39%).
 • Kenya: the shilling was unchanged against USD and weakened against GBP and EUR versus the 22 Oct reference; the largest move was against EUR (0.13%).
+• South Africa: the rand weakened across USD, GBP and EUR versus the 23 Oct reference; the largest move was against EUR (0.40%).
 • Egypt: the pound weakened across USD, GBP and EUR versus the 22 Oct reference; the largest move was against USD (0.94%).
 
-Official reference dates: Ghana 23 Oct; Kenya 23 Oct; South Africa 23 Oct; Egypt 25 Oct.
+Official reference dates: Ghana 23 Oct; Kenya 23 Oct; South Africa 26 Oct; Egypt 25 Oct.
 
 SOURCES & METHODOLOGY
 

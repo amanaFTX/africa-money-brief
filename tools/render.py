@@ -59,7 +59,7 @@ def panel(c,v):
     buy=f"₦{v['parallel_buy_low']:,}" if v['parallel_buy_low']==v['parallel_buy_high'] else f"₦{v['parallel_buy_low']:,}–{v['parallel_buy_high']:,}"
     sell=f"₦{v['parallel_sell_low']:,}" if v['parallel_sell_low']==v['parallel_sell_high'] else f"₦{v['parallel_sell_low']:,}–{v['parallel_sell_high']:,}"
     lab='NFEM rate' if v['official_basis']=='CBN selling rate (NFEM)' else ('published rate' if v['official_basis'].startswith('CBN') else 'derived')
-    return f'''<div class="panel"><div class="ph"><h3>{c} → NGN <small>per {SYM[c]}1</small></h3><span class="prem big">+{v['premium_pct']:.2f}%</span></div><div class="grid4"><div><small>CBN {lab} · {dlabel(v['official_rate_date'])}</small><b>₦{f(v['official_selling_rate'])}</b></div><div><small>Parallel buy</small><b>{buy}</b></div><div><small>Parallel sell</small><b>{sell}</b></div><div><small>AMB midpoint</small><b class="gold">₦{f(v['_mid'])}</b></div></div>{basis(c,v)}</div>'''
+    return f'''<div class="panel"><div class="ph"><h3>{c} → NGN <small>per {SYM[c]}1</small></h3><span class="prem big">{v['premium_pct']:+.2f}%</span></div><div class="grid4"><div><small>CBN {lab} · {dlabel(v['official_rate_date'])}</small><b>₦{f(v['official_selling_rate'])}</b></div><div><small>Parallel buy</small><b>{buy}</b></div><div><small>Parallel sell</small><b>{sell}</b></div><div><small>AMB midpoint</small><b class="gold">₦{f(v['_mid'])}</b></div></div>{basis(c,v)}</div>'''
 def chip(n): return '<span class="chip ok">Today</span>' if n==0 else f'<span class="chip {"warn" if n>1 else "ok"}">{n} day{"s" if n>1 else ""} old</span>'
 def mtable(j):
     ed=D(j['date']); rows=''
@@ -85,13 +85,13 @@ def earlier(eds,latest):
     return out
 def bcell(v):
     if v.get('_np'): return 'Not sourced'
-    return '₦'+f(v['_bm'])+' <span class="prem" style="color:#64e2a6;font-size:14px">+'+format(v['premium_pct'],'.2f')+'%</span>'
+    return '₦'+f(v['_bm'])+' <span class="prem" style="color:#64e2a6;font-size:14px">'+format(v['premium_pct'],'+.2f')+'%</span>'
 def board(j):
     rows=''.join(f"<div class=\"r\"><div>{c}/NGN<small>{'CBN NFEM' if v['official_basis']=='CBN selling rate (NFEM)' else ('CBN published' if v['official_basis'].startswith('CBN') else 'Derived')} ₦{f(v['official_selling_rate'])} · {dlabel(v['official_rate_date'])}</small></div><strong>{bcell(v)}</strong></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
     sfx=' (corrected)' if j.get('label_suffix') else ''
     return f'<div class="board"><div class="boardtop"><span>NIGERIA · PARALLEL BUY MIDPOINT</span><span class="live">EDITION {dlabel(j["date"]).upper()}</span></div><div id="mini">{rows}</div><p id="verified">Premium = parallel buying midpoint ÷ CBN selling rate − 1. Edition {dlabel(j["date"])}{sfx}. Indicative only.</p></div>'
 def glance(j):
-    m=''.join(f"<div class=\"metric\"><small>{c} / NGN</small><strong>{'—' if v.get('_np') else '+'+format(v['premium_pct'],'.2f')+'%'}</strong><span>{'Parallel not sourced; CBN ₦'+f(v['official_selling_rate']) if v.get('_np') else 'Parallel buy mid ₦'+f(v['_bm'])+' vs CBN ₦'+f(v['official_selling_rate'])}</span></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
+    m=''.join(f"<div class=\"metric\"><small>{c} / NGN</small><strong>{'—' if v.get('_np') else format(v['premium_pct'],'+.2f')+'%'}</strong><span>{'Parallel not sourced; CBN ₦'+f(v['official_selling_rate']) if v.get('_np') else 'Parallel buy mid ₦'+f(v['_bm'])+' vs CBN ₦'+f(v['official_selling_rate'])}</span></div>" for c,v in ((c,j['nigeria'][c]) for c in ['USD','GBP','EUR']))
     sfx=' (corrected)' if j.get('label_suffix') else ''
     return f'<div class="v2"><section class="section"><div class="heading"><div><p class="eyebrow">TODAY AT A GLANCE</p><h2>Premium: parallel buy vs CBN selling rate</h2></div><p>Edition {dlabel(j["date"])} {D(j["date"]).year}{sfx}. CBN NFEM rate for USD; GBP and EUR as dated. <a href="fx.html" style="color:var(--gold)">Full FX brief →</a></p></div><div class="dashgrid">{m}<div class="metric"><small>Coverage</small><strong>5 markets</strong><span>NG · GH · KE · ZA · EG</span></div></div></section></div>'
 def archive(idx):
