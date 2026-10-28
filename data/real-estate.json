@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-10-21",
- "release": "Kenya review (21 Oct): Nairobi residential yields updated to HassConsult Q2 2026 (suburbs 7.4%, satellite towns 5.4%) and first commercial point added (Knight Frank prime office 8.5%). Both single-source, so Nairobi stays 'collecting'. Other cities unchanged from the 14 Oct release",
+ "as_of": "2026-10-28",
+ "release": "South Africa review (28 Oct): first commercial point for Johannesburg added (Knight Frank prime office yield 9.5%, H1 2026). Johannesburg and Cape Town residential unchanged from the 10 Oct release (Q2 2026 asking-price yields, cross-checked against TPN sectional-title ranges); both cities stay 'collecting'. Cape Town has no qualifying commercial yield. Other cities unchanged from earlier releases",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -240,9 +240,25 @@
      "price_usd": 195400,
      "rent_usd_month": 1830,
      "collected": "2026-10-10"
+    },
+    {
+     "area": "Johannesburg prime offices",
+     "segment": "Commercial, prime office (developer yield)",
+     "gross_yield_pct": 9.5,
+     "grade": "B",
+     "publisher": "Knight Frank",
+     "period": "H1 2026",
+     "published": "H1 2026 (date not stated in the document)",
+     "cross_check": "single",
+     "note": "Prime rent US$19 per m2 a month as published; no separate Sandton figure. Single source, so no cross-check.",
+     "rent_usd_m2_month": 19,
+     "collected": "2026-10-28"
     }
    ],
-   "cross_note": "City average 13.47% (GPG) is consistent with Gauteng sectional-title returns of just over 12% (PayProp/TPN, 2025)."
+   "cross_note": "City average 13.47% (GPG) is consistent with Gauteng sectional-title returns of just over 12% (PayProp/TPN, 2025).",
+   "sources": [
+    "Knight Frank Africa Offices Market Dashboard H1 2026 (commercial)"
+   ]
   },
   "cape-town": {
    "name": "Cape Town",
@@ -293,7 +309,7 @@
      "collected": "2026-10-10"
     }
    ],
-   "cross_note": "City average 9.49% (GPG) is consistent with Western Cape sectional-title yields below 10% (PayProp/TPN, 2025)."
+   "cross_note": "City average 9.49% (GPG) is consistent with Western Cape sectional-title yields below 10% (PayProp/TPN, 2025). No prime-office yield published for Cape Town in the Knight Frank H1 2026 dashboard (vacancy only)."
   },
   "cairo": {
    "name": "Cairo",
@@ -436,6 +452,14 @@
   {
    "item": "Nairobi apartment-specific and area-level yields",
    "reason": "Latest published research gives yields only for suburban houses and satellite towns; no apartment or district yield found from a named report or readable listing sample."
+  },
+  {
+   "item": "South Africa provincial yield figures in a June 2026 trade article (Gauteng full title 7.1%, Western Cape full title 7.8%)",
+   "reason": "Only the national sectional-title figure is attributed to a source; no method, sample size or dates for the provincial figures. Not entered as district records."
+  },
+  {
+   "item": "Cape Town CBD office rents (SAPOA Q2 2026: median asking R151 per m2, A-grade R216)",
+   "reason": "Rent only, no yield or price; read via a secondary summary, not the survey itself. Not entered."
   }
  ]
 }
