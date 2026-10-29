@@ -1,0 +1,74 @@
+{
+ "schema": "amb-fx-early/1",
+ "edition_id": "AMB-FX-EARLY-2026-10-29-v1",
+ "date": "2026-10-29",
+ "edition_type": "Early Look",
+ "status": "Prepared — not published (partial: no current Nigeria parallel observations)",
+ "headline": "Latest-benchmark reference only; not live opening quotes. Each figure carries its own effective date.",
+ "nigeria": {
+  "USD": {
+   "official_selling_rate": 1347.5259,
+   "official_rate_date": "2026-10-28",
+   "official_basis": "CBN selling rate (NFEM)",
+   "value_label": "no current parallel observation; official: latest available benchmark"
+  },
+  "GBP": {
+   "official_selling_rate": 1790.8619,
+   "official_rate_date": "2026-10-28",
+   "official_basis": "CBN published selling rate",
+   "value_label": "no current parallel observation; official: latest available benchmark"
+  },
+  "EUR": {
+   "official_selling_rate": 1500.3353,
+   "official_rate_date": "2026-10-28",
+   "official_basis": "CBN published selling rate",
+   "value_label": "no current parallel observation; official: latest available benchmark"
+  }
+ },
+ "nigeria_note": "CBN benchmark rates are those of 28 Oct, the latest posted. No two independent current Nigeria parallel observations could be verified at 06:30 WAT, so the parallel block is withheld rather than carried forward.",
+ "markets": {
+  "Ghana": {
+   "symbol": "GH₵",
+   "asof": "2026-10-27",
+   "rates": {
+    "USD": 11.66,
+    "GBP": 15.5283,
+    "EUR": 12.9938
+   },
+   "note": "Bank of Ghana interbank mid-rates, 27 Oct; carried forward (BoG site unreachable on 29 Oct)."
+  },
+  "Kenya": {
+   "symbol": "KSh",
+   "asof": "2026-10-27",
+   "rates": {
+    "USD": 129.95,
+    "GBP": 172.73,
+    "EUR": 144.49
+   },
+   "note": "CBK commercial-banks' average closing rates, posted 28 Oct (market close 27 Oct inferred; 29 Oct not yet posted); not a standalone buy or sell quote."
+  },
+  "South Africa": {
+   "symbol": "R",
+   "asof": "2026-10-28",
+   "rates": {
+    "USD": 16.6485,
+    "GBP": 22.1333,
+    "EUR": 18.5231
+   },
+   "note": "SARB weighted-average bank rates, 28 Oct; carried forward (SARB endpoint blocked on 29 Oct)."
+  },
+  "Egypt": {
+   "symbol": "E£",
+   "asof": "2026-10-27",
+   "rates": {
+    "USD": 56.1286,
+    "GBP": 74.7549,
+    "EUR": 62.575
+   },
+   "note": "CBE buy/sell mid-rates, 27 Oct; carried forward (CBE site rejected request on 29 Oct)."
+  }
+ },
+ "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (27 Oct, carried forward); Kenya CBK commercial-banks’ average closing rates (posted 28 Oct, market close 27 Oct inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (28 Oct, carried forward); Egypt mid of CBE buy/sell (27 Oct, carried forward).",
+ "verified_at_wat": "2026-10-29T06:25:00+01:00",
+ "nigeria_market_note_short": "Official benchmarks only · parallel withheld pending verification."
+}

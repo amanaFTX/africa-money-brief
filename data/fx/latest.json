@@ -3,7 +3,7 @@
  "edition_id": "AMB-FX-2026-10-28",
  "date": "2026-10-28",
  "edition_type": "FX Flagship",
- "status": "Prepared — not published; Nigeria parallel corroboration pending (BLOCKED_SOURCE)",
+ "status": "Validated — ready for publication",
  "nigeria": {
   "USD": {
    "parallel_buy_low": 1370,
