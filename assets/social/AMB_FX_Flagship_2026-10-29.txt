@@ -6,56 +6,58 @@ Africa’s latest official and parallel-market currency references across Nigeri
 USD — Local currency per US$1
 
 🇳🇬 Official: ₦1,347.53 (28 Oct; CBN NFEM)
-🇳🇬 Parallel: Buy ₦1,388 | Sell ₦1,396
-📊 AMB midpoint: ₦1,392.00 | Parallel-buy premium: +3.00%
+🇳🇬 Parallel: Buy ₦1,370–1,388 | Sell ₦1,385–1,396
+📊 AMB midpoint: ₦1,384.75 | Parallel-buy premium: +2.34%
 
 🇬🇭 GH₵11.6258 (28 Oct)
 🇰🇪 KSh129.9600 (28 Oct)
-🇿🇦 R16.6485 (28 Oct)
-🇪🇬 E£56.1286 (27 Oct)
+🇿🇦 R16.6415 (29 Oct)
+🇪🇬 E£56.1290 (28 Oct)
 
 GBP — Local currency per £1
 
 🇳🇬 Official: ₦1,790.86 (28 Oct; CBN published selling)
-🇳🇬 Parallel: Buy ₦1,815 | Sell ₦1,835
-📊 AMB midpoint: ₦1,825.00 | Parallel-buy premium: +1.35%
+🇳🇬 Parallel: Buy ₦1,815–1,820 | Sell ₦1,835–1,850
+📊 AMB midpoint: ₦1,830.00 | Parallel-buy premium: +1.49%
 
 🇬🇭 GH₵15.4647 (28 Oct)
 🇰🇪 KSh173.0400 (28 Oct)
-🇿🇦 R22.1333 (28 Oct)
-🇪🇬 E£74.7549 (27 Oct)
+🇿🇦 R22.1607 (29 Oct)
+🇪🇬 E£74.5141 (28 Oct)
 
 EUR — Local currency per €1
 
 🇳🇬 Official: ₦1,500.34 (28 Oct; CBN published selling)
-🇳🇬 Parallel: Buy ₦1,520 | Sell ₦1,540
-📊 AMB midpoint: ₦1,530.00 | Parallel-buy premium: +1.31%
+🇳🇬 Parallel: Buy ₦1,520–1,530 | Sell ₦1,540–1,560
+📊 AMB midpoint: ₦1,537.50 | Parallel-buy premium: +1.64%
 
 🇬🇭 GH₵12.9455 (28 Oct)
 🇰🇪 KSh144.7800 (28 Oct)
-🇿🇦 R18.5231 (28 Oct)
-🇪🇬 E£62.5750 (27 Oct)
+🇿🇦 R18.5420 (29 Oct)
+🇪🇬 E£62.4239 (28 Oct)
 
 NIGERIA MARKET NOTE
 
-Nigeria’s parallel figures rest on one current-day observation stamped 11:06 WAT on 29 Oct; a second independent observation could not be verified, so treat as indicative. CBN benchmark rates are those of 28 Oct, the latest posted. Aggregated from multiple independent market sources.
+Nigeria’s parallel ranges aggregate two independent current-day observations dated 29 Oct, from pages stamped 09:06 WAT and 08:57 AM. The full observed ranges are preserved rather than forcing a single quote. CBN benchmark rates are those of 28 Oct, the latest posted. Aggregated from multiple independent market sources.
 
 📊 MARKET INSIGHT
 
 Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:
 
-• USD: +3.00%
-• GBP: +1.35%
-• EUR: +1.31%
+• USD: +2.34%
+• EUR: +1.64%
+• GBP: +1.49%
 
-USD carries the widest premium; EUR carries the narrowest.
+USD carries the widest premium; GBP carries the narrowest.
 
 Cross-market change since the previous Flagship:
 
 • Ghana: the cedi strengthened across USD, GBP and EUR versus the 27 Oct reference; the largest move was against GBP (0.41%).
 • Kenya: the shilling weakened across USD, GBP and EUR versus the 27 Oct reference; the largest move was against EUR (0.20%).
+• South Africa: moves were mixed; the largest was GBP (+0.12%).
+• Egypt: moves were mixed; the largest was GBP (-0.32%).
 
-Official reference dates: Ghana 28 Oct; Kenya 28 Oct; South Africa 28 Oct; Egypt 27 Oct.
+Official reference dates: Ghana 28 Oct; Kenya 28 Oct; South Africa 29 Oct; Egypt 28 Oct.
 
 SOURCES & METHODOLOGY
 
