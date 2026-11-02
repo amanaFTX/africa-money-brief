@@ -6,13 +6,13 @@ Africa’s latest official and parallel-market currency references across Nigeri
 USD — Local currency per US$1
 
 🇳🇬 Official: ₦1,346.91 (29 Oct; CBN NFEM)
-🇳🇬 Parallel: Buy ₦1,375 | Sell ₦1,390
-📊 AMB midpoint: ₦1,382.50 | Parallel-buy premium: +2.09%
+🇳🇬 Parallel: Buy ₦1,375–1,380 | Sell ₦1,390
+📊 AMB midpoint: ₦1,383.75 | Parallel-buy premium: +2.27%
 
 🇬🇭 GH₵11.6515 (29 Oct)
 🇰🇪 KSh129.9500 (29 Oct)
-🇿🇦 R16.6415 (29 Oct)
-🇪🇬 E£56.1290 (28 Oct)
+🇿🇦 R16.6444 (30 Oct)
+🇪🇬 E£56.0550 (29 Oct)
 
 GBP — Local currency per £1
 
@@ -22,8 +22,8 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.5740 (29 Oct)
 🇰🇪 KSh173.2000 (29 Oct)
-🇿🇦 R22.1607 (29 Oct)
-🇪🇬 E£74.5141 (28 Oct)
+🇿🇦 R22.3293 (30 Oct)
+🇪🇬 E£74.6849 (29 Oct)
 
 EUR — Local currency per €1
 
@@ -33,18 +33,18 @@ EUR — Local currency per €1
 
 🇬🇭 GH₵13.0017 (29 Oct)
 🇰🇪 KSh144.7400 (29 Oct)
-🇿🇦 R18.5420 (29 Oct)
-🇪🇬 E£62.4239 (28 Oct)
+🇿🇦 R18.6417 (30 Oct)
+🇪🇬 E£62.4985 (29 Oct)
 
 NIGERIA MARKET NOTE
 
-Nigeria’s parallel ranges combine a 30 Oct morning observation with a 29 Oct previous-close observation stamped 16:22 WAT; they are not live quotes and were not refreshed at midday. CBN benchmark rates are those of 29 Oct, the latest posted. Aggregated from multiple independent market sources.
+Nigeria’s parallel ranges combine two independent current-day observations dated 30 Oct (one updated 08:11 WAT and one with time not shown), rechecked at 12:28 WAT. The full observed ranges are preserved rather than forcing a single quote. CBN benchmark rates are those of 29 Oct, the latest posted. Aggregated from multiple independent market sources.
 
 📊 MARKET INSIGHT
 
 Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:
 
-• USD: +2.09%
+• USD: +2.27%
 • EUR: +1.76%
 • GBP: +1.72%
 
@@ -54,8 +54,10 @@ Cross-market change since the previous Flagship:
 
 • Ghana: the cedi weakened across USD, GBP and EUR versus the 28 Oct reference; the largest move was against GBP (0.71%).
 • Kenya: moves were mixed; the largest was GBP (+0.09%).
+• South Africa: the rand weakened across USD, GBP and EUR versus the 29 Oct reference; the largest move was against GBP (0.76%).
+• Egypt: moves were mixed; the largest was GBP (+0.23%).
 
-Official reference dates: Ghana 29 Oct; Kenya 29 Oct; South Africa 29 Oct; Egypt 28 Oct.
+Official reference dates: Ghana 29 Oct; Kenya 29 Oct; South Africa 30 Oct; Egypt 29 Oct.
 
 SOURCES & METHODOLOGY
 

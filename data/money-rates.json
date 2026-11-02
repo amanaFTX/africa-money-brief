@@ -1,6 +1,6 @@
 {
   "schema": "amb-money-rates/1",
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-30",
   "countries": {
     "NG": {
       "name": "Nigeria",
@@ -20,30 +20,30 @@
       },
       "bills": {
         "basis": "discount",
-        "auction": "2026-10-14",
-        "src": "CBN/DMO primary auction, 14 Oct (stop rates as reported; official release not retrievable)",
+        "auction": "2026-10-28",
+        "src": "CBN/DMO primary auction, 28 Oct (stop rates as reported by two press outlets; official release not retrievable)",
         "src_url": "https://www.dmo.gov.ng/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 15.5,
+            "rate": 15.4,
             "prev": 15.5,
-            "alloc": "₦19.52bn allotted of ₦50bn offered"
+            "alloc": "₦22.33bn allotted of ₦100bn offered"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 15.8,
+            "rate": 15.79,
             "prev": 15.8,
-            "alloc": "₦29.54bn allotted of ₦50bn offered"
+            "alloc": "₦10.45bn allotted of ₦100bn offered"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 15.9,
-            "prev": 15.85,
-            "alloc": "₦220bn allotted of ₦350bn offered; ₦982.21bn subscribed"
+            "rate": 15.8,
+            "prev": 15.9,
+            "alloc": "₦38.38bn allotted of ₦600bn offered; ₦1.84trn subscribed"
           }
         ]
       },
@@ -130,30 +130,30 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-19",
-        "src": "Bank of Ghana, issue date 19 Oct",
+        "auction": "2026-10-26",
+        "src": "Bank of Ghana, issue date 26 Oct",
         "src_url": "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 4.6235,
-            "prev": 4.6042,
-            "alloc": "Interest rate (discount rate 4.5707%)"
+            "rate": 4.6135,
+            "prev": 4.6235,
+            "alloc": "Interest rate (discount rate 4.5609%)"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 6.3154,
-            "prev": 6.2791,
-            "alloc": "Interest rate (discount rate 6.1221%)"
+            "rate": 6.2929,
+            "prev": 6.3154,
+            "alloc": "Interest rate (discount rate 6.1009%)"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.7135,
-            "prev": 9.7523,
-            "alloc": "Interest rate (discount rate 8.8535%)"
+            "rate": 9.6739,
+            "prev": 9.7135,
+            "alloc": "Interest rate (discount rate 8.8206%)"
           }
         ]
       },
@@ -184,7 +184,7 @@
             "terms": "System average"
           }
         ],
-        "note": "The August 6-month deposit average (9.72%) is above today's 182-day bill (6.32%)."
+        "note": "The August 6-month deposit average (9.72%) is above the latest 182-day bill (6.29%)."
       }
     },
     "KE": {
@@ -205,30 +205,30 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-15",
-        "src": "CBK auction results (issues 2704/091, 2678/182, 2633/364; value date 19 Oct)",
+        "auction": "2026-10-29",
+        "src": "CBK treasury bills page, average interest rates for the 29 Oct auction (issues 2706/091, 2680/182, 2635/364); results PDF not opened",
         "src_url": "https://www.centralbank.go.ke/bills-bonds/treasury-bills/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 8.75,
-            "prev": 8.7615,
-            "alloc": "Weighted average, accepted bids; bids 6.2× the offer"
+            "rate": 8.7498,
+            "prev": 8.7478,
+            "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 8.86,
-            "prev": 8.8744,
-            "alloc": "Weighted average, accepted bids; bids 1.21× the offer"
+            "rate": 8.8508,
+            "prev": 8.8591,
+            "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.0383,
-            "prev": 9.0352,
-            "alloc": "Weighted average, accepted bids; bids 0.66× the offer"
+            "rate": 9.0288,
+            "prev": 9.0267,
+            "alloc": "Weighted average, accepted bids"
           }
         ]
       },
