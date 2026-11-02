@@ -200,6 +200,12 @@
    "type": "Early Look",
    "url": "fx.html#early-look-2026-10-30",
    "json": "data/fx/early-2026-10-30.json"
+  },
+  {
+   "date": "2026-11-02",
+   "type": "Early Look",
+   "url": "fx.html#early-look-2026-11-02",
+   "json": "data/fx/early-2026-11-02.json"
   }
  ]
 }
