@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-10-28",
- "release": "South Africa review (28 Oct): first commercial point for Johannesburg added (Knight Frank prime office yield 9.5%, H1 2026). Johannesburg and Cape Town residential unchanged from the 10 Oct release (Q2 2026 asking-price yields, cross-checked against TPN sectional-title ranges); both cities stay 'collecting'. Cape Town has no qualifying commercial yield. Other cities unchanged from earlier releases",
+ "as_of": "2026-11-04",
+ "release": "Ghana review (4 Nov): Accra stays 'collecting'. No published research report, official index or readable listing sample with disclosed listing counts met the gates; the only district-level asking-price and rent medians found come from a listing company's own index with no listing counts and no second source, so nothing was entered. Other cities unchanged from earlier releases",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -460,6 +460,14 @@
   {
    "item": "Cape Town CBD office rents (SAPOA Q2 2026: median asking R151 per m2, A-grade R216)",
    "reason": "Rent only, no yield or price; read via a secondary summary, not the survey itself. Not entered."
+  },
+  {
+   "item": "Accra district asking prices and rents (Q2 2026 listing-company index, published 24 Jul 2026)",
+   "reason": "Company-run index of its own listings: no listing counts per zone, no second source, asking prices only (2-3 bed medians, no per-m2 figures). Implied gross yields roughly 4.7-7.5% not entered; fails the 20-listing and cross-source gates."
+  },
+  {
+   "item": "Accra sponsored property features and developer return claims (2025-2026)",
+   "reason": "Sponsored content or marketing; no sample or method; 12-18% quoted combines rent and appreciation, so not a yield. Knight Frank H1 2026 Africa office dashboard has no Ghana row."
   }
  ]
 }
