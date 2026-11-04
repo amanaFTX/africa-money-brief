@@ -1,0 +1,44 @@
+🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
+📅 Wednesday, 4 November 2026 · pre-market
+
+Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
+
+🇳🇬 NIGERIA
+• USD: ₦1,346.93 (3 Nov; CBN NFEM) -0.07% vs 2 Nov
+• GBP: ₦1,807.72 (3 Nov; CBN published selling) -0.09% vs 2 Nov
+• EUR: ₦1,512.26 (2 Nov; CBN published selling) +0.00% vs 2 Nov
+
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,380–1,390 | Sell ₦1,390–1,395 | AMB midpoint ₦1,388.75 | Parallel-buy premium +2.83%
+• GBP: Buy ₦1,810–1,835 | Sell ₦1,850–1,860 | AMB midpoint ₦1,838.75 | Parallel-buy premium +0.82%
+• EUR: Buy ₦1,510–1,520 | Sell ₦1,530–1,560 | AMB midpoint ₦1,530.00 | Parallel-buy premium +0.18%
+
+Aggregated from multiple independent market sources. Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:20 WAT. EUR shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
+
+🇬🇭 GHANA (3 Nov)
+US$1 = GH₵11.6600 | £1 = GH₵15.6355 | €1 = GH₵13.0372
+Bank of Ghana interbank mid-rates; the cedi was unchanged against the US dollar versus the 2 Nov reference.
+
+🇰🇪 KENYA (2 Nov)
+US$1 = KSh129.9700 | £1 = KSh174.4500 | €1 = KSh145.8200
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
+
+🇿🇦 SOUTH AFRICA (2 Nov)
+US$1 = R16.6795 | £1 = R22.3497 | €1 = R18.6527
+SARB weighted-average bank rates, 2 Nov; carried forward with its true date because the SARB HomePageRates endpoint could not be reached on 4 Nov.
+
+🇪🇬 EGYPT (29 Oct)
+US$1 = E£56.0550 | £1 = E£74.6849 | €1 = E£62.4985
+CBE official buy/sell mid-rates, 29 Oct; carried forward with its true effective date after the CBE site rejected the 4 Nov request.
+
+SOURCES & METHODOLOGY
+
+Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
+
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets
