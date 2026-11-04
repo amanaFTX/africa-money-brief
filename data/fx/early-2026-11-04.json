@@ -17,17 +17,10 @@
    "official_selling_rate": 1346.9348,
    "official_rate_date": "2026-11-03",
    "official_basis": "CBN selling rate (NFEM)",
-<<<<<<< HEAD
-   "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
-   "premium_pct": 2.83,
-   "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT"
-=======
    "value_label": "Source B current observation 4 Nov 05:06 WAT; Source A current observation 4 Nov 04:00 WAT; not a live opening quote; official: latest available benchmark",
    "premium_pct": 2.83,
    "parallel_observation_count": 2,
    "parallel_observation_label": "Two independent current-day observations: Source B 4 Nov 05:06 WAT; Source A 4 Nov 04:00 WAT; verified 4 Nov 08:03 WAT"
->>>>>>> origin/main
   },
   "GBP": {
    "parallel_buy_low": 1810,
@@ -40,17 +33,10 @@
    "official_selling_rate": 1807.7212,
    "official_rate_date": "2026-11-03",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
-   "premium_pct": 0.82,
-   "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT"
-=======
    "value_label": "Source B current observation 4 Nov 05:06 WAT; Source A current observation 4 Nov 04:00 WAT; not a live opening quote; official: latest available benchmark",
    "premium_pct": 0.82,
    "parallel_observation_count": 2,
    "parallel_observation_label": "Two independent current-day observations: Source B 4 Nov 05:06 WAT; Source A 4 Nov 04:00 WAT; verified 4 Nov 08:03 WAT"
->>>>>>> origin/main
   },
   "EUR": {
    "parallel_buy_low": 1510,
@@ -63,17 +49,6 @@
    "official_selling_rate": 1512.2578,
    "official_rate_date": "2026-11-02",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
-   "premium_pct": 0.18,
-   "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT",
-   "range_flag_acknowledged": true,
-   "range_flag_reason": "Source A (3 Nov previous close) and Source B (4 Nov 06:06 WAT) differ on the EUR sell side (A to 1560 vs B 1530); the full observed range is retained rather than forcing a single quote."
-  }
- },
- "nigeria_note": "CBN benchmarks: USD and GBP 3 Nov; EUR 2 Nov (no 3 Nov EUR row posted) — latest available. Nigeria parallel ranges combine one current 4 Nov 06:06 WAT observation and one 3 Nov previous-close / early observation; they are not live opening quotes. EUR sell-side dispersion is documented and preserved. Aggregated from multiple independent market sources.",
-=======
    "value_label": "Source B current observation 4 Nov 05:06 WAT; Source A current observation 4 Nov 04:00 WAT; not a live opening quote; official: latest available benchmark",
    "premium_pct": 0.18,
    "parallel_observation_count": 2,
@@ -83,7 +58,6 @@
   }
  },
  "nigeria_note": "CBN benchmarks: USD and GBP 3 Nov; EUR 2 Nov (no 3 Nov EUR row posted) — latest available. Nigeria parallel ranges combine two current-day observations at 04:00 and 05:06 WAT on 4 Nov; they are early observations, not live opening quotes. EUR sell-side dispersion is documented and preserved. Aggregated from multiple independent market sources.",
->>>>>>> origin/main
  "markets": {
   "Ghana": {
    "symbol": "GH₵",
@@ -107,15 +81,6 @@
   },
   "South Africa": {
    "symbol": "R",
-<<<<<<< HEAD
-   "asof": "2026-11-02",
-   "rates": {
-    "USD": 16.6795,
-    "GBP": 22.3497,
-    "EUR": 18.6527
-   },
-   "note": "SARB weighted-average bank rates, 2 Nov; carried forward with its true date because the SARB HomePageRates endpoint could not be reached on 4 Nov."
-=======
    "asof": "2026-11-03",
    "rates": {
     "USD": 16.6418,
@@ -123,7 +88,6 @@
     "EUR": 18.6313
    },
    "note": "SARB weighted-average bank rates, 3 Nov; independently verified through the HomePageRates endpoint on 4 Nov."
->>>>>>> origin/main
   },
   "Egypt": {
    "symbol": "E£",
@@ -136,14 +100,7 @@
    "note": "CBE official buy/sell mid-rates, 29 Oct; carried forward with its true effective date after the CBE site rejected the 4 Nov request."
   }
  },
-<<<<<<< HEAD
- "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (3 Nov); Kenya CBK commercial-banks’ average closing rates (posted 3 Nov, close 2 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (2 Nov, carried forward — source unreachable); Egypt mid of CBE buy/sell (29 Oct, carried forward with its true date).",
- "verified_at_wat": "2026-11-04T06:16:00+01:00",
- "nigeria_market_note_short": "Source B 4 Nov 06:06 WAT · Source A 3 Nov prev. close · not live quotes."
-}
-=======
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (3 Nov); Kenya CBK commercial-banks’ average closing rates (posted 3 Nov, close 2 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (3 Nov); Egypt mid of CBE buy/sell (29 Oct, carried forward with its true date).",
  "verified_at_wat": "2026-11-04T08:03:00+01:00",
  "nigeria_market_note_short": "Two current-day observations: 4 Nov 04:00 and 05:06 WAT · not live quotes."
 }
->>>>>>> origin/main
