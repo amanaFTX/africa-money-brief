@@ -13,7 +13,11 @@ Nigeria parallel-market observations (previous close / early; not live opening q
 • GBP: Buy ₦1,810–1,835 | Sell ₦1,850–1,860 | AMB midpoint ₦1,838.75 | Parallel-buy premium +0.82%
 • EUR: Buy ₦1,510–1,520 | Sell ₦1,530–1,560 | AMB midpoint ₦1,530.00 | Parallel-buy premium +0.18%
 
+<<<<<<< HEAD
 Aggregated from multiple independent market sources. Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT. EUR shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
+=======
+Aggregated from multiple independent market sources. Two independent current-day observations: Source B 4 Nov 05:06 WAT; Source A 4 Nov 04:00 WAT; verified 4 Nov 08:03 WAT. EUR shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
+>>>>>>> origin/main
 
 🇬🇭 GHANA (3 Nov)
 US$1 = GH₵11.6600 | £1 = GH₵15.6355 | €1 = GH₵13.0372
@@ -23,9 +27,15 @@ Bank of Ghana interbank mid-rates; the cedi was unchanged against the US dollar 
 US$1 = KSh129.9700 | £1 = KSh174.4500 | €1 = KSh145.8200
 CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
 
+<<<<<<< HEAD
 🇿🇦 SOUTH AFRICA (2 Nov)
 US$1 = R16.6795 | £1 = R22.3497 | €1 = R18.6527
 SARB weighted-average bank rates, 2 Nov; carried forward with its true date because the SARB HomePageRates endpoint could not be reached on 4 Nov.
+=======
+🇿🇦 SOUTH AFRICA (3 Nov)
+US$1 = R16.6418 | £1 = R22.3275 | €1 = R18.6313
+SARB weighted-average bank rates, 3 Nov; independently verified through the HomePageRates endpoint on 4 Nov.
+>>>>>>> origin/main
 
 🇪🇬 EGYPT (29 Oct)
 US$1 = E£56.0550 | £1 = E£74.6849 | €1 = E£62.4985
