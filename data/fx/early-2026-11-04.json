@@ -20,7 +20,7 @@
    "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
    "premium_pct": 2.83,
    "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:20 WAT"
+   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT"
   },
   "GBP": {
    "parallel_buy_low": 1810,
@@ -36,7 +36,7 @@
    "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
    "premium_pct": 0.82,
    "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:20 WAT"
+   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT"
   },
   "EUR": {
    "parallel_buy_low": 1510,
@@ -52,7 +52,7 @@
    "value_label": "Source B current observation 4 Nov 06:06 WAT; Source A previous close / early, dated 3 Nov (no time shown); not a live opening quote; official: latest available benchmark",
    "premium_pct": 0.18,
    "parallel_observation_count": 2,
-   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:20 WAT",
+   "parallel_observation_label": "Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT",
    "range_flag_acknowledged": true,
    "range_flag_reason": "Source A (3 Nov previous close) and Source B (4 Nov 06:06 WAT) differ on the EUR sell side (A to 1560 vs B 1530); the full observed range is retained rather than forcing a single quote."
   }
@@ -101,6 +101,6 @@
   }
  },
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (3 Nov); Kenya CBK commercial-banks’ average closing rates (posted 3 Nov, close 2 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (2 Nov, carried forward — source unreachable); Egypt mid of CBE buy/sell (29 Oct, carried forward with its true date).",
- "verified_at_wat": "2026-11-04T06:20:00+01:00",
+ "verified_at_wat": "2026-11-04T06:16:00+01:00",
  "nigeria_market_note_short": "Source B 4 Nov 06:06 WAT · Source A 3 Nov prev. close · not live quotes."
 }

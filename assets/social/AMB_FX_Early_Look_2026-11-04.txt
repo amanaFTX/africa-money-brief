@@ -13,7 +13,7 @@ Nigeria parallel-market observations (previous close / early; not live opening q
 • GBP: Buy ₦1,810–1,835 | Sell ₦1,850–1,860 | AMB midpoint ₦1,838.75 | Parallel-buy premium +0.82%
 • EUR: Buy ₦1,510–1,520 | Sell ₦1,530–1,560 | AMB midpoint ₦1,530.00 | Parallel-buy premium +0.18%
 
-Aggregated from multiple independent market sources. Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:20 WAT. EUR shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
+Aggregated from multiple independent market sources. Two independent observations: Source B current, 4 Nov 06:06 WAT; Source A previous close / early, 3 Nov (no time shown); verified 4 Nov 06:16 WAT. EUR shows material cross-source dispersion; the ranges preserve it rather than force a single quote.
 
 🇬🇭 GHANA (3 Nov)
 US$1 = GH₵11.6600 | £1 = GH₵15.6355 | €1 = GH₵13.0372
