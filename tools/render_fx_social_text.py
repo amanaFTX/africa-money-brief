@@ -272,7 +272,7 @@ def render_early(data):
         "Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.",
         "",
         ("Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes."
-         if has_parallel else "Nigeria parallel-market rates: not published in this edition; the Flagship will include them once independently corroborated."),
+         if has_parallel else "Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources."),
         "",
         "Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.",
         "",

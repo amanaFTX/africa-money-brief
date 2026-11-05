@@ -20,17 +20,29 @@ CBK commercial-banks’ average closing rates (not a standalone buy or sell quot
 
 🇿🇦 SOUTH AFRICA (3 Nov)
 US$1 = R16.6418 | £1 = R22.3275 | €1 = R18.6313
+<<<<<<< HEAD
 SARB weighted-average bank rates, 3 Nov; carried forward (latest verified) because the HomePageRates endpoint was blocked this morning.
 
 🇪🇬 EGYPT (29 Oct)
 US$1 = E£56.0550 | £1 = E£74.6849 | €1 = E£62.4985
 CBE official buy/sell mid-rates, 29 Oct; carried forward with its true effective date after the CBE site rejected the 4 Nov request.
+=======
+SARB weighted-average bank rates, 3 Nov; directly reverified through HomePageRates on 5 Nov. The true effective date is retained.
+
+🇪🇬 EGYPT (2 Nov)
+US$1 = E£55.4365 | £1 = E£74.3570 | €1 = E£62.1333
+CBE official buy/sell mid-rates, 2 Nov; latest independently verified CBE table, carried forward with its true effective date because the direct page rejected the 5 Nov request.
+>>>>>>> origin/main
 
 SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
+<<<<<<< HEAD
 Nigeria parallel-market rates: not published in this edition; the Flagship will include them once independently corroborated.
+=======
+Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources.
+>>>>>>> origin/main
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
