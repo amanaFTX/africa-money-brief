@@ -419,3 +419,18 @@ date,pair,market,rate_type,low,high,mid,official,premium_pct,asof
 2026-11-05,USD/EGY,Egypt,official,,,55.4365,55.4365,,2026-11-02
 2026-11-05,GBP/EGY,Egypt,official,,,74.357,74.357,,2026-11-02
 2026-11-05,EUR/EGY,Egypt,official,,,62.1333,62.1333,,2026-11-02
+2026-11-06,USD/NGN,Nigeria,official_cbn_selling,,,1348.7416,1348.7416,,2026-11-05
+2026-11-06,GBP/NGN,Nigeria,official_cbn_selling,,,1817.0247,1817.0247,,2026-11-05
+2026-11-06,EUR/NGN,Nigeria,official_cbn_selling,,,1513.9624,1513.9624,,2026-11-05
+2026-11-06,USD/GHA,Ghana,official,,,11.66,11.66,,2026-11-05
+2026-11-06,GBP/GHA,Ghana,official,,,15.709,15.709,,2026-11-05
+2026-11-06,EUR/GHA,Ghana,official,,,13.0935,13.0935,,2026-11-05
+2026-11-06,USD/KEN,Kenya,official,,,129.91,129.91,,2026-11-05
+2026-11-06,GBP/KEN,Kenya,official,,,174.82,174.82,,2026-11-05
+2026-11-06,EUR/KEN,Kenya,official,,,145.73,145.73,,2026-11-05
+2026-11-06,USD/SOU,South Africa,official,,,16.3568,16.3568,,2026-11-05
+2026-11-06,GBP/SOU,South Africa,official,,,22.0449,22.0449,,2026-11-05
+2026-11-06,EUR/SOU,South Africa,official,,,18.3924,18.3924,,2026-11-05
+2026-11-06,USD/EGY,Egypt,official,,,55.4365,55.4365,,2026-11-02
+2026-11-06,GBP/EGY,Egypt,official,,,74.357,74.357,,2026-11-02
+2026-11-06,EUR/EGY,Egypt,official,,,62.1333,62.1333,,2026-11-02
