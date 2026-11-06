@@ -3,21 +3,13 @@
  "edition_id": "AMB-FX-EARLY-2026-11-06-v1",
  "date": "2026-11-06",
  "edition_type": "Early Look",
-<<<<<<< HEAD
- "status": "Prepared — not published",
- "headline": "Early reference: latest official benchmarks with effective dates; Nigeria parallel quotes withheld pending verification. Not live opening quotes.",
-=======
  "status": "Validated — ready to publish",
  "headline": "Early reference: latest official benchmarks and independently corroborated Nigeria early observations, with effective dates. Not live opening quotes.",
->>>>>>> origin/main
  "nigeria": {
   "USD": {
    "official_selling_rate": 1348.7416,
    "official_rate_date": "2026-11-05",
    "official_basis": "CBN selling rate (NFEM)",
-<<<<<<< HEAD
-   "value_label": "Parallel withheld (BLOCKED_SOURCE: no verifiable current or previous-close observations); official: latest available benchmark"
-=======
    "parallel_buy_low": 1400,
    "parallel_buy_high": 1412.31,
    "parallel_sell_low": 1420,
@@ -26,15 +18,11 @@
    "parallel_observation_count": 3,
    "parallel_observation_label": "Three independent current-day early observations dated 6 Nov, including updates at 02:17 and 03:12 WAT; rechecked 08:08 WAT",
    "value_label": "Current-day early observations; not a live opening quote"
->>>>>>> origin/main
   },
   "GBP": {
    "official_selling_rate": 1817.0247,
    "official_rate_date": "2026-11-05",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Parallel withheld (BLOCKED_SOURCE: no verifiable current or previous-close observations); official: latest available benchmark"
-=======
    "parallel_buy_low": 1830,
    "parallel_buy_high": 1853.11,
    "parallel_sell_low": 1867.72,
@@ -45,18 +33,11 @@
    "range_flag_acknowledged": true,
    "range_flag_reason": "Three independent current-day observations corroborate a wider buy range; the published extrema preserve observed dispersion.",
    "value_label": "Current-day early observations; not a live opening quote"
->>>>>>> origin/main
   },
   "EUR": {
    "official_selling_rate": 1513.9624,
    "official_rate_date": "2026-11-05",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Parallel withheld (BLOCKED_SOURCE: no verifiable current or previous-close observations); official: latest available benchmark"
-  }
- },
- "nigeria_note": "CBN selling rates are the latest available benchmarks dated 5 Nov. Nigeria parallel ranges are withheld this morning because fewer than two independent current or explicitly timestamped previous-afternoon observations could be verified; no midpoint or premium is shown. Aggregated from multiple independent market sources.",
-=======
    "parallel_buy_low": 1525.75,
    "parallel_buy_high": 1532.14,
    "parallel_sell_low": 1545.44,
@@ -70,7 +51,6 @@
   }
  },
  "nigeria_note": "CBN selling rates are the latest available benchmarks dated 5 Nov. Nigeria parallel ranges use three independent current-day early observations dated 6 Nov, including updates at 02:17 and 03:12 WAT; rechecked at 08:08 WAT. These are not live opening quotes. Aggregated from multiple independent market sources.",
->>>>>>> origin/main
  "markets": {
   "Ghana": {
    "symbol": "GH₵",
@@ -100,11 +80,7 @@
     "GBP": 22.0449,
     "EUR": 18.3924
    },
-<<<<<<< HEAD
-   "note": "SARB weighted-average bank rates, 5 Nov; latest verified value carried forward with its true date because the HomePageRates endpoint was unreachable this morning. BLOCKED_SOURCE."
-=======
    "note": "SARB weighted-average bank rates, 5 Nov; directly reverified through the HomePageRates endpoint on 6 Nov."
->>>>>>> origin/main
   },
   "Egypt": {
    "symbol": "E£",
@@ -117,14 +93,7 @@
    "note": "CBE official buy/sell mid-rates, 2 Nov; latest verified table, carried forward with its true date because the CBE page rejected the 6 Nov request. BLOCKED_SOURCE."
   }
  },
-<<<<<<< HEAD
- "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (5 Nov); Kenya CBK commercial-banks’ average closing rates (posted 5 Nov, close 4 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (5 Nov, carried forward); Egypt mid of CBE buy/sell (2 Nov, carried forward with its true date).",
- "verified_at_wat": "2026-11-06T06:25:00+01:00",
- "nigeria_market_note_short": "Parallel ranges withheld · fewer than 2 verified observations · 06:25 WAT"
-}
-=======
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (5 Nov); Kenya CBK commercial-banks’ average closing rates (posted 5 Nov, close 4 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (5 Nov, directly reverified through HomePageRates on 6 Nov); Egypt mid of CBE buy/sell (2 Nov, carried forward with its true date).",
  "verified_at_wat": "2026-11-06T08:08:00+01:00",
  "nigeria_market_note_short": "Aggregated from multiple independent market sources. · 3 current-day observations · 08:08 WAT"
 }
->>>>>>> origin/main
