@@ -248,6 +248,12 @@
    "type": "FX Flagship",
    "url": "fx.html#flagship-2026-11-05",
    "json": "data/fx/2026-11-05.json"
+  },
+  {
+   "date": "2026-11-06",
+   "type": "Early Look",
+   "url": "fx.html#early-look-2026-11-06",
+   "json": "data/fx/early-2026-11-06.json"
   }
  ]
 }
