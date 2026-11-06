@@ -1,0 +1,39 @@
+🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
+📅 Friday, 6 November 2026 · pre-market
+
+Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
+
+🇳🇬 NIGERIA
+• USD: ₦1,348.74 (5 Nov; CBN NFEM) +0.07% vs 4 Nov
+• GBP: ₦1,817.02 (5 Nov; CBN published selling) -0.14% vs 4 Nov
+• EUR: ₦1,513.96 (5 Nov; CBN published selling) -0.36% vs 4 Nov
+
+Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+
+🇬🇭 GHANA (5 Nov)
+US$1 = GH₵11.6600 | £1 = GH₵15.7090 | €1 = GH₵13.0935
+Bank of Ghana interbank mid-rates; the cedi was unchanged against the US dollar versus the 4 Nov reference.
+
+🇰🇪 KENYA (4 Nov)
+US$1 = KSh129.9600 | £1 = KSh175.1800 | €1 = KSh146.2700
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
+
+🇿🇦 SOUTH AFRICA (5 Nov)
+US$1 = R16.3568 | £1 = R22.0449 | €1 = R18.3924
+SARB weighted-average bank rates, 5 Nov; latest verified value carried forward with its true date because the HomePageRates endpoint was unreachable this morning. BLOCKED_SOURCE.
+
+🇪🇬 EGYPT (2 Nov)
+US$1 = E£55.4365 | £1 = E£74.3570 | €1 = E£62.1333
+CBE official buy/sell mid-rates, 2 Nov; latest verified table, carried forward with its true date because the CBE page rejected the 6 Nov request. BLOCKED_SOURCE.
+
+SOURCES & METHODOLOGY
+
+Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
+
+Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets
