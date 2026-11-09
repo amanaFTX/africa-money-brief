@@ -1,0 +1,97 @@
+{
+ "schema": "amb-fx-early/1",
+ "edition_id": "AMB-FX-EARLY-2026-11-09-v1",
+ "date": "2026-11-09",
+ "edition_type": "Early Look",
+ "status": "Validated — ready to publish",
+ "headline": "Early reference: latest official benchmarks and independently corroborated Nigeria early observations, with effective dates. Not live opening quotes.",
+ "nigeria": {
+  "USD": {
+   "official_selling_rate": 1346.7945,
+   "official_rate_date": "2026-11-06",
+   "official_basis": "CBN selling rate (NFEM)",
+   "parallel_buy_low": 1410,
+   "parallel_buy_high": 1418.23,
+   "parallel_sell_low": 1425.40,
+   "parallel_sell_high": 1431.48,
+   "premium_pct": 5.00,
+   "parallel_observation_count": 3,
+   "parallel_observation_label": "Three independent current-day early observations dated 9 Nov, including updates at 02:17 and 04:42 WAT; rechecked 08:07 WAT",
+   "value_label": "Current-day early observations; not a live opening quote"
+  },
+  "GBP": {
+   "official_selling_rate": 1803.6272,
+   "official_rate_date": "2026-11-06",
+   "official_basis": "CBN published selling rate",
+   "parallel_buy_low": 1830,
+   "parallel_buy_high": 1849.28,
+   "parallel_sell_low": 1866.52,
+   "parallel_sell_high": 1874.64,
+   "premium_pct": 2.00,
+   "parallel_observation_count": 3,
+   "parallel_observation_label": "Three independent current-day early observations dated 9 Nov, including updates at 02:17 and 04:42 WAT; rechecked 08:07 WAT",
+   "value_label": "Current-day early observations; not a live opening quote"
+  },
+  "EUR": {
+   "official_selling_rate": 1504.1001,
+   "official_rate_date": "2026-11-06",
+   "official_basis": "CBN published selling rate",
+   "parallel_buy_low": 1522.83,
+   "parallel_buy_high": 1530,
+   "parallel_sell_low": 1542.56,
+   "parallel_sell_high": 1580,
+   "premium_pct": 1.48,
+   "parallel_observation_count": 3,
+   "parallel_observation_label": "Three independent current-day early observations dated 9 Nov, including updates at 02:17 and 04:42 WAT; rechecked 08:07 WAT",
+   "range_flag_acknowledged": true,
+   "range_flag_reason": "Three independent current-day observations corroborate a wider sell range; the published extrema preserve observed dispersion.",
+   "value_label": "Current-day early observations; not a live opening quote"
+  }
+ },
+ "nigeria_note": "CBN selling rates are the latest available benchmarks dated 6 Nov. Nigeria parallel ranges use three independent current-day early observations dated 9 Nov, including updates at 02:17 and 04:42 WAT; rechecked at 08:07 WAT. These are not live opening quotes. Aggregated from multiple independent market sources.",
+ "markets": {
+  "Ghana": {
+   "symbol": "GH₵",
+   "asof": "2026-11-06",
+   "rates": {
+    "USD": 11.64,
+    "GBP": 15.5505,
+    "EUR": 12.976
+   },
+   "note": "Bank of Ghana interbank mid-rates, 6 Nov (latest dated table); buy/sell and mid rows read directly."
+  },
+  "Kenya": {
+   "symbol": "KSh",
+   "asof": "2026-11-05",
+   "rates": {
+    "USD": 129.91,
+    "GBP": 174.82,
+    "EUR": 145.73
+   },
+   "note": "CBK commercial-banks' average closing rates, posted 6 Nov (market close 5 Nov inferred); not a standalone buy or sell quote."
+  },
+  "South Africa": {
+   "symbol": "R",
+   "asof": "2026-11-06",
+   "rates": {
+    "USD": 16.504,
+    "GBP": 22.1112,
+    "EUR": 18.4581
+   },
+   "note": "SARB weighted-average bank rates, 6 Nov; directly reverified through the HomePageRates endpoint on 9 Nov."
+  },
+  "Egypt": {
+   "symbol": "E£",
+   "asof": "2026-11-08",
+   "rates": {
+    "USD": 54.2424,
+    "GBP": 72.4164,
+    "EUR": 60.4478
+   },
+   "note": "CBE official buy/sell mid-rates, 8 Nov; buy/sell rows read directly and midpoint recomputed."
+  }
+ },
+ "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (6 Nov); Kenya CBK commercial-banks’ average closing rates (posted 6 Nov, close 5 Nov inferred; not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (6 Nov, directly reverified on 9 Nov); Egypt mid of CBE buy/sell (8 Nov).",
+ "verified_at_wat": "2026-11-09T08:07:00+01:00",
+ "nigeria_market_note_short": "Aggregated from multiple independent market sources. · 3 current-day observations · 08:07 WAT"
+}
