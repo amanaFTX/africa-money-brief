@@ -6,8 +6,8 @@ Africa’s latest official and parallel-market currency references across Nigeri
 USD — Local currency per US$1
 
 🇳🇬 Official: ₦1,346.79 (6 Nov; CBN NFEM)
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
+🇳🇬 Parallel: Buy ₦1,410–1,418 | Sell ₦1,426–1,431
+📊 AMB midpoint: ₦1,421.18 | Parallel-buy premium: +4.98%
 
 🇬🇭 GH₵11.6400 (6 Nov)
 🇰🇪 KSh129.9600 (6 Nov)
@@ -17,8 +17,8 @@ USD — Local currency per US$1
 GBP — Local currency per £1
 
 🇳🇬 Official: ₦1,803.63 (6 Nov; CBN published selling)
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
+🇳🇬 Parallel: Buy ₦1,830–1,849 | Sell ₦1,867–1,874
+📊 AMB midpoint: ₦1,854.98 | Parallel-buy premium: +1.98%
 
 🇬🇭 GH₵15.5505 (6 Nov)
 🇰🇪 KSh173.7500 (6 Nov)
@@ -28,8 +28,8 @@ GBP — Local currency per £1
 EUR — Local currency per €1
 
 🇳🇬 Official: ₦1,504.10 (6 Nov; CBN published selling)
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
+🇳🇬 Parallel: Buy ₦1,523–1,530 | Sell ₦1,543–1,570
+📊 AMB midpoint: ₦1,541.56 | Parallel-buy premium: +1.50%
 
 🇬🇭 GH₵12.9760 (6 Nov)
 🇰🇪 KSh144.9300 (6 Nov)
@@ -38,11 +38,17 @@ EUR — Local currency per €1
 
 NIGERIA MARKET NOTE
 
-CBN selling rates are the latest available benchmarks, dated 6 Nov. Nigeria parallel ranges are not published because fewer than two independent timestamped observations could be verified.
+Nigeria parallel ranges combine three independent current-day observations dated 9 Nov, updated at 08:17, 09:47 and 10:42 WAT and rechecked at 13:29 WAT. Cross-source dispersion is preserved, including the wider EUR sell range. CBN selling benchmarks are dated 6 Nov, the latest directly published. Aggregated from multiple independent market sources.
 
 📊 MARKET INSIGHT
 
-Nigeria: parallel-market premiums are not published in this edition because verified current independent observations were unavailable. CBN benchmarks shown are the latest available (6 Nov).
+Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:
+
+• USD: +4.98%
+• GBP: +1.98%
+• EUR: +1.50%
+
+USD carries the widest premium; EUR carries the narrowest.
 
 Cross-market change since the previous Flagship:
 
