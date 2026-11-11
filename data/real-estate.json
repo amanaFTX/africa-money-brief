@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-11-04",
- "release": "Ghana review (4 Nov): Accra stays 'collecting'. No published research report, official index or readable listing sample with disclosed listing counts met the gates; the only district-level asking-price and rent medians found come from a listing company's own index with no listing counts and no second source, so nothing was entered. Other cities unchanged from earlier releases",
+ "as_of": "2026-11-11",
+ "release": "Egypt review (11 Nov): Cairo stays 'collecting'. Existing Global Property Guide district yields remain single-source: a second yield table from a commercial data seller broadly agrees for 2-bed units (New Cairo, Heliopolis, 6th of October, Sheikh Zayed within 1 point) but draws on the same listing portals and gives no per-district listing counts, so it is not independent and was not entered. A Q2 2026 Cairo Rent Price Index (Marsad Omran, 18,000+ listings across 26 neighbourhoods, median city rent EGP 10,000/month) gives rents only and no per-district counts, so it was not entered. Other cities unchanged",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -468,6 +468,14 @@
   {
    "item": "Accra sponsored property features and developer return claims (2025-2026)",
    "reason": "Sponsored content or marketing; no sample or method; 12-18% quoted combines rent and appreciation, so not a yield. Knight Frank H1 2026 Africa office dashboard has no Ghana row."
+  },
+  {
+   "item": "Cairo 2-bed gross yields from a commercial real-estate data seller (page updated 21 Sep 2026, May 2026 snapshot)",
+   "reason": "Listing-portal derived (same underlying portals as the existing yield table, so not an independent cross-check); no per-district listing counts; table mixes 'average' and 'median' wording; commercial seller of data packs. Direction agrees with existing records for New Cairo, Heliopolis, 6th of October and Sheikh Zayed; not entered. Its Mohandessin (12.5%) and Dokki/Downtown/Haram/Faisal figures are unverified."
+  },
+  {
+   "item": "Cairo Rent Price Index, Q2 2026 (Marsad Omran, first edition; read via a news report, 22 Jul 2026)",
+   "reason": "Rents only (no prices or yields); sample 18,000+ listings across 26 neighbourhoods but no per-district counts; read via secondary news summary, not the index itself. Not entered. Useful context: city median rent EGP 10,000/month; New Cairo rents reported down 25% y/y."
   }
  ]
 }
