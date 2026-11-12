@@ -8,12 +8,22 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,808.36 (11 Nov; CBN published selling) -0.28% vs 10 Nov
 • EUR: ₦1,511.69 (11 Nov; CBN published selling) -0.21% vs 10 Nov
 
+<<<<<<< HEAD
 Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+=======
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,425–1,432 | Sell ₦1,435–1,442 | AMB midpoint ₦1,433.56 | Parallel-buy premium +5.17%
+• GBP: Buy ₦1,850–1,868 | Sell ₦1,870–1,888 | AMB midpoint ₦1,868.93 | Parallel-buy premium +2.79%
+• EUR: Buy ₦1,540–1,547 | Sell ₦1,567–1,570 | AMB midpoint ₦1,555.96 | Parallel-buy premium +2.10%
+
+Aggregated from multiple independent market sources. Two independent observations: previous close 11 Nov at 15:45 WAT and current-day early 12 Nov at 07:47 WAT; rechecked 08:04 WAT. The ranges preserve cross-source and location differences rather than force a single quote.
+>>>>>>> origin/main
 
 🇬🇭 GHANA (11 Nov)
 US$1 = GH₵11.6800 | £1 = GH₵15.5093 | €1 = GH₵12.9547
 Bank of Ghana interbank mid-rates; the cedi was firmer by 0.17% against the US dollar versus the 10 Nov reference.
 
+<<<<<<< HEAD
 🇰🇪 KENYA (10 Nov)
 US$1 = KSh129.9500 | £1 = KSh174.4400 | €1 = KSh145.6800
 CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
@@ -25,12 +35,29 @@ SARB weighted-average bank rates, 11 Nov; CARRIED FORWARD (latest verified; 12 N
 🇪🇬 EGYPT (10 Nov)
 US$1 = E£53.3183 | £1 = E£71.5772 | €1 = E£59.8098
 CBE official buy/sell mid-rates, 10 Nov; CARRIED FORWARD (latest verified; source not retrievable).
+=======
+🇰🇪 KENYA (11 Nov)
+US$1 = KSh129.9500 | £1 = KSh174.4400 | €1 = KSh145.6800
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote). USD/KES +0.00% versus the 10 Nov reference.
+
+🇿🇦 SOUTH AFRICA (11 Nov)
+US$1 = R16.5462 | £1 = R22.0437 | €1 = R18.4416
+SARB weighted-average bank rates, 11 Nov (latest available benchmark at verification).
+
+🇪🇬 EGYPT (11 Nov)
+US$1 = E£53.5558 | £1 = E£71.2800 | €1 = E£59.6397
+CBE official buy/sell mid-rates, 11 Nov; buy/sell rows independently rechecked and midpoints recomputed.
+>>>>>>> origin/main
 
 SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
+<<<<<<< HEAD
 Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources.
+=======
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
+>>>>>>> origin/main
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
