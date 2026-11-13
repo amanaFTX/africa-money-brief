@@ -1,0 +1,39 @@
+🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
+📅 Friday, 13 November 2026 · pre-market
+
+Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
+
+🇳🇬 NIGERIA
+• USD: ₦1,355.88 (12 Nov; CBN NFEM) -0.18% vs 11 Nov
+• GBP: ₦1,797.90 (12 Nov; CBN published selling) -0.58% vs 11 Nov
+• EUR: ₦1,503.13 (12 Nov; CBN published selling) -0.57% vs 11 Nov
+
+Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+
+🇬🇭 GHANA (12 Nov)
+US$1 = GH₵11.7100 | £1 = GH₵15.5011 | €1 = GH₵12.9549
+Bank of Ghana interbank mid-rates; the cedi was softer by 0.26% against the US dollar versus the 11 Nov reference.
+
+🇰🇪 KENYA (12 Nov)
+US$1 = KSh129.9600 | £1 = KSh172.7200 | €1 = KSh144.3800
+CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
+
+🇿🇦 SOUTH AFRICA (11 Nov)
+US$1 = R16.5462 | £1 = R22.0437 | €1 = R18.4416
+SARB weighted-average bank rates, 11 Nov; CARRIED FORWARD (latest verified; 12 Nov source not retrievable).
+
+🇪🇬 EGYPT (11 Nov)
+US$1 = E£53.5558 | £1 = E£71.2800 | €1 = E£59.6397
+CBE official buy/sell mid-rates, 11 Nov; CARRIED FORWARD (latest verified; CBE not retrievable).
+
+SOURCES & METHODOLOGY
+
+Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
+
+Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources.
+
+Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
+
+🔗 https://africamoneybrief.com/fx.html
+
+#AfricaMoneyBrief #FX #AfricanMarkets
