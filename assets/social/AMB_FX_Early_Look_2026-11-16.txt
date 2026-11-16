@@ -8,29 +8,34 @@ Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, Sou
 • GBP: ₦1,791.44 (13 Nov; CBN published selling) -0.36% vs 12 Nov
 • EUR: ₦1,496.68 (13 Nov; CBN published selling) -0.43% vs 12 Nov
 
-Parallel-market ranges are withheld this morning: fewer than two independent current observations could be verified, so no premium is shown.
+Nigeria parallel-market observations (previous close / early; not live opening quotes):
+• USD: Buy ₦1,435 | Sell ₦1,441–1,450 | AMB midpoint ₦1,440.25 | Parallel-buy premium +5.98%
+• GBP: Buy ₦1,865–1,867 | Sell ₦1,885 | AMB midpoint ₦1,875.50 | Parallel-buy premium +4.16%
+• EUR: Buy ₦1,535–1,557 | Sell ₦1,560–1,573 | AMB midpoint ₦1,556.25 | Parallel-buy premium +3.30%
+
+Aggregated from multiple independent market sources. Two independent current-day early observations dated 16 Nov, updated at 00:06 and 06:00 WAT; rechecked 08:10 WAT. The ranges preserve cross-source and location differences rather than force a single quote.
 
 🇬🇭 GHANA (13 Nov)
 US$1 = GH₵11.6900 | £1 = GH₵15.4747 | €1 = GH₵12.9187
 Bank of Ghana interbank mid-rates; the cedi was firmer by 0.17% against the US dollar versus the 12 Nov reference.
 
-🇰🇪 KENYA (12 Nov)
-US$1 = KSh129.9600 | £1 = KSh172.7200 | €1 = KSh144.3800
+🇰🇪 KENYA (13 Nov)
+US$1 = KSh129.9600 | £1 = KSh171.9100 | €1 = KSh143.7300
 CBK commercial-banks’ average closing rates (not a standalone buy or sell quote).
 
-🇿🇦 SOUTH AFRICA (12 Nov)
-US$1 = R16.6332 | £1 = R22.0698 | €1 = R18.4463
-SARB weighted-average bank rates, 12 Nov; CARRIED FORWARD (latest verified; SARB endpoint blocked this run).
+🇿🇦 SOUTH AFRICA (13 Nov)
+US$1 = R16.8478 | £1 = R22.3073 | €1 = R18.6454
+SARB weighted-average bank rates, 13 Nov; reverified through the HomePageRates endpoint.
 
-🇪🇬 EGYPT (11 Nov)
-US$1 = E£53.5558 | £1 = E£71.2800 | €1 = E£59.6397
-CBE official buy/sell mid-rates, 11 Nov; CARRIED FORWARD (latest verified; CBE not retrievable).
+🇪🇬 EGYPT (15 Nov)
+US$1 = E£53.7928 | £1 = E£71.0952 | €1 = E£59.2931
+CBE official buy/sell mid-rates, 15 Nov; buy/sell rows independently rechecked and midpoints recomputed.
 
 SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources.
+Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
