@@ -65,7 +65,7 @@
   }
  },
  "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (13 Nov, latest dated table); Kenya CBK commercial-banks' average closing rates posted 16 Nov (not a standalone buy or sell quote); South Africa SARB weighted-average bank rates (13 Nov, carried forward); Egypt CBE 15 Nov carried forward with its true date.",
- "verified_at_wat": "2026-11-16T11:50:00+01:00",
+ "verified_at_wat": "2026-11-16T11:40:00+01:00",
  "nigeria_market_note_short": "Parallel market not sourced this edition · CBN selling rates dated 13 Nov",
  "nigeria_market_note": "Nigeria parallel-market ranges are not sourced in this edition; official CBN selling rates dated 13 Nov are shown.",
  "method": "premium_pct = (parallel buying midpoint / CBN selling rate - 1) x 100",
