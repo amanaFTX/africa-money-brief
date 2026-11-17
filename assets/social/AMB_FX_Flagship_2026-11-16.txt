@@ -6,13 +6,8 @@ Africa’s latest official and parallel-market currency references across Nigeri
 USD — Local currency per US$1
 
 🇳🇬 Official: ₦1,353.97 (13 Nov; CBN NFEM)
-<<<<<<< HEAD
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
-=======
 🇳🇬 Parallel: Buy ₦1,435–1,443 | Sell ₦1,441–1,458
 📊 AMB midpoint: ₦1,444.25 | Parallel-buy premium: +6.28%
->>>>>>> origin/main
 
 🇬🇭 GH₵11.6900 (13 Nov)
 🇰🇪 KSh129.9600 (16 Nov)
@@ -22,13 +17,8 @@ USD — Local currency per US$1
 GBP — Local currency per £1
 
 🇳🇬 Official: ₦1,791.44 (13 Nov; CBN published selling)
-<<<<<<< HEAD
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
-=======
 🇳🇬 Parallel: Buy ₦1,865–1,877 | Sell ₦1,885–1,896
 📊 AMB midpoint: ₦1,880.75 | Parallel-buy premium: +4.44%
->>>>>>> origin/main
 
 🇬🇭 GH₵15.4747 (13 Nov)
 🇰🇪 KSh172.0200 (16 Nov)
@@ -38,13 +28,8 @@ GBP — Local currency per £1
 EUR — Local currency per €1
 
 🇳🇬 Official: ₦1,496.68 (13 Nov; CBN published selling)
-<<<<<<< HEAD
-🇳🇬 Parallel: Not sourced this edition
-📊 AMB midpoint and parallel-buy premium: not computed
-=======
 🇳🇬 Parallel: Buy ₦1,535–1,566 | Sell ₦1,560–1,582
 📊 AMB midpoint: ₦1,560.75 | Parallel-buy premium: +3.60%
->>>>>>> origin/main
 
 🇬🇭 GH₵12.9187 (13 Nov)
 🇰🇪 KSh143.6400 (16 Nov)
@@ -53,13 +38,6 @@ EUR — Local currency per €1
 
 NIGERIA MARKET NOTE
 
-<<<<<<< HEAD
-Nigeria parallel-market ranges are not sourced in this edition; official CBN selling rates dated 13 Nov are shown.
-
-📊 MARKET INSIGHT
-
-Nigeria: parallel-market premiums are not published in this edition because verified current independent observations were unavailable. CBN benchmarks shown are the latest available (13 Nov).
-=======
 Two independent current-day observations dated 16 Nov were combined; the wider EUR buy range is retained with a documented dispersion reason.
 
 📊 MARKET INSIGHT
@@ -71,7 +49,6 @@ Nigeria’s indicative parallel-buy premiums against the latest CBN selling benc
 • EUR: +3.60%
 
 USD carries the widest premium; EUR carries the narrowest.
->>>>>>> origin/main
 
 Cross-market change since the previous Flagship:
 
