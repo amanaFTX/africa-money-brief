@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-11-11",
- "release": "Egypt review (11 Nov): Cairo stays 'collecting'. Existing Global Property Guide district yields remain single-source: a second yield table from a commercial data seller broadly agrees for 2-bed units (New Cairo, Heliopolis, 6th of October, Sheikh Zayed within 1 point) but draws on the same listing portals and gives no per-district listing counts, so it is not independent and was not entered. A Q2 2026 Cairo Rent Price Index (Marsad Omran, 18,000+ listings across 26 neighbourhoods, median city rent EGP 10,000/month) gives rents only and no per-district counts, so it was not entered. Other cities unchanged",
+ "as_of": "2026-11-18",
+ "release": "Kigali review (18 Nov): Kigali stays 'collecting'. No source found gives per-district listing counts, a stated method and a second independent cross-check. An agency yield guide (5-12% gross, 'indicative Q1 2026 estimates') and a crowdsourced database (city-centre 4.58%, outside-centre 3.16%, 57 entries, 9 contributors) disagree widely, and a 2018 research report is stale. Nothing entered; other cities unchanged",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -476,6 +476,18 @@
   {
    "item": "Cairo Rent Price Index, Q2 2026 (Marsad Omran, first edition; read via a news report, 22 Jul 2026)",
    "reason": "Rents only (no prices or yields); sample 18,000+ listings across 26 neighbourhoods but no per-district counts; read via secondary news summary, not the index itself. Not entered. Useful context: city median rent EGP 10,000/month; New Cairo rents reported down 25% y/y."
+  },
+  {
+   "item": "Kigali neighbourhood gross yields from a real-estate agency blog (published 27 Mar 2026, 'indicative Q1 2026 estimates')",
+   "reason": "Marketing content with no sample size, no per-district listing counts and no method beyond 'aligned with NISR indices'; yield ranges (Nyarutarama 5-7%, Kimironko 9-11%, Gasabo emerging 10-12%) are wide ranges, not medians; no price per m2. Fails the 20-listing and evidence gates."
+  },
+  {
+   "item": "Kigali crowdsourced property database (page updated 17 Nov 2026)",
+   "reason": "Grade D: 57 entries from 9 contributors over 18 months, only city-centre vs outside-centre splits, no districts, no price per m2. Implied gross yields 4.58% (centre) and 3.16% (outside) differ from the agency guide by far more than the 25% cross-source limit, so the two cannot be reconciled."
+  },
+  {
+   "item": "Kigali yields from a January 2018 research report",
+   "reason": "Stale (data from 2017-2018, far beyond the 120-day limit); yields by sector not district; residential figure inconsistent within the report (8.1% / 8.2% / 9.0%)."
   }
  ]
 }
