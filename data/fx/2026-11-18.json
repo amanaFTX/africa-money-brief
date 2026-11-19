@@ -3,19 +3,12 @@
  "edition_id": "AMB-FX-2026-11-18",
  "date": "2026-11-18",
  "edition_type": "FX Flagship",
-<<<<<<< HEAD
- "status": "Prepared — not published",
-=======
  "status": "Validated — ready to publish",
->>>>>>> origin/main
  "nigeria": {
   "USD": {
    "official_selling_rate": 1355.8036,
    "official_rate_date": "2026-11-17",
    "official_basis": "CBN selling rate (NFEM)",
-<<<<<<< HEAD
-   "value_label": "Latest available benchmark (CBN, 17 Nov); parallel market not sourced (BLOCKED_SOURCE)"
-=======
    "parallel_buy_low": 1440.0,
    "parallel_buy_high": 1466.0,
    "parallel_sell_low": 1445.0,
@@ -26,15 +19,11 @@
    "value_label": "Current-day observations; indicative, not an executable quote",
    "range_flag_acknowledged": true,
    "range_flag_reason": "Four independent current-day observations reported USD buying and selling levels across a materially wide range; the full corroborated extrema are retained to disclose source and location dispersion."
->>>>>>> origin/main
   },
   "GBP": {
    "official_selling_rate": 1800.7783,
    "official_rate_date": "2026-11-17",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Latest available benchmark (CBN, 17 Nov); parallel market not sourced (BLOCKED_SOURCE)"
-=======
    "parallel_buy_low": 1850.0,
    "parallel_buy_high": 1931.0,
    "parallel_sell_low": 1870.0,
@@ -45,18 +34,11 @@
    "value_label": "Current-day observations; indicative, not an executable quote",
    "range_flag_acknowledged": true,
    "range_flag_reason": "Four independent current-day observations reported materially different GBP buying and selling levels; the full corroborated ranges are retained to disclose source and location dispersion."
->>>>>>> origin/main
   },
   "EUR": {
    "official_selling_rate": 1488.8079,
    "official_rate_date": "2026-11-17",
    "official_basis": "CBN published selling rate",
-<<<<<<< HEAD
-   "value_label": "Latest available benchmark (CBN, 17 Nov); parallel market not sourced (BLOCKED_SOURCE)"
-  }
- },
- "nigeria_note": "CBN selling rates are the latest available benchmarks dated 17 Nov (no 18 Nov rows yet). Nigeria parallel-market ranges are not shown: fewer than two independent current-day observations per currency could be verified, so none are published. Aggregated from multiple independent market sources when available.",
-=======
    "parallel_buy_low": 1540.0,
    "parallel_buy_high": 1609.0,
    "parallel_sell_low": 1560.0,
@@ -70,7 +52,6 @@
   }
  },
  "nigeria_note": "CBN selling rates are the latest available benchmarks dated 17 Nov. Nigeria parallel ranges combine four independent current-day observations reported between 00:30 and 12:00 WAT and rechecked at 13:27 WAT. The published extrema preserve cross-source and location dispersion rather than force a single quote. Aggregated from multiple independent market sources. Premium = parallel buying midpoint ÷ CBN selling rate − 1.",
->>>>>>> origin/main
  "markets": {
   "Ghana": {
    "symbol": "GH₵",
@@ -100,11 +81,7 @@
     "GBP": 22.3646,
     "EUR": 18.647
    },
-<<<<<<< HEAD
-   "note": "SARB weighted-average bank rates, 17 Nov; carried forward (latest verified) because the HomePageRates endpoint was blocked."
-=======
    "note": "SARB weighted-average bank rates, 17 Nov; latest verified publication carried forward with its true effective date."
->>>>>>> origin/main
   },
   "Egypt": {
    "symbol": "E£",
@@ -114,19 +91,6 @@
     "GBP": 70.8779,
     "EUR": 59.0613
    },
-<<<<<<< HEAD
-   "note": "CBE official buy/sell mid-rates, 17 Nov; carried forward (latest verified) because the CBE page was blocked."
-  }
- },
- "markets_note": "Latest official reference values with effective dates: Ghana mid of Bank of Ghana buy/sell (17 Nov, latest dated table); Kenya CBK commercial-banks' average closing rates posted 18 Nov (not a standalone buy or sell quote); South Africa SARB 17 Nov (carried forward); Egypt CBE 17 Nov (carried forward).",
- "verified_at_wat": "2026-11-18T11:55:00+01:00",
- "nigeria_market_note_short": "Parallel market not sourced this edition",
- "nigeria_market_note": "Nigeria parallel ranges, AMB midpoints and premiums are withheld pending verified current-day observations.",
- "method": "premium_pct = (parallel buying midpoint / CBN selling rate - 1) x 100",
- "parallel_source": "Aggregated from multiple independent market sources",
- "official_sources": "Central Bank of Nigeria and national official reference tables"
-}
-=======
    "note": "CBE official buy/sell mid-rates, 17 Nov; latest verified publication carried forward with its true effective date."
   }
  },
@@ -138,4 +102,3 @@
  "parallel_source": "Aggregated from multiple independent market sources",
  "official_sources": "Central Bank of Nigeria and national official reference tables"
 }
->>>>>>> origin/main
