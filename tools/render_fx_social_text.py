@@ -137,6 +137,10 @@ def render(data):
         ]
     else:
         ranked = sorted(((data["nigeria"][c]["premium_pct"], c) for c in ("USD", "GBP", "EUR")), reverse=True)
+        if f"{ranked[-1][0]:.2f}" == f"{ranked[-2][0]:.2f}":
+            spread_summary = f"{ranked[-2][1]} and {ranked[-1][1]} are tied for the narrowest displayed premium at {ranked[-1][0]:.2f}%."
+        else:
+            spread_summary = f"{ranked[-1][1]} carries the narrowest."
         lines += [
             "📊 MARKET INSIGHT",
             "",
@@ -144,7 +148,7 @@ def render(data):
             "",
             *[f"• {code}: {premium:+.2f}%" for premium, code in ranked],
             "",
-            f"{ranked[0][1]} carries the widest premium; {ranked[-1][1]} carries the narrowest.",
+            f"{ranked[0][1]} carries the widest premium. {spread_summary}",
         ]
     moves = movement_insights(data, previous_edition(data["date"]))
     if moves:
