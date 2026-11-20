@@ -1,6 +1,6 @@
 {
   "schema": "amb-money-rates/1",
-  "as_of": "2026-10-30",
+  "as_of": "2026-11-20",
   "countries": {
     "NG": {
       "name": "Nigeria",
@@ -14,36 +14,36 @@
         "src": "CBN MPC decisions page, 21–22 Sep 2026"
       },
       "inflation": {
-        "rate": 14.63,
-        "period": "Sep 2026",
-        "src": "NBS (released 15 Oct)"
+        "rate": 14.06,
+        "period": "Oct 2026",
+        "src": "NBS (released 16 Nov)"
       },
       "bills": {
         "basis": "discount",
-        "auction": "2026-10-28",
-        "src": "CBN/DMO primary auction, 28 Oct (stop rates as reported by two press outlets; official release not retrievable)",
+        "auction": "2026-11-11",
+        "src": "CBN/DMO primary auction, 11 Nov (stop rates as reported by press; official release not retrievable)",
         "src_url": "https://www.dmo.gov.ng/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
             "rate": 15.4,
-            "prev": 15.5,
-            "alloc": "₦22.33bn allotted of ₦100bn offered"
+            "prev": 15.4,
+            "alloc": "₦18.12bn allotted of ₦100bn offered"
           },
           {
             "t": "182-day",
             "days": 182,
             "rate": 15.79,
-            "prev": 15.8,
-            "alloc": "₦10.45bn allotted of ₦100bn offered"
+            "prev": 15.79,
+            "alloc": "₦22.28bn allotted of ₦100bn offered"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 15.8,
-            "prev": 15.9,
-            "alloc": "₦38.38bn allotted of ₦600bn offered; ₦1.84trn subscribed"
+            "rate": 15.89,
+            "prev": 15.8,
+            "alloc": "₦672.91bn allotted of ₦600bn offered; ₦1.08trn subscribed"
           }
         ]
       },
@@ -118,42 +118,42 @@
       "flag": "🇬🇭",
       "policy": {
         "label": "Policy rate",
-        "rate": 14,
-        "date": "2026-09-25",
-        "note": "Held for the third time this year; decision reported 25 Sep.",
-        "src": "Bank of Ghana (as reported)"
+        "rate": 11,
+        "date": "2026-11-18",
+        "note": "Cut from 14% at the 133rd MPC (16–18 Nov); corridor narrowed to ±100 bp.",
+        "src": "Bank of Ghana MPC press release, November 2026"
       },
       "inflation": {
-        "rate": 5.2,
-        "period": "Sep 2026",
-        "src": "Ghana Statistical Service (as reported)"
+        "rate": 5.5,
+        "period": "Oct 2026",
+        "src": "Bank of Ghana MPC press release (Ghana Statistical Service data)"
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-26",
-        "src": "Bank of Ghana, issue date 26 Oct",
+        "auction": "2026-11-16",
+        "src": "Bank of Ghana tender notice BG/FMD/2026/55, issue date 16 Nov (tender 13 Nov)",
         "src_url": "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 4.6135,
-            "prev": 4.6235,
-            "alloc": "Interest rate (discount rate 4.5609%)"
+            "rate": 4.5571,
+            "prev": 4.5624,
+            "alloc": "Interest rate (discount rate 4.5058%)"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 6.2929,
-            "prev": 6.3154,
-            "alloc": "Interest rate (discount rate 6.1009%)"
+            "rate": 6.1678,
+            "prev": 6.202,
+            "alloc": "Interest rate (discount rate 5.9833%)"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.6739,
-            "prev": 9.7135,
-            "alloc": "Interest rate (discount rate 8.8206%)"
+            "rate": 9.4603,
+            "prev": 9.4846,
+            "alloc": "Interest rate (discount rate 8.6427%)"
           }
         ]
       },
@@ -184,7 +184,7 @@
             "terms": "System average"
           }
         ],
-        "note": "The August 6-month deposit average (9.72%) is above the latest 182-day bill (6.29%)."
+        "note": "The August 6-month deposit average (9.72%) is above the latest 182-day bill (6.17%)."
       }
     },
     "KE": {
@@ -199,35 +199,35 @@
         "src": "CBK MPC press release, 7 Oct 2026"
       },
       "inflation": {
-        "rate": 6.8,
-        "period": "Sep 2026",
-        "src": "KNBS, as cited in CBK MPC release"
+        "rate": 7.3,
+        "period": "Oct 2026",
+        "src": "KNBS (released 30 Oct), as reported"
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-10-29",
-        "src": "CBK treasury bills page, average interest rates for the 29 Oct auction (issues 2706/091, 2680/182, 2635/364); results PDF not opened",
+        "auction": "2026-11-12",
+        "src": "CBK treasury bill results, issues 2708/091, 2682/182, 2637/364 dated 16 Nov 2026 (auction 12 Nov)",
         "src_url": "https://www.centralbank.go.ke/bills-bonds/treasury-bills/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 8.7498,
-            "prev": 8.7478,
+            "rate": 8.7448,
+            "prev": 8.75,
             "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 8.8508,
-            "prev": 8.8591,
+            "rate": 8.8372,
+            "prev": 8.845,
             "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.0288,
-            "prev": 9.0267,
+            "rate": 9.0098,
+            "prev": 9.0282,
             "alloc": "Weighted average, accepted bids"
           }
         ]
@@ -263,13 +263,13 @@
         "label": "Repo rate",
         "rate": 7.25,
         "date": "2026-09-23",
-        "note": "Raised 25 bp; prime lending rate 10.75%.",
+        "note": "Raised 25 bp effective 25 Sep; prime lending rate 10.75%. The 19 Nov MPC decision could not be confirmed from a SARB release for this refresh.",
         "src": "SARB (as reported)"
       },
       "inflation": {
-        "rate": 4.5,
-        "period": "Sep 2026",
-        "src": "Stats SA (released 21 Oct)"
+        "rate": 5.2,
+        "period": "Oct 2026",
+        "src": "Stats SA (released 18 Nov)"
       },
       "bills": null,
       "deposits": {
@@ -308,14 +308,14 @@
       "flag": "🇪🇬",
       "policy": {
         "label": "Key rate",
-        "rate": 19,
-        "date": "2026-09-24",
-        "note": "Held (reported); not yet confirmed from a CBE release.",
-        "src": "CBE (as reported)"
+        "rate": 20,
+        "date": "2026-10-29",
+        "note": "Overnight deposit rate raised 100 bp from 19%; lending rate 21%. Reported; not confirmed from a CBE release.",
+        "src": "CBE decision (as reported)"
       },
       "inflation": {
-        "rate": 13.9,
-        "period": "Sep 2026 (urban)",
+        "rate": 12.7,
+        "period": "Oct 2026 (urban)",
         "src": "CAPMAS (as reported)"
       },
       "bills": null,
