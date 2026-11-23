@@ -138,7 +138,13 @@ def render(data, output):
             draw.text((x, y + 8), f"{market['symbol']}{market['rates'][code]:,.4f}", font=font(16, True), fill=WHITE)
         draw.text((887, y + 8), age, font=font(13, True), fill=GREEN if age == "TODAY" else GOLD)
 
-    draw.text((58, 1241), "Premium = parallel buying midpoint ÷ CBN selling rate − 1." if not early else "Previous-close / latest-benchmark reference · not live quotes · Kenya = CBK avg closing rates.", font=font(14), fill=MUTED)
+    if not early:
+        footer = "Premium = parallel buying midpoint ÷ CBN selling rate − 1."
+    elif "current-day" in data.get("nigeria_market_note_short", "").lower():
+        footer = "Current-day early / latest-benchmark reference · not live quotes · Kenya = CBK avg closing rates."
+    else:
+        footer = "Previous-close / latest-benchmark reference · not live quotes · Kenya = CBK avg closing rates."
+    draw.text((58, 1241), footer, font=font(14), fill=MUTED)
     draw.text((58, 1265), data.get("nigeria_market_note_short", "Parallel observations aggregated from multiple independent market sources."), font=font(14), fill=MUTED)
     draw.text((58, 1298), "Indicative only · Not FX advice", font=font(13), fill="#7F95A8")
     draw.text((762, 1279), "africamoneybrief.com/fx.html", font=font(14, True), fill=GOLD)

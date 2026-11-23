@@ -188,11 +188,13 @@ def render_early(data):
     prior = json.loads((ROOT / "data/fx/latest.json").read_text(encoding="utf-8"))
     n = data["nigeria"]
     m = data["markets"]
+    current_day_parallel = "current-day" in n["USD"].get("parallel_observation_label", "").lower()
     lines = [
         "🌍 AFRICA MONEY BRIEF | FX EARLY LOOK",
         f"📅 {edition.strftime('%A, %-d %B %Y')} · pre-market",
         "",
-        "Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.",
+        (("Current-day early observations and latest-benchmark references" if current_day_parallel else "Previous-close and latest-benchmark references")
+         + " across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date."),
         "",
         "🇳🇬 NIGERIA",
     ]
@@ -211,7 +213,8 @@ def render_early(data):
             "the ranges preserve it rather than force a single quote."
             if wide else "The ranges preserve cross-source and location differences rather than force a single quote."
         )
-        lines += ["", "Nigeria parallel-market observations (previous close / early; not live opening quotes):"]
+        label = "current-day early" if current_day_parallel else "previous close / early"
+        lines += ["", f"Nigeria parallel-market observations ({label}; not live opening quotes):"]
         for code in ("USD", "GBP", "EUR"):
             v = n[code]
             buy_mid = (v["parallel_buy_low"] + v["parallel_buy_high"]) / 2
@@ -275,7 +278,9 @@ def render_early(data):
         "",
         "Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.",
         "",
-        ("Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes."
+        ("Nigeria parallel-market rates: Aggregated from multiple independent market sources; "
+         + ("current-day early" if current_day_parallel else "previous-close/early")
+         + " observations are explicitly time-labeled and are not live opening quotes."
          if has_parallel else "Nigeria parallel-market rates: not published in this edition. When available: Aggregated from multiple independent market sources."),
         "",
         "Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.",
