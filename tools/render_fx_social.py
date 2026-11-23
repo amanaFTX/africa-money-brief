@@ -117,17 +117,29 @@ def render(data, output):
         draw.text((x + 22, y0 + 339), "AMB MIDPOINT", font=font(12, True), fill=GOLD)
         draw.text((x + 132, y0 + 334), c[6], font=font(20, True), fill=GOLD)
 
-    draw.text((58, 738), "AFRICA CROSS-MARKETS", font=font(16, True), fill=GOLD)
-    draw.text((58, 768), "Latest official reference rates", font=font(31, True), fill=WHITE)
-    tx0, ty0, tx1 = 58, 820, 1022
-    draw.rounded_rectangle((tx0, ty0, tx1, 1208), radius=22, fill=PANEL2, outline=LINE, width=2)
+    shift = 0
+    if not early:
+        usd = data["nigeria"]["USD"]
+        if usd.get("parallel_buy_low") is not None:
+            bmid = (usd["parallel_buy_low"] + usd["parallel_buy_high"]) / 2
+            draw.rounded_rectangle((58, 708, 1022, 772), radius=18, fill=GOLD)
+            draw.text((82, 718), "USD: Nigeria Official vs Parallel Premium", font=font(22, True), fill="#07111F")
+            draw.text((82, 748), f"Official ₦{usd['official_selling_rate']:,.2f} · parallel buy midpoint ₦{bmid:,.2f}", font=font(15), fill="#07111F")
+            pct = f"{usd['premium_pct']:+.2f}%"
+            draw.text((1000 - draw.textlength(pct, font=font(40, True)), 722), pct, font=font(40, True), fill="#07111F")
+            shift = 50
+    draw.text((58, 738 + shift), "AFRICA CROSS-MARKETS", font=font(16, True), fill=GOLD)
+    draw.text((58, 764 + shift), "Latest official reference rates", font=font(27, True), fill=WHITE)
+    tx0, ty0, tx1 = 58, 820 + shift, 1022
+    rowp = 76 if not shift else 62
+    draw.rounded_rectangle((tx0, ty0, tx1, ty0 + 388 if not shift else ty0 + 318), radius=22, fill=PANEL2, outline=LINE, width=2)
     cols = (76, 350, 535, 720, 887)
     for x, header in zip(cols, ("MARKET / AS OF", "USD", "GBP", "EUR", "FRESHNESS")):
         draw.text((x, ty0 + 20), header, font=font(13, True), fill=MUTED)
     draw.line((76, ty0 + 55, 1004, ty0 + 55), fill=LINE, width=2)
 
     for i, (name, market) in enumerate(data["markets"].items()):
-        y = ty0 + 75 + i * 76
+        y = ty0 + (70 if shift else 75) + i * rowp
         asof = dt.date.fromisoformat(market["asof"])
         age = freshness(edition, asof)
         if i:

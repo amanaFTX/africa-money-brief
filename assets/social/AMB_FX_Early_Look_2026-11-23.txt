@@ -1,31 +1,19 @@
 🌍 AFRICA MONEY BRIEF | FX EARLY LOOK
 📅 Monday, 23 November 2026 · pre-market
 
-<<<<<<< HEAD
-Previous-close and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
-=======
 Current-day early observations and latest-benchmark references across Nigeria, Ghana, Kenya, South Africa and Egypt. These are not live opening quotes; each figure carries its effective date.
->>>>>>> origin/main
 
 🇳🇬 NIGERIA
 • USD: ₦1,389.73 (20 Nov; CBN NFEM) +0.96% vs 19 Nov
 • GBP: ₦1,836.67 (20 Nov; CBN published selling) +1.39% vs 19 Nov
 • EUR: ₦1,528.57 (20 Nov; CBN published selling) +0.98% vs 19 Nov
 
-<<<<<<< HEAD
-Nigeria parallel-market observations (previous close / early; not live opening quotes):
-=======
 Nigeria parallel-market observations (current-day early; not live opening quotes):
->>>>>>> origin/main
 • USD: Buy ₦1,440–1,450 | Sell ₦1,460 | AMB midpoint ₦1,452.50 | Parallel-buy premium +3.98%
 • GBP: Buy ₦1,870 | Sell ₦1,890–1,920 | AMB midpoint ₦1,887.50 | Parallel-buy premium +1.81%
 • EUR: Buy ₦1,550–1,555 | Sell ₦1,575–1,600 | AMB midpoint ₦1,570.00 | Parallel-buy premium +1.57%
 
-<<<<<<< HEAD
-Aggregated from multiple independent market sources. Two independent observations: one current-day early (06:08 WAT, 23 Nov) and one previous close (21 Nov; time not stated); rechecked 06:15 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
-=======
 Aggregated from multiple independent market sources. Two independent current-day early observations (03:08 and 01:57 WAT, 23 Nov); independently rechecked 08:08 WAT. GBP and EUR show material cross-source dispersion; the ranges preserve it rather than force a single quote.
->>>>>>> origin/main
 
 🇬🇭 GHANA (20 Nov)
 US$1 = GH₵11.8000 | £1 = GH₵15.4604 | €1 = GH₵12.9581
@@ -37,11 +25,7 @@ CBK commercial-banks’ average closing rates (not a standalone buy or sell quot
 
 🇿🇦 SOUTH AFRICA (20 Nov)
 US$1 = R17.4429 | £1 = R22.8720 | €1 = R19.1471
-<<<<<<< HEAD
-SARB weighted-average bank rates, 20 Nov — CARRIED FORWARD from the validated 20 Nov Flagship (SARB HomePageRates endpoint blocked this run).
-=======
 SARB weighted-average bank rates, 20 Nov; independently reverified through the SARB HomePageRates endpoint.
->>>>>>> origin/main
 
 🇪🇬 EGYPT (19 Nov)
 US$1 = E£53.8108 | £1 = E£70.7881 | €1 = E£59.1515
@@ -51,11 +35,7 @@ SOURCES & METHODOLOGY
 
 Official rates: latest available central-bank reference rates (CBN, Bank of Ghana, CBK, SARB, CBE), with effective dates indicated. Ghana and Egypt figures are midpoints of published buy/sell rates.
 
-<<<<<<< HEAD
-Nigeria parallel-market rates: Aggregated from multiple independent market sources; previous-close/early observations are explicitly time-labeled and are not live opening quotes.
-=======
 Nigeria parallel-market rates: Aggregated from multiple independent market sources; current-day early observations are explicitly time-labeled and are not live opening quotes.
->>>>>>> origin/main
 
 Rates are indicative and may vary by source, location, transaction size and time. Informational only — not FX advice. The Flagship edition follows after verification.
 
