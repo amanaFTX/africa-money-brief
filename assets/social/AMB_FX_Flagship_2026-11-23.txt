@@ -6,13 +6,13 @@ Africa’s latest official and parallel-market currency references across Nigeri
 USD — Local currency per US$1
 
 🇳🇬 Official: ₦1,389.73 (20 Nov; CBN NFEM)
-🇳🇬 Parallel: Buy ₦1,445–1,450 | Sell ₦1,460
-📊 AMB midpoint: ₦1,453.75 | Parallel-buy premium: +4.16%
+🇳🇬 Parallel: Buy ₦1,445 | Sell ₦1,455–1,460
+📊 AMB midpoint: ₦1,451.25 | Parallel-buy premium: +3.98%
 
 🇬🇭 GH₵11.8000 (20 Nov)
 🇰🇪 KSh129.9800 (23 Nov)
-🇿🇦 R17.4429 (20 Nov)
-🇪🇬 E£53.8108 (19 Nov)
+🇿🇦 R17.4478 (23 Nov)
+🇪🇬 E£54.4330 (22 Nov)
 
 GBP — Local currency per £1
 
@@ -22,30 +22,30 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.4604 (20 Nov)
 🇰🇪 KSh170.4200 (23 Nov)
-🇿🇦 R22.8720 (20 Nov)
-🇪🇬 E£70.7881 (19 Nov)
+🇿🇦 R22.9046 (23 Nov)
+🇪🇬 E£71.2120 (22 Nov)
 
 EUR — Local currency per €1
 
 🇳🇬 Official: ₦1,528.57 (20 Nov; CBN published selling)
-🇳🇬 Parallel: Buy ₦1,555–1,570 | Sell ₦1,575–1,620
-📊 AMB midpoint: ₦1,580.00 | Parallel-buy premium: +2.22%
+🇳🇬 Parallel: Buy ₦1,570–1,580 | Sell ₦1,600–1,620
+📊 AMB midpoint: ₦1,592.50 | Parallel-buy premium: +3.04%
 
 🇬🇭 GH₵12.9581 (20 Nov)
 🇰🇪 KSh142.7800 (23 Nov)
-🇿🇦 R19.1471 (20 Nov)
-🇪🇬 E£59.1515 (19 Nov)
+🇿🇦 R19.1812 (23 Nov)
+🇪🇬 E£59.6994 (22 Nov)
 
 NIGERIA MARKET NOTE
 
-Two independent current-day observations were combined; the GBP and EUR sell-side ranges retain corroborated cross-source dispersion and all ranges are indicative, not executable quotes.
+Two independent current-day observations were combined; the GBP sell-side range retains corroborated cross-source dispersion and all ranges are indicative, not executable quotes.
 
 📊 MARKET INSIGHT
 
 Nigeria’s indicative parallel-buy premiums against the latest CBN selling benchmarks:
 
-• USD: +4.16%
-• EUR: +2.22%
+• USD: +3.98%
+• EUR: +3.04%
 • GBP: +1.81%
 
 USD carries the widest premium. GBP carries the narrowest.
@@ -54,8 +54,10 @@ Cross-market change since the previous Flagship:
 
 • Ghana: the cedi weakened across USD, GBP and EUR versus the 19 Nov reference; the largest move was against EUR (0.27%).
 • Kenya: moves were mixed; the largest was EUR (+0.05%).
+• South Africa: the rand weakened across USD, GBP and EUR versus the 20 Nov reference; the largest move was against EUR (0.18%).
+• Egypt: the pound weakened across USD, GBP and EUR versus the 19 Nov reference; the largest move was against USD (1.16%).
 
-Official reference dates: Ghana 20 Nov; Kenya 23 Nov; South Africa 20 Nov; Egypt 19 Nov.
+Official reference dates: Ghana 20 Nov; Kenya 23 Nov; South Africa 23 Nov; Egypt 22 Nov.
 
 SOURCES & METHODOLOGY
 

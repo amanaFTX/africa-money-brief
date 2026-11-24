@@ -129,7 +129,7 @@ def render(data, output):
             draw.text((1000 - draw.textlength(pct, font=font(40, True)), 722), pct, font=font(40, True), fill="#07111F")
             shift = 50
     draw.text((58, 738 + shift), "AFRICA CROSS-MARKETS", font=font(16, True), fill=GOLD)
-    draw.text((58, 764 + shift), "Latest official reference rates", font=font(27, True), fill=WHITE)
+    draw.text((58, 764 + shift), "Latest official reference rates", font=font(27 if shift else 31, True), fill=WHITE)
     tx0, ty0, tx1 = 58, 820 + shift, 1022
     rowp = 76 if not shift else 62
     draw.rounded_rectangle((tx0, ty0, tx1, ty0 + 388 if not shift else ty0 + 318), radius=22, fill=PANEL2, outline=LINE, width=2)
