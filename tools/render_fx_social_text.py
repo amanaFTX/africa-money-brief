@@ -154,9 +154,15 @@ def render(data):
     if moves:
         lines += ["", "Cross-market change since the previous Flagship:", "", *moves]
     freshness = "; ".join(f"{m} {date_label(v['asof'])}" for m, v in data["markets"].items())
+    carry_forwards = [
+        f"{market}: {date_label(values['asof'])} figures carried forward with their true effective date."
+        for market, values in data["markets"].items()
+        if "CARRIED FORWARD" in values.get("note", "").upper()
+    ]
     lines += [
         "",
         f"Official reference dates: {freshness}.",
+        *carry_forwards,
         "",
         "SOURCES & METHODOLOGY",
         "",

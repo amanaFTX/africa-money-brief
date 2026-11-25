@@ -11,7 +11,11 @@ USD — Local currency per US$1
 
 🇬🇭 GH₵11.8500 (23 Nov)
 🇰🇪 KSh130.0300 (24 Nov)
+<<<<<<< HEAD
 🇿🇦 R17.4478 (23 Nov)
+=======
+🇿🇦 R17.4986 (24 Nov)
+>>>>>>> origin/main
 🇪🇬 E£54.4330 (22 Nov)
 
 GBP — Local currency per £1
@@ -22,7 +26,11 @@ GBP — Local currency per £1
 
 🇬🇭 GH₵15.4305 (23 Nov)
 🇰🇪 KSh170.4100 (24 Nov)
+<<<<<<< HEAD
 🇿🇦 R22.9046 (23 Nov)
+=======
+🇿🇦 R22.8155 (24 Nov)
+>>>>>>> origin/main
 🇪🇬 E£71.2120 (22 Nov)
 
 EUR — Local currency per €1
@@ -33,12 +41,20 @@ EUR — Local currency per €1
 
 🇬🇭 GH₵12.9126 (23 Nov)
 🇰🇪 KSh142.7500 (24 Nov)
+<<<<<<< HEAD
 🇿🇦 R19.1812 (23 Nov)
+=======
+🇿🇦 R19.0936 (24 Nov)
+>>>>>>> origin/main
 🇪🇬 E£59.6994 (22 Nov)
 
 NIGERIA MARKET NOTE
 
+<<<<<<< HEAD
 Two independent same-day observations (08:01 and 11:06 WAT) were combined; the GBP sell-side range retains corroborated cross-source dispersion and all ranges are indicative, not executable quotes.
+=======
+Two independent current-day observations were combined; the GBP sell-side range retains corroborated cross-source dispersion and all ranges are indicative, not executable quotes.
+>>>>>>> origin/main
 
 📊 MARKET INSIGHT
 
@@ -54,8 +70,15 @@ Cross-market change since the previous Flagship:
 
 • Ghana: moves were mixed; the largest was USD (+0.42%).
 • Kenya: moves were mixed; the largest was USD (+0.04%).
+<<<<<<< HEAD
 
 Official reference dates: Ghana 23 Nov; Kenya 24 Nov; South Africa 23 Nov; Egypt 22 Nov.
+=======
+• South Africa: moves were mixed; the largest was EUR (-0.46%).
+
+Official reference dates: Ghana 23 Nov; Kenya 24 Nov; South Africa 24 Nov; Egypt 22 Nov.
+Egypt: 22 Nov figures carried forward with their true effective date.
+>>>>>>> origin/main
 
 SOURCES & METHODOLOGY
 
