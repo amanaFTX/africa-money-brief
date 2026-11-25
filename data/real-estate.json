@@ -1,7 +1,7 @@
 {
  "schema": "amb-real-estate/1",
- "as_of": "2026-11-18",
- "release": "Kigali review (18 Nov): Kigali stays 'collecting'. No source found gives per-district listing counts, a stated method and a second independent cross-check. An agency yield guide (5-12% gross, 'indicative Q1 2026 estimates') and a crowdsourced database (city-centre 4.58%, outside-centre 3.16%, 57 entries, 9 contributors) disagree widely, and a 2018 research report is stale. Nothing entered; other cities unchanged",
+ "as_of": "2026-11-25",
+ "release": "Nigeria review (25 Nov): Lagos and Abuja stay 'collecting'. No new record passed the gates. A Q3 2026 listing-portal market report with per-bed-type yields and listing counts (Abuja 2-bed 7.5%, Lagos 3-bed 7.2%) was read but held: its terms require credit by name, which AMB's no-provider-names rule does not allow, its robots.txt could not be checked, and its dates are inconsistent. Knight Frank gives Nigeria-wide yields only (residential 5.5%, office 8.5%), not Lagos or Abuja. Existing Lagos records unchanged",
  "grades": {
   "A": "Official or transaction-based index",
   "B": "Published research report",
@@ -488,6 +488,22 @@
   {
    "item": "Kigali yields from a January 2018 research report",
    "reason": "Stale (data from 2017-2018, far beyond the 120-day limit); yields by sector not district; residential figure inconsistent within the report (8.1% / 8.2% / 9.0%)."
+  },
+  {
+   "item": "Q3 2026 Nigerian listing-portal market report (asking prices; published 7 Aug 2026, updated 28 Sep 2026)",
+   "reason": "Held, not entered. Grade C data with listing counts (e.g. Abuja 2-bed 7.5% on 720 listings, Lagos 3-bed 7.2% on 10,158), but city-and-bed-count rows, not districts; the report is free to use only with named credit, which conflicts with AMB's no-provider-names rule; robots.txt and terms could not be checked; the report is dated both 'published 7 Aug' and 'covering to 30 Sep'; area-level rows were only read via a model-extracted summary. Owner decision needed on credit and robots check."
+  },
+  {
+   "item": "Knight Frank Africa Report 2026/27, Nigeria page (residential 5.5%, office 8.5%, retail 9.5% yields; Lagos prime office US$55 per m2 a month)",
+   "reason": "Yields are Nigeria-wide chart values, not labelled Lagos or Abuja; no yield definition or publication date in the text read. Not entered as district records. Context only."
+  },
+  {
+   "item": "Abuja mid-income yields of 8-12% (Lokogoma, Lugbe) in Knight Frank Lagos Market Update H2 2025",
+   "reason": "Passing mention, no method, sample or date; not comparable with any qualifying record. Not entered."
+  },
+  {
+   "item": "Abuja neighbourhood rental-income rankings from agents and property blogs (2026)",
+   "reason": "Seller or agency marketing with no disclosed sample, method or dates. Not fetched or entered."
   }
  ]
 }
