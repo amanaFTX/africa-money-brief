@@ -55,6 +55,12 @@ def movement_insights(data, prior):
         moves = {c: (current["rates"][c] / old["rates"][c] - 1) * 100 for c in ("USD", "GBP", "EUR")}
         signs = {1 if v > 0 else -1 if v < 0 else 0 for v in moves.values()}
         largest = max(moves, key=lambda c: abs(moves[c]))
+        if signs == {0}:
+            out.append(
+                f"• {market}: the {CURRENCY_NAMES[market]} was unchanged across USD, GBP and EUR versus the "
+                f"{date_label(old['asof'])} reference (same published figures)."
+            )
+            continue
         if 0 in signs and len(signs) > 1 and signs <= {0, 1}:
             flat = " and ".join(c for c, v in moves.items() if v == 0)
             changed = " and ".join(c for c, v in moves.items() if v > 0)
