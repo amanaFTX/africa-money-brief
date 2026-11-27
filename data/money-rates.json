@@ -1,6 +1,6 @@
 {
   "schema": "amb-money-rates/1",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-27",
   "countries": {
     "NG": {
       "name": "Nigeria",
@@ -9,9 +9,9 @@
       "policy": {
         "label": "MPR",
         "rate": 23,
-        "date": "2026-09-22",
-        "note": "Cut from 26.50% at the 21–22 Sep MPC. Standing-facility corridor +50/−300 bp.",
-        "src": "CBN MPC decisions page, 21–22 Sep 2026"
+        "date": "2026-11-24",
+        "note": "Held at the 23–24 Nov MPC. Last changed on 22 Sep, from 26.50%. Standing-facility corridor +50/−300 bp.",
+        "src": "CBN MPC decisions page, 23–24 Nov 2026"
       },
       "inflation": {
         "rate": 14.06,
@@ -20,96 +20,112 @@
       },
       "bills": {
         "basis": "discount",
-        "auction": "2026-11-11",
-        "src": "CBN/DMO primary auction, 11 Nov (stop rates as reported by press; official release not retrievable)",
+        "auction": "2026-11-25",
+        "src": "CBN/DMO primary auction, 25 Nov (stop rates as reported by press; official release not retrievable)",
         "src_url": "https://www.dmo.gov.ng/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 15.4,
+            "rate": 16.0,
             "prev": 15.4,
-            "alloc": "₦18.12bn allotted of ₦100bn offered"
+            "alloc": "₦37.14bn allotted of ₦100bn offered"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 15.79,
+            "rate": 16.14,
             "prev": 15.79,
-            "alloc": "₦22.28bn allotted of ₦100bn offered"
+            "alloc": "₦51.06bn allotted of ₦100bn offered"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 15.89,
-            "prev": 15.8,
-            "alloc": "₦672.91bn allotted of ₦600bn offered; ₦1.08trn subscribed"
+            "rate": 16.6,
+            "prev": 15.89,
+            "alloc": "₦625.08bn allotted of ₦400bn offered; ₦794.16bn subscribed"
           }
         ]
       },
       "deposits": {
-        "date": "2026-10-07",
+        "date": "2026-11-27",
         "kind": "Published retail product rates",
-        "src": "Bank product pages",
+        "src": "Bank product pages and UBA charges and rates guide, checked 27 Nov 2026",
         "rows": [
           {
             "p": "Access Bank HIDA",
-            "detail": "₦5m–₦49.9m 9.00% · ₦50m–₦99.9m 9.50% · ₦100m–₦249.9m 11.00% · ₦250m+ 13.00%",
-            "rate": 13,
-            "low": 9,
-            "terms": "Tiered; up to four withdrawals without forfeiting interest",
+            "detail": "Below ₦100k 6.90% · ₦100k–₦4.99m 7.35% · ₦5m–₦49.9m 8.00% · ₦50m–₦99.9m 8.50% · ₦100m–₦249.9m 10.00% · ₦250m+ 11.00%",
+            "rate": 11,
+            "low": 6.9,
+            "terms": "Tiered; up to four free withdrawals without forfeiting interest",
             "tiers": [
               {
+                "min": 0,
+                "rate": 6.9
+              },
+              {
+                "min": 100000,
+                "rate": 7.35
+              },
+              {
                 "min": 5000000,
-                "rate": 9
+                "rate": 8
               },
               {
                 "min": 50000000,
-                "rate": 9.5
+                "rate": 8.5
               },
               {
                 "min": 100000000,
-                "rate": 11
+                "rate": 10
               },
               {
                 "min": 250000000,
-                "rate": 13
+                "rate": 11
               }
             ]
           },
           {
             "p": "Fidelity HYSA",
-            "detail": "₦5m–₦49.9m 9.45% · ₦50m+ 10.45%",
-            "rate": 10.45,
-            "low": 9.45,
-            "terms": "Interest paid monthly; more than three withdrawals a month forfeits interest",
+            "detail": "Below ₦100k 6.90% · ₦100k–₦4.99m 7.40% · ₦5m–₦49.9m 8.40% · ₦50m+ 9.40%",
+            "rate": 9.4,
+            "low": 6.9,
+            "terms": "Minimum operating balance ₦5,000; no interest in a month with more than three withdrawals",
             "tiers": [
               {
+                "min": 0,
+                "rate": 6.9
+              },
+              {
+                "min": 100000,
+                "rate": 7.4
+              },
+              {
                 "min": 5000000,
-                "rate": 9.45
+                "rate": 8.4
               },
               {
                 "min": 50000000,
-                "rate": 10.45
+                "rate": 9.4
               }
             ]
           },
           {
             "p": "GTBank GTSave",
-            "detail": "8.25% p.a.",
-            "rate": 8.25,
-            "low": 8.25,
-            "terms": "Published product rate"
+            "detail": "7.875% p.a.",
+            "rate": 7.875,
+            "low": 7.875,
+            "terms": "Headline rate on the product page"
           },
           {
             "p": "UBA regular savings",
-            "detail": "7.90% p.a.",
-            "rate": 7.9,
-            "low": 7.9,
-            "terms": "Monthly interest"
+            "detail": "6.90% p.a.",
+            "rate": 6.9,
+            "low": 6.9,
+            "terms": "From UBA’s November 2026 service charges and rates guide"
           }
         ],
-        "note": "Fixed deposits: Stanbic IBTC and others quote on request. Interest is subject to 10% withholding tax."
+        "note": "These pages state no effective date; the date shown is when AMB checked them. Fixed deposits: Stanbic IBTC and others quote on request. Interest is subject to 10% withholding tax."
       }
     },
     "GH": {
@@ -130,30 +146,30 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-11-16",
-        "src": "Bank of Ghana tender notice BG/FMD/2026/55, issue date 16 Nov (tender 13 Nov)",
-        "src_url": "https://www.bog.gov.gh/treasury-and-the-markets/treasury-bill-rates/",
+        "auction": "2026-11-20",
+        "src": "Bank of Ghana tender notice BG/FMD/2026/57, tender 2034 of 20 Nov (issue date 23 Nov)",
+        "src_url": "https://www.bog.gov.gh/wp-content/uploads/2026/11/Auctresults-2034.pdf",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 4.5571,
-            "prev": 4.5624,
-            "alloc": "Interest rate (discount rate 4.5058%)"
+            "rate": 4.5193,
+            "prev": 4.5571,
+            "alloc": "Interest rate (discount rate 4.4688%)"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 6.1678,
-            "prev": 6.202,
-            "alloc": "Interest rate (discount rate 5.9833%)"
+            "rate": 6.121,
+            "prev": 6.1678,
+            "alloc": "Interest rate (discount rate 5.9392%)"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.4603,
-            "prev": 9.4846,
-            "alloc": "Interest rate (discount rate 8.6427%)"
+            "rate": 9.4471,
+            "prev": 9.4603,
+            "alloc": "Interest rate (discount rate 8.6316%)"
           }
         ]
       },
@@ -184,7 +200,7 @@
             "terms": "System average"
           }
         ],
-        "note": "The August 6-month deposit average (9.72%) is above the latest 182-day bill (6.17%)."
+        "note": "The August 6-month deposit average (9.72%) is above the latest 182-day bill (6.12%)."
       }
     },
     "KE": {
@@ -205,50 +221,50 @@
       },
       "bills": {
         "basis": "interest",
-        "auction": "2026-11-12",
-        "src": "CBK treasury bill results, issues 2708/091, 2682/182, 2637/364 dated 16 Nov 2026 (auction 12 Nov)",
+        "auction": "2026-11-26",
+        "src": "CBK treasury bills page: 26 Nov auction average rates (value date 30 Nov), shown as previous average rates for the 3 Dec offer",
         "src_url": "https://www.centralbank.go.ke/bills-bonds/treasury-bills/",
         "tenors": [
           {
             "t": "91-day",
             "days": 91,
-            "rate": 8.7448,
-            "prev": 8.75,
+            "rate": 8.7472,
+            "prev": 8.7422,
             "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "182-day",
             "days": 182,
-            "rate": 8.8372,
-            "prev": 8.845,
+            "rate": 8.819,
+            "prev": 8.8286,
             "alloc": "Weighted average, accepted bids"
           },
           {
             "t": "364-day",
             "days": 364,
-            "rate": 9.0098,
-            "prev": 9.0282,
+            "rate": 8.9858,
+            "prev": 8.9943,
             "alloc": "Weighted average, accepted bids"
           }
         ]
       },
       "deposits": {
-        "date": "2026-08-31",
+        "date": "2026-09-30",
         "kind": "Banking-system averages",
-        "src": "CBK, August 2026",
+        "src": "CBK commercial banks weighted average rates, September 2026",
         "rows": [
           {
             "p": "Savings (average)",
-            "detail": "3.54%",
-            "rate": 3.54,
-            "low": 3.54,
+            "detail": "3.53%",
+            "rate": 3.53,
+            "low": 3.53,
             "terms": "System average"
           },
           {
             "p": "Deposit (average)",
-            "detail": "6.91%",
-            "rate": 6.91,
-            "low": 6.91,
+            "detail": "6.94%",
+            "rate": 6.94,
+            "low": 6.94,
             "terms": "System average"
           }
         ],
@@ -262,9 +278,9 @@
       "policy": {
         "label": "Repo rate",
         "rate": 7.25,
-        "date": "2026-09-23",
-        "note": "Raised 25 bp effective 25 Sep; prime lending rate 10.75%. The 19 Nov MPC decision could not be confirmed from a SARB release for this refresh.",
-        "src": "SARB (as reported)"
+        "date": "2026-11-19",
+        "note": "Held on 19 Nov in a 4–3 vote (three members preferred a 25 bp increase). Last raised 25 bp with effect from 25 Sep; prime lending rate 10.75%.",
+        "src": "SARB MPC statement, 19 Nov 2026"
       },
       "inflation": {
         "rate": 5.2,
@@ -273,33 +289,33 @@
       },
       "bills": null,
       "deposits": {
-        "date": "2026-01-31",
+        "date": "2026-07-31",
         "kind": "Banking-system averages (older)",
-        "src": "SARB, January 2026",
+        "src": "SARB Quarterly Bulletin, September 2026, table KB135 (July 2026)",
         "rows": [
           {
             "p": "Call deposit (average)",
-            "detail": "6.52%",
-            "rate": 6.52,
-            "low": 6.52,
-            "terms": "System average; refresh pending"
+            "detail": "6.71%",
+            "rate": 6.71,
+            "low": 6.71,
+            "terms": "System weighted average, all domestic sectors"
           },
           {
-            "p": "1–32 day notice (average)",
-            "detail": "6.77%",
-            "rate": 6.77,
-            "low": 6.77,
-            "terms": "System average; refresh pending"
+            "p": "Notice deposit (average)",
+            "detail": "6.97%",
+            "rate": 6.97,
+            "low": 6.97,
+            "terms": "System weighted average, all domestic sectors"
           },
           {
-            "p": "12-month fixed (average)",
-            "detail": "7.34%",
-            "rate": 7.34,
-            "low": 7.34,
-            "terms": "System average; refresh pending"
+            "p": "All deposits (average)",
+            "detail": "6.50%",
+            "rate": 6.5,
+            "low": 6.5,
+            "terms": "System weighted average, all domestic sectors"
           }
         ],
-        "note": "These are January figures from before the September repo hike; treat as indicative until refreshed."
+        "note": "July figures, from before the September repo rate increase; treat as indicative. Weighted averages of new and existing deposits, excluding banks and government."
       }
     },
     "EG": {
